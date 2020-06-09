@@ -3,99 +3,111 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
-	<title>Benjamin's portfolio website</title>
+	<meta name="viewport"  content="width=device-width, initial-scale=1">
+	<title>Benjamin Thorpe | front-end developer</title>
 </head>
 
 <body>
 
 	<header>
-		<div class="logo">
-			<img src="img/benji-02.jp" alt="">  <!--TODO: add g to the .jpg-->
-		</div>
-
 		<nav>
 			<ul class="nav-list">
-				<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-				<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
-				<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="#contact">Contact</a></li>				
+				<li id="home"><a href="index.html" class="nav-item">Home</a></li>
+				<li id="projects"><a href="projects.html" class="nav-item">Projects</a></li>
+				<li id="about"><a href="#about" class="nav-item">About</a></li>
+				<li id="contacts"><a href="#contact" class="nav-item">Contacts</a></li>				
 			</ul>
 		</nav>
+
+		<div class="logo">
+			<img src="img/" alt="">  <!--TODO: add a quote pic as logo-->
+		</div>
 	</header>
-	<!-- TODO: dashed border using CSS -->
 
 	<main>
-<!-- 
-		<section class="intro">
-			<h1 class="intro-title">
-			Hi, I am <strong>Benjamin I. Thorpe</strong>
-			</h1>
-			<img src="img/benji-01.jp" alt="a picture of Benjamin I. Thorpe">  TODO: add g to the .jpg-->
-		</section> 
 
-		<article class="basic-about-me">
+		<div class="intro">
+			<p class="headline">
+				Hello, my name is Benjamin I. Thorpe. I am a web developer, python developer and a student based in Freetown, Sierra Leone. I also have skills in MS SQL Server. If you have a project or need that I can help with, or contribute to, <a href="mailto:benjaminthorpe19@gmail.com" target="_blank">please get in touch</a> with me.
+			</p>
+		</div>  <!-- end intro-->
+
+		<section class="about-me">
+			<h2><a name="about"></a>About Me</h2>
+			<img src="img/benji-crop01.jpg" alt="picture of Benjamin Thorpe" width="180" height="200">
+			
 			<div>
-				<p>
-					I am a student and an aspiring Software Engineer/Developer. I am fasicinated by how tech is evolving and helping in our daily lives. <br>
-					I have always been curious of how tech works under the hood. During <em>high school</em> days <em>hacking and creating my own apps</em> was my biggest motivation and inspiration.
+				<p>I'm fasicinated by tech and even more obsessed and curious of how tech works under the hood in making things better. I've been in the process of learning since I developed passion and curiousity for programming. After enrolling in BlueCrest University College of Sierra Leone, I've been actively involved in the web development/python community for the past 6 months. I've developed personal websites(and python scripts) to help me in the learning process.
 				</p>
+
+      			<p>Currently I'm learning <strong>Python and web developement</strong><em>(self-taught)</em>. <!--and I build basic web scrapers. TODO: tbc--> 
+      			My skills(currently) is front-end web development(HTML &amp; basic CSS). My interests, however, extend beyond the web and I love helping people with any resources/ideas. I even love hearing advice, stories, tips from experience people and help teach others what I already know.
+      			</p>
+
+      			<p>When I'm not developing, I'm probably hanging out with my friends, reading articles, watching football/movie, playing games/music or watching something inspired by programmers/others. 
+      			</p>
+
+      			<div class="sub-section">
+      				<!-- TODO: make both divs into table like format -->
+      				<div id="skills">
+      					<h2>What I Can Do</h2>
+      					<ul>
+      						<li>HTML/CSS</li>
+      						<li>Web Scraping(basic)</li>
+      					</ul>
+      				</div> <!--end skills section-->
+
+      				<div class="certificates">
+      					<h2>Certificates</h2>
+      					<ul>
+      						<!-- TODO: add verification links -->
+      						<li><img src="img/html-cert.jpg" alt="SoloLearn HTML Certificate"></li>
+      						<li><img src="img/css-cert.jpg" alt="SoloLearn CSS Certificate"></li>
+      						<li><img src="img/sql-cert.jpg" alt="SoloLearn SQL Certificate"></li>
+      					</ul>
+      				</div> <!--end cert section-->
+
+      			</div> <!--end sub-section-->
+			</div> 
+		</section> <!--end about-->
+
+
+		<section id="work">
+			<h2>Some Of My Projects:</h2>
+			<div class="div-list todo">
 				<p>
-					Back then, using a computer was all about playing movies, games, reading and using <em>MS Paint</em> because I loved drawing.
-					Then during some research (on how to hack and how I can make my own apps), I came to realize I had a passion for programming. <br>
-					I dived more and I found out that I can make more than games, and even build my own website (and any website I want), the first basic <em>HTML</em> I wrote was super fun for me, I felt like a genius and honestly I can proudly say it's my addiction now!.
+				A basic personal reminder website<em>(still in progress)</em> <br>
+				<a href="https://benjithorpe.github.io/todo/" target="_blank">
+					<img src="img/remind-ss.png" alt="picture of the todo list" width="300" height="300">
+				</a> <br>
+				<em><strong>click the picture to view the website</strong></em> or <a href="https://github.com/benjithorpe/todo/" target="_blank">view source code</a>
 				</p>
-				<a href="about.html">more >></a>
 			</div>
-		</article>
 
-		<article class="what-i-do">
-			<h3>What I Do</h3>
-			<div class="skills">
-				<p>
-					Currently I'm learning <strong>Python and web developement</strong> <em>(self-taught)</em> and I build basic web scrapers. <br>
-					I hope to work as a back-end developer/software engineer in a company or as a freelancer someday. <br>
-					I love to hear advice, stories, and learn from experience people and help teach others what I already know.
-				</p>
+			<div class="div-list">
+				<!-- screenshot of project and summary + link to code -->
 			</div>
-		</article>
 
-		<article class="article-for-project">
-			<h3>Projects</h3>
-			<section class="few-projects">
-				<div class="section-div-list">
-					<!-- screenshot of project and summary + link to code -->
-				</div>
-
-				<div class="section-div-list">
-					<!-- screenshot of project and summary + link to code -->
-				</div>
-
-				<div class="section-div-list">
-					<!-- screenshot of project and summary + link to code -->
-				</div>
-
-				<a href="projects.html">See More >></a>
-			</section>
-		</article>
+			<a href="projects.html">See More Projects</a>
+		</section>
 	
 	</main>
 	
-<!-- 
-	<form action="mailto:benjaminthorpe19@gmail.com" target="_blank" method="post">
-		<input type="text" placeholder="Enter email address"> <br>
-		<button>GET IN TOUCH</button>
-	</form> -->
+	<p id="top"><a href="#">To The Top</a></p>
 
 	<footer>
-		<h2>Contacts</h2>
-		<address id="contact">
+		<h2><a name="contact"></a>Contacts</h2>
+		<address>
 			<div class="media-accounts">
 				<a href="mailto:benjaminthorpe19@gmail.com" target="_blank">Email</a> | 
 				<a href="https://www.linkedin.com/in/benjamini/" target="-_blank">LinkedIn</a> |
 				<a href="https://twitter.com/IsaacSparrow19/" target="_blank">Twitter</a>
 			</div>
-			<p>Copyright &#169; 2020 | All rights reserved |</p>
+			<p>
+			This website and all its content and code are Copyright&#169; 2020 
+			The code contains valid HTML and CSS. All rights reserved |
+			</p>
+			<p id="creator">created by Benjamin with ❤</p>
 		</address>
 	</footer>
 
