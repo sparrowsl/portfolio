@@ -1,0 +1,18 @@
+/* CSS for the about page */
+
+h1 {
+	font-family: all;
+	text-align: center;
+	padding: 20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.other-projects {
+	padding: 10px;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+}

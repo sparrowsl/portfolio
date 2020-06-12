@@ -3,121 +3,61 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport"  content="width=device-width, initial-scale=1">
-	<title>Benjamin Thorpe | front-end developer</title>
+	<meta name="author" content="Benjamin I. Thorpe">
+	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Benjamin Thorpe, Benjamin I Thorpe, Isaac Sparrow, Isaac Thorpe">
+	<title>Benjamin I Thorpe</title>
+
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
 
 	<header>
+		<div class="logo">
+			<img src="img/sparrow01.jpg" alt="A sparrow bird">
+		</div>	<!--end of logo section -->
+		
 		<nav>
 			<ul class="nav-list">
 				<li id="home"><a href="index.html" class="nav-item">Home</a></li>
-				<li id="projects"><a href="projects.html" class="nav-item">Projects</a></li>
-				<li id="about"><a href="#about" class="nav-item">About</a></li>
-				<li id="contacts"><a href="#contact" class="nav-item">Contacts</a></li>				
+				<li id="projects"><a href="about.html" class="nav-item">About</a></li>
+				<li id="about"><a href="contact.html" class="nav-item">Contact</a></li>				
 			</ul>
-		</nav>
-
-		<div class="logo">
-			<img src="img/sparrow01.jpg" alt="A sparrow bird">
-		</div>
+		</nav>	<!-- end of navigation pane -->
 	</header>
 
 	<main>
-
 		<div class="intro">
-			<p class="headline">
-				Hello, my name is Benjamin I. Thorpe. I am a front-end developer, Python developer and a student based in Freetown, Sierra Leone. I also have skills in MS SQL Server. If you have a project that I can help with, or contribute to, please <a href="mailto:benjaminthorpe19@gmail.com" target="_blank">get in touch</a> with me.
-			</p>
+			<div class="hello">
+				Hello, my name is Benjamin I. Thorpe.
+			</div>
+			<div class="headline">
+				I am a front-end developer and a student based in Freetown, Sierra Leone. I also have some knowledge on SQL. Have a project that I can help with, or contribute to? 
+			</div>
+			<div class="get-in-touch">
+				<a href="mailto:benjaminthorpe19@gmail.com">get in touch</a>
+			</div>
 		</div>  <!-- end intro-->
 
-		<section class="about-me">
-			<h2><a name="about"></a>About Me</h2>
-			<img src="img/benji-crop01.jpg" alt="picture of Benjamin Thorpe" width="180" height="200">
-			
-			<div>
-				<p>I'm fasicinated by tech and even more obsessed and curious of how tech works under the hood. I've been in the process of learning since I developed passion and curiousity for programming since high school. After enrolling in BlueCrest University College of Sierra Leone, I've been actively involved in the web development/python community for the past 6 months. I've developed personal websites(and python scripts) to help me in the learning process.
-				</p>
-
-      			<p>Currently I'm learning <strong>Python and web developement</strong><em>(self-taught)</em>. <!--and I build basic web scrapers. TODO: tbc--> My skills<em>(currently)</em> is in front-end development(HTML &amp; basic CSS). My interests, however, extend beyond the web and I love helping people. I even love hearing advice, stories, tips from experience people and help teach others what I already know.
-      			</p>
-
-      			<p>When I'm not developing, I'm probably hanging out with my friends, reading articles, watching football/movies, playing games/music or watching something inspired by programmers/others. 
-      			</p>
-
-      			<div class="sub-section">
-      				<!-- TODO: make both divs into table like format -->
-      				<div id="skills">
-      					<h2>What I Can Do</h2>
-      					<ul>
-      						<li>HTML/CSS</li>
-      						<!-- <li>Web Scraping(basic)</li> -->
-      					</ul>
-      				</div> <!--end skills section-->
-
-      				<div class="certificates">
-      					<h2>Certificates</h2>
-      					<em>click the images to verify/download</em>
-      					<ul>
-      						<li>
-      							<a href="https://www.sololearn.com/Certificate/1014-14236167/pdf/" target="_blank">
-      							<img src="img/html-cert.jpg" alt="SoloLearn HTML Certificate"></a>
-      						</li>
-      						<li>
-      							<a href="https://www.sololearn.com/Certificate/1023-14236167/pdf/" target="_blank">
-      							<img src="img/css-cert.jpg" alt="SoloLearn CSS Certificate"></a>
-      						</li>
-      						<li>
-      							<a href="https://www.sololearn.com/Certificate/1060-14236167/pdf/" target="_blank">
-      							<img src="img/sql-cert.jpg" alt="SoloLearn SQL Certificate"></a>
-      						</li>
-      					</ul>
-      				</div> <!--end cert section-->
-
-      			</div> <!--end sub-section-->
-			</div> 
-		</section> <!--end about-->
-
-
-		<section id="work">
-			<h2>Some Of My Projects:</h2>
-			<div class="div-list todo">
-				<p>
-				RemindMe2moro<em>(still in progress)</em> <br>
-				<a href="https://benjithorpe.github.io/reminder/" target="_blank">
-					<img src="img/remind-ss.png" alt="picture of the todo list" width="300" height="300">
-				</a> <br>
-				<em><strong>click the picture to view the website</strong></em> or <a href="https://github.com/benjithorpe/todo/" target="_blank">view source code</a>
-				</p>
-			</div>
-
-			<div class="div-list">
-				<!-- screenshot of project and summary + link to code -->
-			</div>
-
-			<a href="projects.html">See More Projects</a>
-		</section>
-	
+		<div id="skills">
+      		<dl>
+      			<dt class="skill-heading">Skills:</dt>
+      			<dd>HTML/CSS</dd>
+      			<!-- <dd>Web Scraping</dd> -->
+      		</dl>  
+		</div>  <!--end skills -->
 	</main>
 	
-	<p id="top"><a href="#">To The Top</a></p>
-
 	<footer>
-		<h2><a name="contact"></a>Contacts</h2>
-		<address>
-			<div class="media-accounts">
+			<div class="accounts">
 				<a href="mailto:benjaminthorpe19@gmail.com" target="_blank">Email</a> | 
 				<a href="https://www.linkedin.com/in/benjamini/" target="-_blank">LinkedIn</a> |
 				<a href="https://twitter.com/IsaacSparrow19/" target="_blank">Twitter</a>
 			</div>
-			<p>
-			This website and all its content and code are Copyright&#169; 2020 
-			The code contains valid HTML and CSS. All rights reserved |
-			</p>
-			<p id="creator">created by Benjamin with ❤</p>
-		</address>
+			
+		<div id="creator">&copy;2020, Benjamin I. Thorpe with ❤.</div>
 	</footer>
-
 </body>
 </html>

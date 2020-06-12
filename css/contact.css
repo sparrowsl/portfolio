@@ -1,0 +1,23 @@
+/* CSS for the contact page */
+
+
+h2 {
+	font-family: all;
+	font-size: 30px;
+}
+
+.quote {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: teal;
+}
+
+.thanks {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.media-accounts {
+	text-align: center;
+	background-color: skyblue;
+}

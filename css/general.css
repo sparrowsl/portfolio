@@ -1,0 +1,51 @@
+/* CSS styles for header and footer */
+
+body {
+	background-color: rgb(185,179,175);
+	font-family: Arial, Verdana,Serif, Monospace, "Lucida Console", "Times New Roman", Georgia;
+}
+
+header {
+	background-color: beige;
+	font-family: Georgia, Monospace, Arial;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+nav {
+	background-color: white;
+	position: fixed;
+	top: 5px;
+	right: 50px;
+}
+
+nav > ul li {
+	padding: 5px;
+	list-style-type: none;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: cyan;
+}
+
+main {
+	background-color: bisque;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: aquamarine;
+	font-family: Georgia, Monospace, Arial;
+}
+
+#creator {
+	font-size: 18px;
+	text-align: center;
+}
