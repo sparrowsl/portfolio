@@ -1,23 +1,34 @@
 /* CSS for the contact page */
 
-
-h2 {
-	font-family: all;
-	font-size: 30px;
+main {
+	text-align: center;
 }
 
 .quote {
+	padding-top: 10px;
+	padding-bottom: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: teal;
+}
+
+q {
+	font-size: 40px;
+	text-transform: capitalize;
 }
 
 .thanks {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	font-size: 30px;
 }
 
-.media-accounts {
-	text-align: center;
-	background-color: skyblue;
+h2 {
+	font-size: 50px;
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px dashed grey;
+}
+
+#creator {
+	font-size: 20px;
+	padding-left: 40px;
+	margin: 10px 0 0 0;
 }

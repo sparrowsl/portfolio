@@ -1,17 +1,45 @@
 /* CSS for the homepage */
 
-.hello {
-	color: black;
-	font-size: 50px;
-	text-align: center;
+.intro {
+	margin-bottom: 20px;
 	padding: 20px;
-	text-shadow: 2px 2px 2px grey;
+}
+
+.hello {
 	font-family: "Times New Roman";
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.headline {
+	font-size: 25px;
+	padding: 10px;
+	margin: 10px 0 10px 0;
 }
 
 .get-in-touch {
-	color: green;
+	padding: 20px 0px 20px 0px;
 	text-align: center;
-	font-size: 20px;
-	padding: 10px;
+}
+
+.get-in-touch > a {
+	font-size: 30px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+}
+
+#skills {
+	padding: 20px;
+}
+
+dt {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+dd {
+	padding-left: 50px;
+	letter-spacing: 2px;
 }
