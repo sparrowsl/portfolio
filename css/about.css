@@ -36,7 +36,6 @@ section div {
 }
 
 div > a {
-	font-size: 25px;
 	text-transform: capitalize;
 	color: salmon;
 }

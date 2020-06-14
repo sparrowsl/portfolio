@@ -15,7 +15,6 @@ body {
 
 header {
 	padding: 10px;
-	float: right;
 }
 
 nav a:hover {
@@ -35,14 +34,18 @@ li {
 	padding-left: 10px;
 }
 
+.major-title {
+	border: 2px solid grey;
+	border-radius: 50px;
+	padding: 5px;
+}
+
 a {
 	text-decoration: none;
-	color: blue;
 }
 
 a:hover {
 	color: green;
-	font-size: 25px;
 }
 
 main {
@@ -52,4 +55,9 @@ main {
 
 footer {
 	padding: 10px;
+}
+
+.accounts > li a:hover {
+	text-decoration: underline;
+	color: black;
 }
