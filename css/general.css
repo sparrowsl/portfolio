@@ -23,7 +23,7 @@ li img {
 	border-radius: 30px;
 	position: absolute;
 	top: 0px;
-	left: 10px;
+	left: 0px;
 }
 
 .active {
@@ -80,4 +80,5 @@ footer {
 
 #creator {
 	font-family: cursive;
+	font-size: small;
 }
