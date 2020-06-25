@@ -9,18 +9,13 @@ h1 {
 	border-bottom: 1px dashed grey;
 }
 
-div > .photo {
+div > #photo {
 	border-radius: 50%;
-	margin: 10px 10px 10px 0;
-	padding: 10px 10px 0 0;
+	margin: 10px 10px 0 0;
+	/*padding: 10px 10px 0 0;*/
 	width: 300px;
 	height: auto;
 	float: left;
-}
-
-span {
-	font-weight: bold;
-	font-family: Arial;
 }
 
 section div {
@@ -30,6 +25,12 @@ section div {
 	font-family: Helvetica;
 }
 
+.where a {
+	text-decoration: underline;
+	font-family: monospace;
+	font-weight: bold;
+}
+
 .projects {
 	text-align: center;
 	padding: 10px 0 20px 0;
@@ -37,5 +38,5 @@ section div {
 
 div > a {
 	text-transform: capitalize;
-	color: salmon;
+	/*color: salmon;*/
 }
