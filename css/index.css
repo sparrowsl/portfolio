@@ -43,3 +43,7 @@ dd {
 	padding-left: 50px;
 	letter-spacing: 2px;
 }
+
+.hide-skill {
+	display: none;
+}

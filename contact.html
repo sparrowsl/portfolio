@@ -13,43 +13,51 @@
 </head>
 
 <body>
-
 	<header>
 		<nav>
-			<ul class="nav-list">
-				<li><img src="img/sparrow01.jpg" alt="a sparrow bird"></li>
+			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
-				<li><a class="active" href="contact.html">Contact</a></li>				
+				<li class="active"><a href="contact.html">Contact</a></li>				
 			</ul>
 		</nav>	<!-- end of navigation pane -->
 	</header>
 
-	<!-- 
-		“If it’s a good idea, go ahead and do it. It’s much easier to apologize than it is to get permission.”
-		Dr. Grace Hopper
-	 -->
-
 	<main>
-
 		<div class="quote">
 			<q>Its the possibility of having a dream come true that makes life interesting.</q>
 		</div>
 
-		<div class="thanks">
-			Thanks for visiting! Any questions?
-		</div>
+		<form>
+			<fieldset>
+				<h2>contact me</h2>
 
-		<div class="accounts">
-			<h2>Contact me</h2>
-			<ul class="accounts">
-				<li><a href="mailto:benjaminthorpe19@gmail.com" target="_blank">Email</a></li> 
-				<li><a href="https://www.linkedin.com/in/benjamini/" target="-_blank">LinkedIn</a></li>
-				<li><a href="https://twitter.com/IsaacSparrow19/" target="_blank">Twitter</a></li>
-			</ul>
-		</div>
+				<label>Name: <br>
+					<input type="text" name="name" placeholder="John Doe" required>
+				</label>
+				<br>
+
+				<label>Email: <br>
+					<input type="email" name="email" placeholder="johndoe@gmail.com" required>
+				</label>
+				<br>
+
+				<textarea rows="4" placeholder="Enter message..."></textarea>
+				<br>
+
+		   	 	<input type="submit" value="Send">
+			</fieldset>
+  		</form>
 	</main>
 			
-	<div id="creator">&copy;2020 - created by Benjamin I. Thorpe with ❤</div>
+	<footer>
+		<ul class="accounts">
+			<li><a href="mailto:benjaminthorpe19@gmail.com" target="_blank">Email</a></li> 
+			<li><a href="https://www.linkedin.com/in/benjamini/" target="-_blank">LinkedIn</a></li>
+			<li><a href="https://twitter.com/IsaacSparrow19/" target="_blank">Twitter</a></li>
+		</ul>
+			
+		<div id="creator">&copy;2020 - created by Benjamin I. Thorpe with ❤</div>
+	</footer>
 </body>
 </html>

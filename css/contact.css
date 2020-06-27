@@ -16,19 +16,65 @@ q {
 	text-transform: capitalize;
 }
 
-.thanks {
-	font-size: 30px;
+form {
+	display: none;
 }
 
 h2 {
+	text-transform: capitalize;
 	font-size: 40px;
 	margin: 10px;
-	padding: 10px;
 	border-bottom: 1px dashed grey;
 }
 
-#creator {
-	font-size: 20px;
-	padding-left: 40px;
-	margin: 10px 0 0 0;
+fieldset {
+	border: none;
+	border-radius: 50px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
+	margin: auto;
+	width: 50%;
+	padding: 10px 0;
+}
+
+input[type=text], input[type=email] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: none;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 17px;
+  font-family: arial;
+  letter-spacing: 1px;
+  padding: 8px 0px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: auto;
+  width: 30%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  box-shadow: 2px 2px 2px grey;
 }

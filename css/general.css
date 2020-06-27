@@ -1,49 +1,46 @@
 /* CSS for all the common properties the files shared */
 
 * {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	font-size: 20px;
 }
 
 body {
 	background-color: lightgrey;
-	padding: 10px;
+	padding: 0 10px;
 	font-family: Arial, Verdana, Monospace, Cursive, Georgia, Helvetica;
 }
 
 header {
-	padding: 10px;
-	position: relative;
-}
-
-li img {
-	width: 60px;
-	height: auto;
-	border-radius: 30px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	padding: 10px 0;
+	margin: 10px 0;
+	width: 100%;
 }
 
 .active {
-	text-decoration: underline;
 	letter-spacing: 1px;
+	border-bottom-width: 5px;
 }
 
 nav a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color: black;
 }
 
-ul {
+nav ul {
 	list-style-type: none;
 	text-align: center;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	padding: 10px 0;
+	margin: 0 0 10px 0;
+	background-color: silver;
 }
 
 li {
 	display: inline;
-	margin-right: 10px;
 	padding: 0 10px;
 }
 
@@ -70,7 +67,9 @@ main {
 }
 
 footer {
+	border-top: 1px dashed grey;
 	padding: 10px;
+	margin: 20px 0 0 0;
 }
 
 .accounts > li a:hover {
@@ -81,4 +80,9 @@ footer {
 #creator {
 	font-family: cursive;
 	font-size: small;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
 }
