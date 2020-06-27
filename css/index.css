@@ -1,47 +1,65 @@
 /* CSS for the homepage */
 
-.intro {
-	margin-bottom: 20px;
-	padding: 20px;
-}
-
-.hello {
-	font-family: "Times New Roman";
-	padding: 20px;
-	margin-bottom: 10px;
-	font-size: 60px;
-	text-align: center;
-}
-
-.headline {
-	font-size: 25px;
+.intro, .skills {
+	margin: 10px;
 	padding: 10px;
-	margin: 10px 0 10px 0;
 }
 
-.get-in-touch {
-	padding: 20px 0px 20px 0px;
+.intro {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.desc {
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: helvetica;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 1px grey;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+
+.desc {
+	margin-bottom: 30px;
+}
+
+span > a {
+	text-transform: capitalize;
+	text-decoration: none;
+	background-color: #4CAF50;
+  	color: white;
+  	font-size: 17px;
+  	font-family: arial;
+  	letter-spacing: 1px;
+  	padding: 8px 8px;
+  	box-shadow: 2px 2px 4px grey;
+  	border-radius: 30px;
+  	cursor: pointer;
+}
+
+.skills {
 	text-align: center;
 }
 
-.get-in-touch > a {
+.skills h2 {
 	font-size: 30px;
-	text-transform: capitalize;
-	font-family: sans-serif;
+	margin: 10px 0px 20px 0px;
 }
 
-#skills {
-	padding: 20px;
-}
-
-dt {
-	font-size: 25px;
-	font-weight: bolder;
-}
-
-dd {
-	padding-left: 50px;
-	letter-spacing: 2px;
+.skills li {
+	list-style-type: none;
+	line-height: 1.5em;
+	font-size: 20px;
 }
 
 .hide-skill {

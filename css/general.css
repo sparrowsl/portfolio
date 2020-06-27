@@ -1,88 +1,65 @@
 /* CSS for all the common properties the files shared */
-
 * {
 	margin: 0px;
 	padding: 0px;
-	font-size: 20px;
 }
 
 body {
 	background-color: lightgrey;
-	padding: 0 10px;
 	font-family: Arial, Verdana, Monospace, Cursive, Georgia, Helvetica;
 }
 
+header, main, footer {
+	margin: 5px;
+	padding: 5px;
+	list-style-type: none;
+}
+
 header {
-	padding: 10px 0;
-	margin: 10px 0;
-	width: 100%;
-}
-
-.active {
-	letter-spacing: 1px;
-	border-bottom-width: 5px;
-}
-
-nav a:hover {
-	text-decoration: none;
-	color: black;
+	background-color: silver;
+	position: sticky;
+	top: 0px;
 }
 
 nav ul {
 	list-style-type: none;
 	text-align: center;
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	padding: 10px 0;
-	margin: 0 0 10px 0;
-	background-color: silver;
 }
 
-li {
+nav ul > li {
 	display: inline;
-	padding: 0 10px;
+	padding: 1px;
+	margin: 0 5px;
 }
 
-.pointer {
-	font-family: serif; 
-	color: royalblue;
-	text-shadow: 1px 1px 1px grey;
-	border-radius: 50px;
-	padding: 5px;
+.active {
+	border-bottom: 5px solid navy;
 }
 
-a {
-	color: black;
+header a, footer a {
 	text-decoration: none;
+	font-family: verdana;
+	font-size: 20px;
+	color: navy;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
-main {
-	margin: 10px 0 10px 0;
-	clear: both;
+header a:hover, footer a:hover {
+	color: black;
 }
 
 footer {
-	border-top: 1px dashed grey;
-	padding: 10px;
-	margin: 20px 0 0 0;
-}
-
-.accounts > li a:hover {
-	text-decoration: underline;
-	color: black;
-}
-
-#creator {
-	font-family: cursive;
-	font-size: small;
-}
-
-ul {
-	list-style-type: none;
+	background-color: silver;
 	text-align: center;
+	margin-top: 20px;
+}
+
+.accounts {
+	list-style-type: none;
+	margin-bottom: 10px;
+	padding: 5px 0;
+}
+
+.accounts li {
+	display: inline;
+	padding: 2px;
 }
