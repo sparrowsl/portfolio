@@ -23,6 +23,7 @@ legend {
   border-radius: 20px;
   padding: 0 5px;
 	border-bottom: 1px dashed grey;
+  color: black;
 }
 
 fieldset {
@@ -33,6 +34,8 @@ fieldset {
 	margin: 10px auto;
 	width: 80%;
 	padding: 10px;
+  background-image: url("../img/dark.jpg");
+  color: white;
 }
 
 label {
