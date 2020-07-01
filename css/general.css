@@ -11,66 +11,72 @@ body {
 	margin: 0 auto;
 }
 
-body > p {
+header > p {
 	text-align: center;
-	padding: 5px 0;
-	box-shadow: 2px 2px 2px grey;
-	background-image: url("../img/dark.jpg");
+	margin-bottom: 5px;
+	padding: 10px 0px;
 }
 
 .logo {
 	border-radius: 70px;
-	box-shadow: 2px 2px 3px black, -2px -2px 3px darkcyan;
-}
-
-header, footer {
-	padding: 5px;
-	list-style-type: none;
+	box-shadow: 2px 2px 2px dimgrey, -2px -2px 2px dimgrey;
 }
 
 header {
-	background-color: silver;
-	padding: 0px;
-	position: sticky;
-	top: 0px;
 	box-shadow: 2px 2px 2px grey;
-}
-
-nav {
-	padding: 10px 0px;
-}
-
-nav ul {
-	list-style-type: none;
-	text-align: center;
-}
-
-nav ul > li {
-	display: inline;
-	padding: 1px 5px;
-	margin: 0px;
-}
-
-.active {
-	background-color: lightgrey;
-	padding: 16px 5px 10px 5px;
+	background-image: url("../img/dark.jpg");
 }
 
 header a {
 	text-decoration: none;
 	font-family: verdana;
 	font-size: 20px;
-	color: navy;
+	color: white;
+	text-align: center;
 }
 
 header a:hover {
 	color: black;
 }
 
+nav {
+	padding: 10px 0px;
+	position: sticky;
+	top: 0px;
+}
+
+nav ul {
+	position: sticky;
+	top: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul > li {
+	display: inline;
+	padding: 10px 5px;
+	margin: 0px;
+}
+
+.active {
+	background-color: lightgrey;
+	color: black;
+}
+
+.active a {
+	color: dodgerblue;
+}
+
+.not-active a:hover {
+	color: white;
+}
+
 footer {
 	background-color: silver;
 	text-align: center;
 	margin-top: 20px;
+	padding: 10px 0px;
+	list-style-type: none;
 }
 
 .accounts {

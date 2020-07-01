@@ -5,15 +5,16 @@ h1 {
 	font-size: 50px;
 	text-shadow: 1px 2px 2px grey;
 	border-bottom: 1px dashed grey;
+	margin: 10px 0px;
 }
 
 main {
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 article {
-	margin: 20px 0px 0px 0px;
-	padding: 10px 0;
+	margin: 10px 0px 20px 0px;
 	text-align: left;
 }
 
@@ -28,7 +29,7 @@ section img {
 
 section {
 	padding: 10px;
-	margin: 10px;
+	margin: 10px 0px;
 	line-height: 1.5em;
 	font-family: Helvetica;
 }
@@ -39,16 +40,20 @@ section {
 	font-weight: bold;
 }
 
-span > a {
-	text-transform: capitalize;
-	text-decoration: none;
+span {
 	background-color: #4CAF50;
+	letter-spacing: 1px;
+  	padding: 10px;
+  	margin: 10px 0px;
+  	font-family: arial;
+	text-transform: capitalize;
+  	box-shadow: 2px 2px 4px grey;
+  	border-radius: 20px;
+}
+
+span > a {
+	text-decoration: none;
   	color: white;
   	font-size: 17px;
-  	font-family: arial;
-  	letter-spacing: 1px;
-  	padding: 8px;
-  	box-shadow: 2px 2px 4px grey;
-  	border-radius: 30px;
   	cursor: pointer;
 }
