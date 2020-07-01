@@ -1,0 +1,36 @@
+section {
+	width: 95%;
+	margin: 10px auto;
+}
+
+div {
+	padding: 10px;
+	box-shadow: 2px 2px 2px silver;
+	margin: 10px auto;	
+}
+
+h2 {
+	text-align: center;
+	margin: 10px 0px;
+	text-transform: capitalize;
+}
+
+p {
+	margin: 10px 0px 20px 0px;
+	font-size: 18px;
+	padding: 10px 5px;
+}
+
+p.visit {
+	text-align: center;
+	border: none;
+}
+
+p.visit a {
+	text-decoration: none;
+	background-color: forestgreen;
+	padding: 8px 15px;
+	color: snow;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px dimgrey;
+}

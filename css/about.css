@@ -19,7 +19,7 @@ article {
 }
 
 section img {
-	width: 300px; /* change to % for smaller devices*/
+	width: 330px; /* change to % for smaller devices*/
 	height: auto;
 	border-radius: 20px;
 	box-shadow: 2px 2px 2px grey;
@@ -31,7 +31,7 @@ section {
 	padding: 10px;
 	margin: 10px 0px;
 	line-height: 1.5em;
-	font-family: Helvetica;
+	font-family: verdana;
 }
 
 .where a {

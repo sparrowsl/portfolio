@@ -17,14 +17,11 @@ header > p {
 	padding: 10px 0px;
 }
 
-.logo {
-	border-radius: 70px;
-	box-shadow: 2px 2px 2px dimgrey, -2px -2px 2px dimgrey;
-}
-
 header {
 	box-shadow: 2px 2px 2px grey;
 	background-image: url("../img/dark.jpg");
+	position: sticky;
+	top: 0px;
 }
 
 header a {
