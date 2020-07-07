@@ -1,69 +1,63 @@
 /* CSS for the contact page */
 
-main {
-	text-align: center;
-}
-
-q {
+div {
 	font-size: 30px;
 	text-transform: capitalize;
   font-family: tahoma;
+  text-align: center;
+  margin: 20px 0px;
 }
 
 form {
-  margin: 30px 0 20px 0;
+  text-align: center;
   display: none;
+  width: 70%;
+  margin: auto;
+  background-image: url("../img/dark.jpg");
+  border-radius: 10px;
 }
 
-legend {
+h2 {
 	text-transform: capitalize;
 	font-size: 30px;
-  margin-bottom: 10px;
-  background-color: silver;
-  border-radius: 20px;
-  padding: 0 5px;
+  font-family: monospace;
+  margin-bottom: 20px;
 	border-bottom: 1px dashed grey;
-  color: black;
 }
 
 fieldset {
 	border: none;
-	border-radius: 20px;
 	box-sizing: border-box;
-	box-shadow: -2px -2px 2px grey;
 	margin: 10px auto;
-	width: 80%;
-	padding: 10px;
-  background-image: url("../img/dark.jpg");
-  color: white;
+	padding: 10px 0px;
+  color: #FFFFFFFF;
 }
 
 label {
   display: block;
-}
+  font-size: 20px;
+}   
 
 input[type=text], input[type=email] {
-  width: 80%;
-  padding: 10px;
+  width: 40%;
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 30px;
   box-sizing: border-box;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 15px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 textarea {
-  width: 80%;
-  padding: 5px;
+  width: 50%;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 5px;
   box-sizing: border-box;
-  margin-top: 10px;
-  margin-bottom: 10px;
   resize: none;
-  font-family: cursive;
-  font-size: 15px;
+  height: 100px;
+  font-family: tahoma;
+  font-size: 17px;
 }
 
 input[type=submit] {
@@ -72,15 +66,10 @@ input[type=submit] {
   font-size: 17px;
   font-family: arial;
   letter-spacing: 1px;
-  padding: 8px 0px;
+  padding: 10px 0px;
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  margin: auto;
-  width: 30%;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-  box-shadow: 2px 2px 2px grey;
+  margin: 10px 0px;
+  width: 20%;
 }
