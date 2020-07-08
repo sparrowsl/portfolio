@@ -11,16 +11,11 @@ body {
 	margin: 0 auto;
 }
 
-header > p {
-	text-align: center;
-	margin-bottom: 5px;
-	padding: 10px 0px;
-}
-
 header {
 	background-image: url("../img/dark.jpg");
 	position: sticky;
 	top: 0px;
+	overflow: hidden;
 }
 
 header a {
@@ -28,31 +23,23 @@ header a {
 	font-family: verdana;
 	font-size: 20px;
 	color: white;
-	text-align: center;
-}
-
-nav {
-	padding: 5px 0px 10px;
-	overflow: hidden;
-	box-sizing: border-box;
 }
 
 nav ul {
-	padding: auto;
-	position: sticky;
-	top: 0px;
+	border: 2px solid black;
+	padding: 10px 5px;
 	list-style-type: none;
 	text-align: center;
 }
 
 nav ul > li {
 	display: inline;
-	padding: 10px 5px;
-	margin: 0px;
+	padding: 15px 5px 8px;
 }
 
 .active {
-	background-color: lightgrey;
+	background-color: lightgray;
+	border-bottom: 5px solid gray;
 }
 
 .active a {

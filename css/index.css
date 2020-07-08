@@ -37,17 +37,25 @@ span > a {
   	cursor: pointer;
 }
 
-.skills h2 {
+.skills {
+	margin: auto;
+	width: 40%;
+}
+
+h2 {
 	font-size: 30px;
 	margin: 10px 0px;
 }
 
-.skills li {
+.skills ul {
 	list-style-type: none;
-	line-height: 1.2em;
-	font-size: 19px;
-	font-family: tahoma;
-	letter-spacing: 1px;
+	font-size: 22px;
+}
+
+.skills li {
+	font-family: consolas;
+	box-shadow: 2px 2px 2px gray;
+	padding: 10px;
 }
 
 .hide-skill {

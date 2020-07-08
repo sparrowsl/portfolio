@@ -58,6 +58,7 @@ textarea {
   height: 100px;
   font-family: tahoma;
   font-size: 17px;
+  padding: 0px 2px;
 }
 
 input[type=submit] {
@@ -72,4 +73,23 @@ input[type=submit] {
   cursor: pointer;
   margin: 10px 0px;
   width: 20%;
+}
+
+
+@media screen and (max-width: 400px) {
+  form {
+    width: 90%;
+  }
+
+  input[type=text], input[type=email] {
+    width: 78%;
+  }
+
+  textarea {
+    width: 80%;
+  }
+
+  input[type=submit] {
+    width: 35%;
+  }
 }
