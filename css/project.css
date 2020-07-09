@@ -33,14 +33,23 @@ p.visit a {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 850px) {
 	section {
-		flex-direction: column;
+		width: 98%;
+	}
+
+	section div {
+		width: 50%;
 	}
 }
 
 @media screen and (max-width: 450px) {
 	section {
 		flex-direction: column;
+		font-size: 18px;
+	}
+
+	section div {
+		width: 80%;
 	}
 }
