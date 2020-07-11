@@ -10,7 +10,7 @@ div {
 
 form {
   text-align: center;
-  display: none;
+  /*display: none;*/
   width: 70%;
   margin: auto;
   background-image: url("../img/dark.jpg");
@@ -76,20 +76,21 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   form {
     width: 90%;
   }
 
-  input[type=text], input[type=email] {
-    width: 78%;
+  label {
+    font-size: 25px;
   }
 
-  textarea {
-    width: 80%;
+  input[type=text], input[type=email], textarea {
+    width: 85%;
+    border-radius: 15px;
   }
 
   input[type=submit] {
-    width: 35%;
+    width: 40%;
   }
 }
