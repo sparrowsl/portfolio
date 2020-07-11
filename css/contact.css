@@ -10,7 +10,7 @@ div {
 
 form {
   text-align: center;
-  /*display: none;*/
+  display: none;
   width: 70%;
   margin: auto;
   background-image: url("../img/dark.jpg");
