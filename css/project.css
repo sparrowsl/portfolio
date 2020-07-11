@@ -32,27 +32,24 @@ p.visit a {
 	box-shadow: 2px 2px 2px dimgrey;
 }
 
+.hide-proj {
+	display: none;
+}
+
 
 @media screen and (max-width: 850px) {
-<<<<<<< HEAD
-=======
 	section {
 		width: 98%;
 	}
 
 	section div {
-		width: 50%;
+		width: 85%;
 	}
 }
 
 @media screen and (max-width: 450px) {
->>>>>>> gh-pages
 	section {
 		flex-direction: column;
 		font-size: 18px;
-	}
-
-	section div {
-		width: 80%;
 	}
 }
