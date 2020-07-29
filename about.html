@@ -5,73 +5,84 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Benjamin I. Thorpe">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="Benjamin Thorpe, Benjamin I Thorpe, Isaac Thorpe, benji thorpe">
 	<title>About Me</title>
 
-	<link rel="stylesheet" type="text/css" href="css/general.css">
-	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/logo.jpg">
 </head>
 
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li class="not-active"><a href="index.html">Home</a></li>
-				<li class="active"><a href="about.html">About</a></li>
-				<li class="not-active"><a href="project.html">Projects</a></li>
-				<li class="not-active"><a href="contact.html">Contact</a></li>				
-			</ul>
-		</nav>	<!-- end of navigation pane -->
-	</header>
+<body class="container my-3 bg-light">
 
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<!-- Brand/logo -->
+		<a class="navbar-brand" href="index.html">
+			<img src="img/logo.jpg" style="border-radius:50%; width:90px;">
+		</a>
+		
+		<!-- Links -->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="project.html"h>Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	
 	<main>
 		<article>
-			<section>
-				<img src="img/benji-crop.jpg" alt="picture of Benjamin I Thorpe">
-
-				<div class="who"> <!-- who I am and what I'm doing -->
-					<p>My name is <b>Benjamin I. Thorpe</b>.
-					I am fueled by my determination and curiosity to understand and learn everything I can about technology. I consider myself as a <q>forever student</q>, eager to build on my academic foundations in Software Engineering and stay in tune with the latest technology conventions through coursework, articles, podcasts, etc.</p>
+			<section class="row p-3">
+				<div class="col-sm-5"> <!-- who I am and what I'm doing -->
+					<p class="lead">My name is <b>Benjamin I. Thorpe</b>.
+					I consider myself as a <q>forever student</q>, eager to build on my academic foundations and stay in tune with the latest technology conventions through coursework, articles, practice. I am determined to understand and learn everything I can about tech.</p>
 				</div>
+
+				<img class="col-sm-3" src="img/benji.jpg" height="290px" alt="Benjamin I Thorpe">
 			</section>
 
 			<section>
 				<div class="how"> <!-- how I got here -->
-					<p>My hunger for knowledge and determination to turn information into action has contributed to my most recent success, creating my portfolio website. Which I am always updating using the feedback from mentors, colleagues and other developers.
-					Meanwhile, I also help ease the learning process of my coursemates and friends by sharing good articles, tutorials, books and helpful methods/skills used by many developers I admire, and ensuring an easy roadmap for them. I believe that determination, passion, hard work and learning from others are the key to success. 
-					My interests, however, extend beyond the web, I love music, reading fictions and solving puzzles. I love hearing advice, stories, and tips from experienced people and that has help pass on my knowledge to others.</p>
+					<p>My hunger for knowledge and my determination to turn information into action has contributed to my most recent success, building my portfolio website. Which I am always updating using the feedback I get from mentors, colleagues and other developers.
+					I also help ease the learning process of my coursemates and friends by sharing good articles, tutorials, books and helpful methods/skills used by many developers I admire, to ensure an easy roadmap for them. I believe that determination, passion, hard work and learning from others are the key to success.
+					My interests, however, extend beyond the web and tech, I love music, reading fictions and solving puzzles. I love hearing advice, stories, and tips on every aspect of life from experienced people and that has helped me understand and learn many things.</p>
 				</div>
 			</section>
-			
+
 			<section>
 				<div class="where"> <!-- where I am looking to go next -->
-					<p>I've been in the process of learning about technology since I developed passion and curiousity for programming while in high school. After enrolling in BlueCrest University College of Sierra Leone, I've been actively involved in the web development &amp; python communities for the past 6 months.
-				 	I've developed programs like, an insecure 
-				 	<a href="https://github.com/benjithorpe/exercise-projects/blob/master/al/pw.py">password locker</a>, a 
-				 	<a href="https://github.com/benjithorpe/exercise-projects/blob/master/hyperskill/zookeeper.py">zookeeping</a> program, a <a href="https://github.com/benjithorpe/exercise-projects/blob/master/al/bulletPointAdder.py">bullet point adder</a> and others while learning. 
-				 	When I'm not developing, I'm probably hanging out with my friends, reading articles, watching movies, playing games or watching something inspired by people.
+					<p>I've been in the process of learning since I developed passion and curiousity for programming in high school. After enrolling in BlueCrest University College of Sierra Leone, I've been actively involved in the web development &amp; python communities for the past 7 months. I've developed some basic programs which has helped me learn and apply my knowledge in some projects.
+				 	When I'm not developing, I'm probably hanging out with my friends, reading articles, watching movies or something inspirational.
 				 	I'm always interested in a challenge. Reach out to connect!</p>
 				</div>
 			</section>
 		</article>
 	</main>
 
-	<footer>
-		<ul class="accounts">
-			<li>
-			<a href="mailto:benjaminthorpe19@gmail.com" target="_blank"><img src="img/email.png" alt="gmail" class="media"></a>
-			</li> 
-			
-			<li>
-			<a href="https://www.linkedin.com/in/benjamini/" target="-_blank"><img src="img/linkedin.png" alt="linkedin" class="media"></a>
-			</li>
-			
-			<li>
-			<a href="https://twitter.com/IsaacSparrow19/" target="_blank"><img src="img/twitter.png" alt="twitter" class="media"></a>
-			</li>
-		</ul>
-			
-		<small>&copy;Copyright 2020 - created by Benjamin I. Thorpe with ❤</small>
+	<footer class="my-3 p-3">
+		<nav class="navbar navbar-expand-sm">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a href="mailto:benjaminthorpe19@gmail.com" class="btn btn-outline-secondary">Email</a>
+			  </li>
+			  <li class="nav-item">
+				<a href="https://www.linkedin.com/in/benjamini/" class="btn btn-outline-secondary">LinkedIn</a>
+			  </li>
+			  <li class="nav-item">
+				<a href="https://twitter.com/IsaacSparrow19/" class="btn btn-outline-secondary">Twitter</a>
+			  </li>
+			</ul>
+		</nav>	<!-- end of navigation pane -->
+
+		<small>&copy;2020 - Benjamin I. Thorpe with ❤</small>
 	</footer>
 </body>
 </html>

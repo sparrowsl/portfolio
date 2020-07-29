@@ -8,30 +8,45 @@
 	<meta name="keywords" content="Benjamin Thorpe, Benjamin I Thorpe, Isaac Thorpe">
 	<title>Contacts</title>
 
-	<link rel="stylesheet" type="text/css" href="css/general.css">
-	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/logo.jpg">
 </head>
 
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li class="not-active"><a href="index.html">Home</a></li>
-				<li class="not-active"><a href="about.html">About</a></li>
-				<li class="not-active"><a href="project.html">Projects</a></li>
-				<li class="active"><a href="contact.html">Contact</a></li>				
-			</ul>
-		</nav>	<!-- end of navigation pane -->
-	</header>
+<body class="container my-3 bg-light">
+
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<!-- Brand/logo -->
+		<a class="navbar-brand" href="index.html">
+			<img src="img/logo.jpg" style="border-radius:50%; width:90px;">
+		</a>
+		
+		<!-- Links -->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="project.html"h>Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</nav>
 
 	<main>
-		<div class="quote">
+		<div id="quote" class="p-3">
 			<q>It's the possibility of having a dream come true that makes life interesting.</q>
 		</div>
 
-		<form>
+		<form method="POST" style="visibility: hidden;">
 			<fieldset>
-				<h2>contact me</h2>
+				<h2>Contact Me</h2>
 
 				<label>Name: <br>
 					<input type="text" name="name" placeholder="John Doe" required>
@@ -45,27 +60,27 @@
 					<textarea name="message" placeholder="Enter message..."></textarea>
 				</label>
 
-		   	 	<input type="submit" value="Send">
+				<button type="button" class="btn btn-success btn-block">Send</button>
 			</fieldset>
   		</form>
 	</main>
-			
-	<footer>
-		<ul class="accounts">
-			<li>
-			<a href="mailto:benjaminthorpe19@gmail.com" target="_blank"><img src="img/email.png" alt="gmail" class="media"></a>
-			</li> 
-			
-			<li>
-			<a href="https://www.linkedin.com/in/benjamini/" target="-_blank"><img src="img/linkedin.png" alt="linkedin" class="media"></a>
-			</li>
-			
-			<li>
-			<a href="https://twitter.com/IsaacSparrow19/" target="_blank"><img src="img/twitter.png" alt="twitter" class="media"></a>
-			</li>
-		</ul>
-			
-		<small>&copy;Copyright 2020 - created by Benjamin I. Thorpe with ❤</small>
+
+	<footer class="my-3 p-3">
+		<nav class="navbar navbar-expand-sm">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a href="mailto:benjaminthorpe19@gmail.com" class="btn btn-outline-secondary">Email</a>
+			  </li>
+			  <li class="nav-item">
+				<a href="https://www.linkedin.com/in/benjamini/" class="btn btn-outline-secondary">LinkedIn</a>
+			  </li>
+			  <li class="nav-item">
+				<a href="https://twitter.com/IsaacSparrow19/" class="btn btn-outline-secondary">Twitter</a>
+			  </li>
+			</ul>
+		</nav>	<!-- end of navigation pane -->
+
+		<small>&copy;2020 - Benjamin I. Thorpe with ❤</small>
 	</footer>
 </body>
 </html>

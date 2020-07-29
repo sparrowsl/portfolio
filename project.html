@@ -6,72 +6,90 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Projects</title>
 
-	<link rel="stylesheet" type="text/css" href="css/general.css">
-	<link rel="stylesheet" type="text/css" href="css/project.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/logo.jpg">
 </head>
 
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li class="not-active"><a href="index.html">Home</a></li>
-				<li class="not-active"><a href="about.html">About</a></li>
-				<li class="active"><a href="project.html">Projects</a></li>
-				<li class="not-active"><a href="contact.html">Contact</a></li>				
-			</ul>
-		</nav>	<!-- end of navigation pane -->
-	</header>
+<body class="container my-3 bg-light">
 
-	<main>
-		<section>
-			<div>
-				<h2>hi lo</h2>
-				<p>A fun guessing game. Also tells you how many tries you took to guess the answer!</p>
-				
-				<p class="visit"><a href="https://github.com/benjithorpe/exercise-projects/blob/master/hilo.py">source code</a></p>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<!-- Brand/logo -->
+		<a class="navbar-brand" href="index.html">
+			<img src="img/logo.jpg" style="border-radius:50%; width:90px;">
+		</a>
+		
+		<!-- Links -->
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="project.html"h>Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</nav>
+
+	<main class="p-3">
+		<section class="row">
+			<div class="col-sm-5 border shadow" style="margin:5px;">
+				<h2>Hilo</h2>
+				<p>A fun guessing game. <i>still in progress and available only for computers</i></p>
+
+				<p>
+					view
+					<a href="https://github.com/benjithorpe/practice/blob/master/hilo.py">source code</a>
+					or
+					<a href="#">download</a>
+				</p>
 			</div>
 
-			<div>
-				<h2>insecure password locker</h2>
-				<p>A Python script to keep passwords. It helps to store long and hard password that are hard to remember.</p>
+			<div class="col-sm-5 border shadow" style="margin:5px;">
+				<h2>Calculator</h2>
+				<p>A basic Python calculator made with TKinter. <i>still in progress and available only for computers</i></p>
 
-				<p class="visit"><a href="https://github.com/benjithorpe/exercise-projects/blob/master/al/pw.py">source code</a></p>
-			</div>
-		</section>
-
-		<section>
-			<div>
-				<h2>the collatz sequence</h2>
-				<p>The Collatz Sequence is a conjecture in mathematics that concerns a sequence&hellip;  It is a Python script that does calculation on any number until it reaches 1.</p>
-
-				<p class="visit"><a href="https://github.com/benjithorpe/exercise-projects/blob/master/al/CollatzSequence.py">source code</a></p>
+				<p>
+					view
+					<a href="https://github.com/benjithorpe/practice/blob/master/al/pw.py">source code</a>
+					or
+					<a href="#">download</a>
+				</p>
 			</div>
 
-			<div class="hide-proj">
-				<h2>birthday notification reminder</h2>
-				<p>I always forget the birthday dates of my friends easily, so I decided to make this web based program to remind me when each one of their birthday is closer. It sends notification to my email since I tend to use my email a lot, I can easily remember when their birthday is due. <b>site is not 100% functional yet! still learning and improving on it bit by bit.</b></p>
+			<div class="col-sm-6 border shadow" style="margin:5px;">
+				<h2>bdaynot</h2>
+				<p>I tend to forget the birthday dates of my friends easily, so I decided to make this web based program to remind me when their birthday is due through my email. <i>site is not functional yet! still learning and improving it.</i></p>
 
-				<p class="visit"><a href="https://bdaynot.netlify.app/" target="_blank">visit site</a></p>
+				<p>
+					<a href="https://bdaynot.netlify.app/" target="_blank">visit site</a>
+				</p>
 			</div>
 		</section>
 	</main>
 
-	<footer>
-		<ul class="accounts">
-			<li>
-			<a href="mailto:benjaminthorpe19@gmail.com" target="_blank"><img src="img/email.png" alt="gmail" class="media"></a>
-			</li> 
-			
-			<li>
-			<a href="https://www.linkedin.com/in/benjamini/" target="-_blank"><img src="img/linkedin.png" alt="linkedin" class="media"></a>
-			</li>
-			
-			<li>
-			<a href="https://twitter.com/IsaacSparrow19/" target="_blank"><img src="img/twitter.png" alt="twitter" class="media"></a>
-			</li>
-		</ul>
-			
-		<small>&copy;Copyright 2020 - created by Benjamin I. Thorpe with ❤</small>
+	<footer class="my-3 p-3">
+		<nav class="navbar navbar-expand-sm">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a href="mailto:benjaminthorpe19@gmail.com" class="btn btn-outline-secondary">Email</a>
+			  </li>
+			  <li class="nav-item">
+				<a href="https://www.linkedin.com/in/benjamini/" class="btn btn-outline-secondary">LinkedIn</a>
+			  </li>
+			  <li class="nav-item">
+				<a href="https://twitter.com/IsaacSparrow19/" class="btn btn-outline-secondary">Twitter</a>
+			  </li>
+			</ul>
+		</nav>	<!-- end of navigation pane -->
+
+		<small>&copy;2020 - Benjamin I. Thorpe with ❤</small>
 	</footer>
 </body>
 </html>
