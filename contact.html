@@ -44,24 +44,23 @@
 			<q>It's the possibility of having a dream come true that makes life interesting.</q>
 		</div>
 
-		<form method="POST" style="visibility:hidden;">
-			<fieldset>
-				<h2>Contact Me</h2>
+		<form method="POST" class="p-4 shadow my-3" style="display:none;">
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" placeholder="John Doe" id="name" required>
+			</div>
+			
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" placeholder="johndoe@gmail.com" id="email" required>
+			</div>
 
-				<label>Name: <br>
-					<input type="text" name="name" placeholder="John Doe" required>
-				</label>
+			<div class="form-group">
+				<label for="msg">Message:</label>
+				<textarea class="form-control" rows="5" id="msg" placeholder="Reach out to connect"></textarea>
+			</div>
 
-				<label>Email: <br>
-					<input type="email" name="email" placeholder="johndoe@gmail.com" required>
-				</label>
-
-				<label>Message: <br>
-					<textarea name="message" placeholder="Enter message..."></textarea>
-				</label>
-
-				<button type="button" class="btn btn-success btn-block">Send</button>
-			</fieldset>
+			<button type="submit" class="btn btn-success">Send</button>
   		</form>
 	</main>
 
@@ -78,7 +77,7 @@
 				<a href="https://twitter.com/IsaacSparrow19/" class="btn btn-outline-secondary">Twitter</a>
 			  </li>
 			</ul>
-		</nav>	<!-- end of navigation pane -->
+		</nav>	
 
 		<small>&copy;2020 - Benjamin I. Thorpe with ❤</small>
 	</footer>
