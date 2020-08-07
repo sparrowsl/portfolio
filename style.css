@@ -5,6 +5,7 @@ footer a {
 h2 {
     text-align: center;
     margin: 5px auto;
+    text-transform: capitalize;
 }
 
 div > img {
@@ -14,7 +15,7 @@ div > img {
     border-radius: 20px;
 }
 
-#quote q {
+#quote {
     font-size: 32px;
 }
 
