@@ -1,0 +1,15 @@
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    margin: 20px auto;
+    flex-basis: 520px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px silver;
+}
+
+section h2{
+    text-align: center;
+}

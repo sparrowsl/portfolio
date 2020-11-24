@@ -3,84 +3,91 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>About Me</title>
+	<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+	<title>About Me | Benjamin I Thorpe</title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="img/icon.jpg">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/about.css">
 </head>
 
-<body class="container-fluid">
-	
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-		<!-- Brand/logo -->
-		<a class="navbar-brand" href="index.html">
-			<img src="img/benji.jpg" alt="Logo" style="border-radius:60%; width:100px;">
-		</a>
-		
-		<!-- Links -->
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="index.html">Home</a>
-			</li>
+<body>
+	<header>
+		<!-- start navigation menu -->
+		<nav>
+			<!-- my image -->
+			<img src="images/icon.jpg" alt="Benjamin I Thorpe">
 
-			<li class="nav-item">
-				<a class="nav-link active" href="about.html">About</a>
-			</li>
-
-			<li class="nav-item">
-				<a class="nav-link" href="project.html">Projects</a>
-			</li>
-		</ul>
-	</nav>
+			<!-- navigation links -->
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html" class="active">About</a></li>
+				<li><a href="project.html">Projects</a></li>
+				<li><a href="blogs.html">Blog</a></li>
+			</ul>
+		</nav>
+		<!-- end navigation menu  -->
+	</header>
 	
+	<!-- start main body -->
 	<main>
-		<article class="container">
-			<section class="row my-5 lead">
-				<!-- who I am and what I'm doing -->
-				<div class="col-md-6 p-4"> 
-					<p>I consider myself as a <q>forever student</q>, eager to build on my academic foundations 
-						and stay in tune with technology conventions through coursework, articles and practice.
-					</p>
-					
-					<!-- my future goals -->
-					<p>I am determined to learn and understand everything I can about technology. My aim is to 
-						be a very good <b>Back-end Engineer/Developer</b>.
-					</p>
-				</div>
+		<!-- start about me section -->
+		<article>
+			<h2>About Me</h2>
 
-				<div class="col-md-6">
-					<img class="shadow" src="img/sparrow.jpg" alt="Benjamin Thorpe" style="width:280px;height:auto;">
-				</div>
+			<section>
+				<!-- who I am and what I'm doing -->
+				<p>
+					I consider myself a <q>forever student</q>, eager to build on my academic foundations and try to
+					stay in tune with latest technology conventions through the tech communities, articles and practice.
+				</p>
+				
+				<!-- my future goals -->
+				<p>
+					I am determined to learn and understand everything I can about technology. My aim is to 
+					be a very good <b>Back-end Engineer/Developer</b> and hopefully someday a <b>Cloud Engineer</b>.
+				</p>
 			</section>
 
-			<section class="lead">
-				<div> <!-- how I got here, interests and how am helping -->
-					<p>I have been in the learning process since I developed passion for programming in high school 
-						and have been involved in many tech communities for the past 9 months.
-					</p>
+			<section>
+				<!-- how I got here, interests and how am helping -->
+				<p>
+					I have been in the learning process since I developed passion for programming in high school 
+					and have been involved in some tech communities for the past 10 months.
+				</p>
 
-					<p> However, my interests goes beyond tech. I love fictional stories, tech movies, chess <i>(but can't play)</i>.
-						I also love listening to advice, stories, guides and tips from experienced people on every aspect of life.
-					</p>
+				<p>
+					However, my interests goes beyond tech. I love fiction, tech movies, chess <i>(but can't play)</i>.
+					I also love listening to advice, success stories, guides and tips from people on every aspect of life.
+				</p>
 
-					<p>I also try my best to help others by sharing good articles, tutorials, books and 
-						helpful methods/skills used by many developers.
-						I believe that determination, passion, hard work and learning from others are the key to success.
-					</p>
-				</div>
+				<p>
+					I also try my best to help others by sharing good articles, tutorials, books and 
+					helpful methods/skills used by many developers.
+				</p>
+
+				<p>
+					<b>I believe that determination, passion, hard work and learning from others are the key to success.</b>
+				</p>
 			</section>
 		</article>
+		<!-- end about me section -->	
 	</main>
+	<!-- end main body -->
 
-	<footer class="my-3 p-3 text-center">
-		<a href="mailto:benjaminthorpe19@gmail.com" class="btn btn-link">Email</a>
-		<a href="https://www.linkedin.com/in/benjamini/" class="btn btn-link">LinkedIn</a>
-		<a href="https://twitter.com/IsaacSparrow19/" class="btn btn-link">Twitter</a>
-
-		<p>2020 - Benjamin I. Thorpe with ❤</p>
+	<!-- start footer -->
+	<footer>
+		<address>
+			<nav>
+				<ul>
+					<li> <a href="mailto:benjaminthorpe19@gmail.com">Email</a> </li>
+					<li> <a href="https://www.linkedin.com/in/benjamini/">LinkedIn</a> </li>
+					<li> <a href="https://twitter.com/IsaacSparrow19/">Twitter</a></li>
+					<li> <a href="https://github.com/benjithorpe">GitHub</a> </li>
+				</ul>	
+			</nav>
+			<p>Copyright&copy; - 2020</p>
+		</address>
 	</footer>
+	<!-- end footer -->
 </body>
 </html>
