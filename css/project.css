@@ -24,6 +24,10 @@ div blockquote{
     text-align: right;
 }
 
+.hide{
+    display: none;
+}
+
 .project-link a{
     background-color: rgb(5, 89, 128);
     color: white;
