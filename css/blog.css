@@ -1,15 +1,23 @@
 article{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 section{
-    margin: 20px auto;
-    flex-basis: 520px;
-    padding: 5px;
-    box-shadow: 2px 2px 2px silver;
+    margin: 20px 0px;
+    flex-basis: 550px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px silver, -2px -2px 4px silver;
 }
 
 section h2{
     text-align: center;
+}
+
+
+@media screen and (max-width: 770px){
+    article{
+        justify-content: center;
+    }
 }
