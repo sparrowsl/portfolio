@@ -38,6 +38,15 @@ header nav ul li{
     width: 80px;
 }
 
+.active{
+    color: rgb(0, 0, 0);
+}
+
+/* for navigation li that dont have the .active class name */
+header nav ul li :not(.active){
+    color: blue;
+}
+
 ul{
     list-style-type: none;
     list-style-position: inside;
@@ -89,12 +98,26 @@ footer a{
         font-size: 18px;
     }
 
-    header nav{
-        flex-direction: column;
-        margin-top: 10px;
+    header{
+        position: sticky;
+        top: 0px;
+        background-color: rgb(21, 64, 71);
     }
 
-    header nav ul{
-        margin-top: 20px;
+    .active{
+        color: white;
+    }
+    
+    /* for navigation li that dont have the .active class name */
+    header nav ul li :not(.active){
+        color: rgb(0, 255, 0);
+    }
+
+    header nav img{
+        width: 50px;
+    }
+
+    header nav ul li{
+        margin: 5px auto;
     }
 }
