@@ -15,9 +15,8 @@
 }
 
 section div p > img{
-    width: 250px;
-    height: 270px;
-    margin-left: 30px;
+    width: fit-content;
+    height: auto;
 }
 
 div blockquote{
@@ -41,6 +40,16 @@ div blockquote{
     }
 
     .projects div{
-        flex-basis: 500px;
+        flex-basis: 450px;
+    }
+
+    section div.editor img{
+        width:max-content;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section div.editor img{
+        width: 350px;
     }
 }
