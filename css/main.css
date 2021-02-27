@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 95%;
+    width: 97%;
     margin: auto;
     font-size: 18px;
     font-family: 'Trebuchet MS', sans-serif;
@@ -18,8 +18,13 @@ header{
     align-items: center;
     justify-content: center;
     height: 100%;
-    border-bottom: 2px solid rgb(177, 172, 172);
+    border-bottom: 2px solid rgb(177, 172, 172, 0.3);
     padding: 20px 0px;
+    /* text-align: center; */
+}
+
+header h1{
+    font-size: 50px;
 }
 
 header div{
@@ -36,17 +41,15 @@ header img{
 /* MAIN */
 main section{
     display: grid;
-    /* grid-template-columns: repeat(autofit); */
-    grid-gap: 20px;
+    grid-template-columns: max-content 1fr max-content;
+    grid-gap: 5px;
 }
 
 .summary,
 .contacts,
 .skills,
 .projects{
-    box-shadow: 2px 2px 2px grey;
     padding: 10px;
-    border-radius: 5px;
 }
 
 .contacts ul{
@@ -69,9 +72,10 @@ main section{
     font-style: normal;
 }
 
-section div h3{
+div h2{
     color: navy;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 
 .summary{
@@ -80,7 +84,12 @@ section div h3{
 }
 
 .summary p{
-    line-height: 1.4em;
+    line-height: 1.5em;
+}
+
+.skills h3{
+    color: grey;
+    margin-bottom: 10px;
 }
 
 .skills figure img{
@@ -89,14 +98,44 @@ section div h3{
     border-radius: 50%;
 }
 
+.skills-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
 .languages section{
     display: flex;
     text-align: center;
 }
 
-a:hover{
-    color:red;
+.tools{
+    grid-column-start: 1;
+    grid-column-end: -1;
 }
+
+.projects{
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px lightgrey;
+    border-radius: 5px;
+}
+
+.projects-wrapper div h3{
+    color: olive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(46, 133, 136);
+    text-decoration: underline;
+}
+
+
+
 
 /* FOOTER */
 .copyright{
@@ -104,6 +143,8 @@ a:hover{
     color: grey;
     padding: 10px 0px;
 }
+
+
 
 /* MEDIA QUERIES */
 
