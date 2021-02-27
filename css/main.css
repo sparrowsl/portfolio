@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 97%;
+    width: 98%;
     margin: auto;
     font-size: 18px;
     font-family: 'Trebuchet MS', sans-serif;
@@ -20,11 +20,14 @@ header{
     height: 100%;
     border-bottom: 2px solid rgb(177, 172, 172, 0.3);
     padding: 20px 0px;
-    /* text-align: center; */
 }
 
 header h1{
     font-size: 50px;
+}
+
+header div span{
+    font-style: italic;
 }
 
 header div{
@@ -92,17 +95,15 @@ div h2{
     margin-bottom: 10px;
 }
 
-.skills figure img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-
 .skills-wrapper{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 20px;
+}
+
+.skills-wrapper div{
+    padding: 10px 5px;
 }
 
 .languages section{
@@ -117,12 +118,50 @@ div h2{
 
 .projects{
     margin-top: 10px;
-    box-shadow: 2px 2px 2px lightgrey;
     border-radius: 5px;
+}
+
+.projects-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 10px;
 }
 
 .projects-wrapper div h3{
     color: olive;
+    margin-bottom: 10px;
+}
+
+.projects-wrapper div{
+    box-shadow: 2px 2px 2px lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.projects-wrapper div p{
+    line-height: 1.5em;
+    margin: 10px 0px;
+}
+
+.project-link a{
+    text-align: center;
+    display: block;
+    padding: 7px 0px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    text-decoration: none;
+}
+
+.project-link a:hover{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+blockquote{
+    text-align: right;
 }
 
 a {
@@ -134,9 +173,6 @@ a:hover{
     text-decoration: underline;
 }
 
-
-
-
 /* FOOTER */
 .copyright{
     text-align: center;
@@ -147,10 +183,51 @@ a:hover{
 
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 780px){
+    header h1{
+        font-size: 45px;
+    }
 
-@media screen and (max-width: 450px){
-    body{
-        font-size: 18px;
+    .summary{
+        border-left: none;
+    }
+
+    .skills{
+        width: max-content;
+        justify-self: center;
+    }
+
+    main section{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .contacts{
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 470px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 40px;
+        margin: 10px 0px 5px 0px;
+    }
+
+    .summary{
+        border-right: none;
+        border-left: none;
+    }
+
+    .skills{
+        justify-self: start;
+    }
+
+    .skills-wrapper{
+        grid-gap: 10px;
     }
 
     header nav{
