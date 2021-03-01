@@ -41,13 +41,10 @@ header img{
     border-radius: 50%;
 }
 
-/* NAVIGATION */
-
-
 /* MAIN */
 main section{
     display: grid;
-    grid-template-columns: max-content 1fr max-content;
+    grid-template-columns: 15% 2fr 1fr;
     grid-gap: 5px;
 }
 
@@ -59,13 +56,13 @@ main section{
 }
 
 .contacts ul{
-    list-style-type: circle;
-    list-style-position: inside;
+    list-style-type: none;
 }
 
 .contacts ul li{
-    margin: 5px 0px;
+    margin: 10px 0px;
     font-style: italic;
+    text-indent: 5px;
 }
 
 .contacts ul li a{
@@ -142,6 +139,10 @@ div h2{
     padding: 10px;
 }
 
+.projects-wrapper div:hover{
+    box-shadow: 4px 4px 4px grey, -2px -2px 2px lightgrey;
+}
+
 .projects-wrapper div p{
     line-height: 1.5em;
     margin: 10px 0px;
@@ -155,7 +156,6 @@ div h2{
     border-radius: 5px;
     width: 90%;
     margin: auto;
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 18px;
     letter-spacing: 0.5px;
     text-decoration: none;
