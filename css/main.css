@@ -35,7 +35,7 @@ header div{
     margin: 0px 10px;
 }
 
-header img{
+#logo img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -60,7 +60,7 @@ main section{
 }
 
 .contacts ul li{
-    margin: 10px 0px;
+    margin: 15px 0px;
     font-style: italic;
     text-indent: 5px;
 }
@@ -84,6 +84,8 @@ div h2{
 .summary{
     border-right: 5px solid lightgreen;
     border-left: 5px solid lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .summary p{
@@ -99,7 +101,7 @@ div h2{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 15px;
+    grid-gap: 10px;
 }
 
 .skills-wrapper div{
@@ -109,11 +111,6 @@ div h2{
 .languages section{
     display: flex;
     text-align: center;
-}
-
-.tools{
-    grid-column-start: 1;
-    grid-column-end: -1;
 }
 
 .projects{
@@ -137,10 +134,13 @@ div h2{
     box-shadow: 2px 2px 2px lightgrey;
     border-radius: 5px;
     padding: 10px;
+    transition: box-shadow 0.8s ease-out, 
+                transform 0.9s ease-out;
 }
 
 .projects-wrapper div:hover{
-    box-shadow: 4px 4px 4px grey, -2px -2px 2px lightgrey;
+    transform: scale(1.04);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.2), -2px -2px 2px rgb(177, 172, 172, 0.3);
 }
 
 .projects-wrapper div p{
@@ -198,11 +198,6 @@ a:hover{
         border-left: none;
     }
 
-    .skills{
-        width: max-content;
-        justify-self: center;
-    }
-
     main section{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
@@ -224,23 +219,10 @@ a:hover{
     }
 
     .summary{
-        border-right: none;
-        border-left: none;
+        border: none;
     }
 
     .skills{
         justify-self: start;
-    }
-
-    .skills-wrapper{
-        grid-gap: 10px;
-    }
-
-    header nav{
-        flex-direction: column;
-    }
-
-    header nav ul li{
-        margin: 15px auto;
     }
 }
