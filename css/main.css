@@ -135,7 +135,7 @@ div h2{
     border-radius: 5px;
     padding: 10px;
     transition: box-shadow 0.8s ease-out, 
-                transform 0.9s ease-out;
+                transform 0.7s ease;
 }
 
 .projects-wrapper div:hover{
