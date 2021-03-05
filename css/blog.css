@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 98%;
+    margin: auto;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 40%;
+    opacity: 0.7;
+}
+
+nav{
+    background-color: white;
+    justify-self: flex-start;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul a{
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    font-size: 19px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: auto 5px;
+    border-radius: 7px;
+    color: rgb(14, 109, 187);
+    background-color: rgb(243, 232, 232, 0.4);
+}
+
+article{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+}
+
+article section{
+    padding: 10px;
+    box-shadow: 2px 2px 2px silver;
+    border-radius: 5px;
+}
+
+article section h2{
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: royalblue;
+}
+
+article section p{
+    line-height: 1.5em;
+}
+
+/* the link to read more */
+article section p a{
+    color: rgb(34, 47, 121, 0.8);
+    padding: 7px;
+    text-transform: capitalize;
+    font-family: Helvetica;
+}
+
+article section p a:hover{
+    color: navy;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 770px){
+    header img {
+        opacity: 0.6;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-right: 10%;
+    }   
+}
