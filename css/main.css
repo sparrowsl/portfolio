@@ -60,8 +60,6 @@ main section{
 }
 
 .contacts ul li{
-    display: flex;
-    align-items: center;
     margin: 15px 0px;
     font-style: italic;
     text-indent: 5px;
@@ -136,8 +134,8 @@ div h2{
     box-shadow: 2px 2px 2px lightgrey;
     border-radius: 5px;
     padding: 10px;
-    transition: box-shadow 0.8s ease-out, 
-                transform 0.7s ease;
+    transition: box-shadow 0.35s ease-out, 
+                transform 0.3s ease;
     display: grid;
 }
 
