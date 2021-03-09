@@ -45,12 +45,11 @@ nav ul a{
     font-size: 19px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid grey;
     padding: 5px;
     margin: auto 5px;
     border-radius: 7px;
     color: rgb(14, 109, 187);
-    background-color: rgb(243, 232, 232, 0.4);
+    background-color: rgb(243, 232, 232, 0.8);
 }
 
 article{
@@ -58,13 +57,21 @@ article{
     font-size: 18px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, 1fr);
+    grid-gap: 20px;
 }
 
 article section{
     padding: 10px;
     box-shadow: 2px 2px 2px silver;
     border-radius: 5px;
+    transition: box-shadow 0.5s ease-in,
+                transform 1s;
+}
+
+article section:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px grey;
 }
 
 article section h2{

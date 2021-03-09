@@ -60,6 +60,8 @@ main section{
 }
 
 .contacts ul li{
+    display: flex;
+    align-items: center;
     margin: 15px 0px;
     font-style: italic;
     text-indent: 5px;
@@ -120,9 +122,9 @@ div h2{
 
 .projects-wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 .projects-wrapper div h3{
@@ -136,16 +138,22 @@ div h2{
     padding: 10px;
     transition: box-shadow 0.8s ease-out, 
                 transform 0.7s ease;
+    display: grid;
 }
 
 .projects-wrapper div:hover{
     transform: scale(1.04);
-    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.2), -2px -2px 2px rgb(177, 172, 172, 0.3);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.2), 
+                -2px -2px 2px rgb(177, 172, 172, 0.3);
 }
 
 .projects-wrapper div p{
     line-height: 1.5em;
     margin: 10px 0px;
+}
+
+.project-link{
+    align-self: flex-end;
 }
 
 .project-link a{
@@ -159,11 +167,11 @@ div h2{
     font-size: 18px;
     letter-spacing: 0.5px;
     text-decoration: none;
+    text-transform: capitalize;
 }
 
 .project-link a:hover{
     text-decoration: none;
-    text-transform: capitalize;
 }
 
 blockquote{
