@@ -89,7 +89,7 @@ div h2{
 }
 
 .summary p{
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 .skills h3{
@@ -106,11 +106,6 @@ div h2{
 
 .skills-wrapper div{
     padding: 10px 5px;
-}
-
-.languages section{
-    display: flex;
-    text-align: center;
 }
 
 .projects{
@@ -176,14 +171,6 @@ blockquote{
     text-align: right;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover{
-    color:rgb(46, 133, 136);
-    text-decoration: underline;
-}
 
 /* FOOTER */
 .copyright{
