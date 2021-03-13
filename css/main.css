@@ -13,11 +13,12 @@ body{
 
 /* HEADER */
 header{
-    margin: 20px 0px;
+    margin: 10px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+    gap: 30px;
     border-bottom: 2px solid rgb(177, 172, 172, 0.3);
     padding: 20px 0px;
 }
@@ -27,12 +28,12 @@ header h1{
 }
 
 header div span{
+    font-size: 20px;
     font-style: italic;
 }
 
 header div{
     flex-basis: auto;
-    margin: 0px 10px;
 }
 
 #logo img{
@@ -41,38 +42,46 @@ header div{
     border-radius: 50%;
 }
 
+header ul img, nav ul img{
+    width: 30px;
+    height: 30px;
+}
+
+header ul, nav ul{
+    margin-top: 15px;
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 50px; */
+}
+
+header ul li, nav ul li{
+    text-align: center;
+    /* background-color: rebeccapurple; */
+    flex: 0 1 80px;
+}
+
+nav{
+    display: none;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding: 5px 0px;
+}
+
 /* MAIN */
 main section{
     display: grid;
-    grid-template-columns: 15% 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 5px;
 }
 
 .summary,
-.contacts,
 .skills,
 .projects{
     padding: 10px;
-}
-
-.contacts ul{
-    list-style-type: none;
-}
-
-.contacts ul li{
-    margin: 15px 0px;
-    font-style: italic;
-    text-indent: 5px;
-}
-
-.contacts ul li a{
-    text-decoration: none;
-}
-
-.contacts ul li a:hover{
-    text-decoration: underline;
-    color: navy;
-    font-style: normal;
 }
 
 div h2{
@@ -82,8 +91,7 @@ div h2{
 }
 
 .summary{
-    border-right: 5px solid lightgreen;
-    border-left: 5px solid lightgreen;
+    border-right: 5px solid rgba(144, 238, 144, 0.637);
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -129,8 +137,8 @@ div h2{
     box-shadow: 2px 2px 2px lightgrey;
     border-radius: 5px;
     padding: 10px;
-    transition: box-shadow 0.35s ease-out, 
-                transform 0.3s ease;
+    transition: box-shadow 0.3s ease-out, 
+                transform 0.25s ease;
     display: grid;
 }
 
@@ -163,10 +171,6 @@ div h2{
     text-transform: capitalize;
 }
 
-.project-link a:hover{
-    text-decoration: none;
-}
-
 blockquote{
     text-align: right;
 }
@@ -182,33 +186,27 @@ blockquote{
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 780px){
-    header h1{
-        font-size: 45px;
-    }
-
-    .summary{
-        border-left: none;
-    }
-
-    main section{
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
-
-    .contacts{
-        order: 1;
-    }
-}
-
 @media screen and (max-width: 470px){
     header{
         flex-direction: column;
         text-align: center;
     }
 
+    header ul{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    main section{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
     header h1{
         font-size: 40px;
-        margin: 10px 0px 5px 0px;
+        line-height: 1.5em;
     }
 
     .summary{
