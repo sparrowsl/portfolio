@@ -7,33 +7,29 @@
 body{
     width: 98%;
     margin: auto;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-/* HEADER */
+/* HEADER AND NAVIGATION */
 header{
-    margin: 10px 0px;
+    margin: 1rem 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
     gap: 30px;
     border-bottom: 2px solid rgb(177, 172, 172, 0.3);
-    padding: 20px 0px;
+    padding: 1rem 0px;
 }
 
 header h1{
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 3.5rem;
 }
 
 header div span{
     font-size: 20px;
     font-style: italic;
-}
-
-header div{
-    flex-basis: auto;
 }
 
 #logo img{
@@ -50,16 +46,13 @@ header ul img, nav ul img{
 header ul, nav ul{
     margin-top: 15px;
     list-style-type: none;
-    list-style-position: inside;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gap: 50px; */
 }
 
 header ul li, nav ul li{
     text-align: center;
-    /* background-color: rebeccapurple; */
     flex: 0 1 80px;
 }
 
@@ -87,22 +80,23 @@ main section{
 div h2{
     color: navy;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .summary{
     border-right: 5px solid rgba(144, 238, 144, 0.637);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 1rem;
 }
 
 .summary p{
     line-height: 1.7em;
 }
 
+/* ---> skills
+----------------------------------------> */
 .skills h3{
     color: grey;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .skills-wrapper{
@@ -113,13 +107,11 @@ div h2{
 }
 
 .skills-wrapper div{
-    padding: 10px 5px;
+    padding: 5px;
 }
 
-.projects{
-    margin-top: 10px;
-    border-radius: 5px;
-}
+/* --> Projects
+----------------------------------------- > */
 
 .projects-wrapper{
     display: grid;
@@ -130,13 +122,13 @@ div h2{
 
 .projects-wrapper div h3{
     color: olive;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
 }
 
 .projects-wrapper div{
     box-shadow: 2px 2px 2px lightgrey;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px 1rem;
     transition: box-shadow 0.3s ease-out, 
                 transform 0.25s ease;
     display: grid;
@@ -150,7 +142,7 @@ div h2{
 
 .projects-wrapper div p{
     line-height: 1.5em;
-    margin: 10px 0px;
+    margin: 0.6rem 0px;
 }
 
 .project-link{
@@ -192,24 +184,22 @@ blockquote{
         text-align: center;
     }
 
-    header ul{
-        display: none;
-    }
+    header ul{ display: none; }
 
-    nav{
-        display: block;
-    }
+    nav{ display: block; }
 
     main section{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
+    .projects-wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
     header h1{
-        font-size: 40px;
+        font-size: 2.4rem;
         line-height: 1.5em;
     }
 
-    .summary{
-        border: none;
-    }
+    .summary{ border: none; }
 }
