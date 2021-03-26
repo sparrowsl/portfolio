@@ -5,30 +5,27 @@
 }
 
 body{
-    width: 98%;
-    margin: auto;
-    font-size: 1.2rem;
+    padding: 1em;
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-/* HEADER AND NAVIGATION */
+/* HEADER AND NAVIGATION 
+========================================================================================== */
 header{
-    margin: 1rem 0px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    text-align: center;
     border-bottom: 2px solid rgb(177, 172, 172, 0.3);
-    padding: 1rem 0px;
-}
+    padding: .5em 0px;
+} 
+ 
+header h1{ font-size: 2.4rem; } 
 
-header h1{
-    /* font-size: 50px; */
-    font-size: 3.5rem;
-}
-
-header div span{
-    font-size: 20px;
+header div p{
+    font-size: 1.2rem;
     font-style: italic;
 }
 
@@ -38,168 +35,145 @@ header div span{
     border-radius: 50%;
 }
 
-header ul img, nav ul img{
-    width: 30px;
-    height: 30px;
+nav ul img{
+    width: 2rem;
+    height: 2rem;
 }
 
-header ul, nav ul{
-    margin-top: 15px;
+nav ul{
+    margin: 1em 0;
     list-style-type: none;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-header ul li, nav ul li{
+nav ul li{
     text-align: center;
     flex: 0 1 80px;
 }
 
 nav{
-    display: none;
     background-color: white;
     position: sticky;
     top: 0px;
     padding: 5px 0px;
-}
+} 
 
-/* MAIN */
+/* MAIN 
+============================================================================ */
 main section{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 5px;
+    /* grid-gap: 10px; */
+    font-size: 1.2rem;
 }
 
-.summary,
-.skills,
-.projects{
-    padding: 10px;
-}
+.summary, .skills, .projects{ padding: .3em; }
 
-div h2{
+section h2{
+    font-size: 2rem;
     color: navy;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1rem;
-}
-
-.summary{
-    border-right: 5px solid rgba(144, 238, 144, 0.637);
-    padding: 1rem;
+    margin-bottom: .6em;
 }
 
 .summary p{
-    line-height: 1.7em;
+    line-height: 1.6;
+    margin-bottom: .6em;
 }
 
-/* ---> skills
-----------------------------------------> */
+/* SKILLS
+============================================================================ */
 .skills h3{
     color: grey;
-    margin-bottom: 1rem;
+    margin-bottom: .5em;
 }
 
-.skills-wrapper{
+.skills-wrapper div{ margin-bottom: 1em; } 
+
+/* PROJECTS
+============================================================================== */
+.projects-wrapper{ 
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-}
-
-.skills-wrapper div{
-    padding: 5px;
-}
-
-/* --> Projects
------------------------------------------ > */
-
-.projects-wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-template-rows: auto;
     grid-gap: 20px;
-}
-
-.projects-wrapper div h3{
-    color: olive;
-    margin-bottom: 0.5rem;
 }
 
 .projects-wrapper div{
     box-shadow: 2px 2px 2px lightgrey;
-    border-radius: 5px;
-    padding: 5px 1rem;
-    transition: box-shadow 0.3s ease-out, 
-                transform 0.25s ease;
-    display: grid;
+    border-radius: 3px;
+    padding: .3em;
 }
 
-.projects-wrapper div:hover{
-    transform: scale(1.04);
-    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.2), 
-                -2px -2px 2px rgb(177, 172, 172, 0.3);
+.projects-wrapper div h3{
+    color: olive;
+    margin-bottom: 0.5em;
 }
-
 .projects-wrapper div p{
-    line-height: 1.5em;
-    margin: 0.6rem 0px;
-}
-
-.project-link{
-    align-self: flex-end;
+    line-height: 1.5;
+    margin: 0.6em 0;
 }
 
 .project-link a{
     text-align: center;
     display: block;
-    padding: 7px 0px;
-    border: 1px solid lightblue;
-    border-radius: 5px;
     width: 90%;
     margin: auto;
-    font-size: 18px;
-    letter-spacing: 0.5px;
+    padding: .4em;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    font-size: 1.2rem;
     text-decoration: none;
     text-transform: capitalize;
 }
 
-blockquote{
-    text-align: right;
-}
+blockquote{ text-align: right; } 
 
-
-/* FOOTER */
+/* FOOTER
+===================================================================================== */
 .copyright{
     text-align: center;
     color: grey;
-    padding: 10px 0px;
+    padding-top: 1em;
 }
 
 
+/* MEDIA QUERIES
+==================================================== */
+/* Larger than mobile */
+@media (min-width: 400px) {}
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 470px){
-    header{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header ul{ display: none; }
-
-    nav{ display: block; }
-
-    main section{
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
+/* Larger than phablet */
+@media (min-width: 550px) {
+    header h1{ font-size: 3rem; }
 
     .projects-wrapper{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .projects-wrapper div{
+        display: grid; 
+        padding: 1em;
     }
 
-    header h1{
-        font-size: 2.4rem;
-        line-height: 1.5em;
-    }
-
-    .summary{ border: none; }
+    .project-link{ align-self: flex-end; }
 }
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    main section:first-child{
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .projects{ 
+        width: 80%;
+        margin: auto;
+    }    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
