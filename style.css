@@ -187,6 +187,7 @@ footer{ text-align: center; }
     color: gray;
     font-size: 1.2rem;
     padding: 1.5em;
+    line-height: 1.5;
 }
 
 
@@ -194,39 +195,50 @@ footer{ text-align: center; }
 ==================================================== */
 @media (min-width: 400px) {}
 
-/* Larger than phablet */
 @media (min-width: 550px) {
-    header h1{ font-size: 3rem; }
     .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-
-    .projects-wrapper div{
+    figure{ height: max-content; }
+    .skill-and-hobby{
         display: grid;
-        padding: 1em;
+        grid-template-columns: 1fr max-content;
     }
-
-    .project-link{ align-self: flex-end; }
 }
 
-/* Larger than tablet */
 @media (min-width: 750px) {
-    main section:first-child{
-        max-width: 70%;
+    nav ul{ justify-content: center; }
+    .skill-and-hobby{
+        width: 75%;
         margin: auto;
     }
 
-    .projects{
-        width: 80%;
+    .name-and-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 3em;
+    }
+
+    .intro p{
+        width: 60ch;
         margin: auto;
     }
-    .project-link a{ transition: background-color 0.3s ease; }
-    .project-link a:hover{ background-color: rgba(135, 207, 235, 0.233); }
+
+    #projects{
+        width: 90%;
+        margin: auto;
+    }
+    .projects-wrapper{ grid-template-columns: repeat(2, 1fr); }
+    figcaption a{ transition: background-color 0.3s ease; }
+    figcaption a:hover{ background-color: #3f72af; }
 }
 
-/* Larger than desktop */
 @media (min-width: 1000px) {
-    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));}
-    .project-link a{ width: 50%; }
+    .skill-and-hobby{
+        width: 70%;
+        margin: auto;
+    }
+    #projects{ width: 100%; }
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));}
 }
 
-/* Larger than Desktop HD */
 @media (min-width: 1200px) {}
