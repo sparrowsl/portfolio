@@ -5,7 +5,6 @@
 }
 
 html{ font-size: 62.5%; }
-
 body{
     padding: .5em;
     font-family: 'Trebuchet MS', sans-serif;
@@ -51,7 +50,6 @@ nav ul{
     margin: 1em 0;
     list-style-type: none;
     display: flex;
-    /* justify-content: center; */
 }
 
 nav ul li{
@@ -64,6 +62,7 @@ nav{
     position: sticky;
     top: 0px;
     padding: .7em 0;
+    z-index: 1;
 }
 
 /* MAIN
@@ -92,6 +91,7 @@ section h2{
     margin-bottom: .5em;
 }
 
+#skills a{ color: navy; }
 .languages, .libraries, .tools { margin-bottom: 1em; }
 
 section p{
@@ -104,6 +104,15 @@ abbr{
     letter-spacing: 1px;
 }
 
+/* HODDIES
+================================================== */
+#hobbies{ margin-top: -1.45em; }
+#hobbies ul{
+    list-style: circle inside;
+    line-height: 1.8;
+}
+#hobbies li{ font-size: 1.7rem; }
+
 /* PROJECTS
 ================================================== */
 .projects-wrapper{
@@ -115,43 +124,60 @@ abbr{
 .projects-wrapper figure{
     box-shadow: 2px 2px 10px lightgrey;
     border-radius: 4px;
-    padding: .5em;
 }
 
-.projects-wrapper h3{
-    color: olive;
-    margin: .5em auto;
+figure img{
+    width: 100%;
+    height: auto;
 }
+
+.project-img{ position: relative; }
+.project-img::after{
+    content: '';
+    display: block;
+    color: #046582;
+    width: 100%;
+    padding: .35em .3em;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+/* project names
+---------------------------------------- */
+#portfolio-template::after{ content: "Portfolio Templates"; }
+#number-guessing::after{ content: "Number Guessing"; }
+#easy-to-git::after{ content: "Easy to Git";}
+#csslite::after{ content: "CSSLite";}
 
 .projects-wrapper p{
     line-height: 1.5;
-    margin: .6em 0;
+    margin-bottom: .8em;
     font-size: 1.6rem;
 }
 
-figure div{
-    display: flex;
-    grid-gap: 20px;
-}
-
+figcaption{ padding: .5em; }
 figcaption a{
     text-align: center;
     display: inline-block;
-    color: blue;
+    color: white;
+    background-color: #0B70DE;
+    font-weight: bold;
     font-size: 1.5rem;
-    padding: .7em 1.2em;
-    border: 1px solid rgba(173, 216, 230, 0.658);
+    padding: .75em 1.2em;
     overflow: hidden;
     border-radius: 5px;
     text-decoration: none;
     text-transform: capitalize;
 }
 
+figcaption a:last-child{ margin-left: 1.5em; }
 #projects p:last-child{ text-align: center; }
 #projects p:last-child a{
     color: navy;
     text-transform: capitalize;
-    margin-left: .5em;
+    margin-left: .3em;
 }
 
 /* FOOTER
@@ -166,7 +192,6 @@ footer{ text-align: center; }
 
 /* MEDIA QUERIES
 ==================================================== */
-/* Larger than mobile */
 @media (min-width: 400px) {}
 
 /* Larger than phablet */
