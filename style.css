@@ -1,0 +1,244 @@
+*, *::after, *::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{ font-size: 62.5%; }
+body{
+    padding: .5em;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* HEADER
+===================================================== */
+header{
+    text-align: center;
+    border-bottom: 2px solid rgb(177, 172, 172, 0.3);
+    padding: .5em 0;
+}
+
+#logo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+header h1{
+    line-height: 1.3;
+    font-size: 3.7rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.85rem;
+    font-style: italic;
+}
+
+.intro{ margin: 1em 0; }
+.intro p{ font-size: 1.9rem; }
+
+/* NAVIGATION
+================================================ */
+nav ul img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav ul{
+    margin: 1em 0;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    text-align: center;
+    flex: 0 1 80px;
+}
+
+nav{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding: .7em 0;
+    z-index: 1;
+}
+
+/* MAIN
+================================================= */
+main{
+    width: 98%;
+    margin: auto;
+}
+
+section{
+    font-size: 1.6rem;
+    padding: 1em .5em;
+}
+
+section h2{
+    font-size: 2.5rem;
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: .6em;
+}
+
+/* SKILLS
+================================================== */
+#skills h3{
+    color: grey;
+    margin-bottom: .5em;
+}
+
+#skills a{ color: navy; }
+.languages, .libraries, .tools { margin-bottom: 1em; }
+
+section p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+abbr{
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+/* HODDIES
+================================================== */
+#hobbies{ margin-top: -1.45em; }
+#hobbies ul{
+    list-style: circle inside;
+    line-height: 1.8;
+}
+#hobbies li{ font-size: 1.7rem; }
+
+/* PROJECTS
+================================================== */
+.projects-wrapper{
+    display: grid;
+    grid-gap: 20px;
+    margin-bottom: 1.3em;
+}
+
+.projects-wrapper figure{
+    box-shadow: 2px 2px 10px lightgrey;
+    border-radius: 4px;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+}
+
+.project-img{ position: relative; }
+.project-img::after{
+    content: '';
+    display: block;
+    color: #046582;
+    width: 100%;
+    padding: .35em .3em;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+}
+
+/* project names
+---------------------------------------- */
+#portfolio-template::after{ content: "Portfolio Templates"; }
+#number-guessing::after{ content: "Number Guessing"; }
+#easy-to-git::after{ content: "Easy to Git";}
+#csslite::after{ content: "CSSLite";}
+
+.projects-wrapper p{
+    line-height: 1.5;
+    margin-bottom: .8em;
+    font-size: 1.6rem;
+}
+
+figcaption{ padding: .5em; }
+figcaption a{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #0B70DE;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: .75em 1.2em;
+    overflow: hidden;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+figcaption a:last-child{ margin-left: 1.5em; }
+#projects p:last-child{ text-align: center; }
+#projects p:last-child a{
+    color: navy;
+    text-transform: capitalize;
+    margin-left: .3em;
+}
+
+/* FOOTER
+================================================== */
+footer{ text-align: center; }
+#copyright{
+    color: gray;
+    font-size: 1.2rem;
+    padding: 1.5em;
+    line-height: 1.5;
+}
+
+
+/* MEDIA QUERIES
+==================================================== */
+@media (min-width: 400px) {}
+
+@media (min-width: 550px) {
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    figure{ height: max-content; }
+    .skill-and-hobby{
+        display: grid;
+        grid-template-columns: 1fr max-content;
+    }
+}
+
+@media (min-width: 750px) {
+    nav ul{ justify-content: center; }
+    .skill-and-hobby{
+        width: 75%;
+        margin: auto;
+    }
+
+    .name-and-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 3em;
+    }
+
+    .intro p{
+        width: 60ch;
+        margin: auto;
+    }
+
+    #projects{
+        width: 90%;
+        margin: auto;
+    }
+    .projects-wrapper{ grid-template-columns: repeat(2, 1fr); }
+    figcaption a{ transition: background-color 0.3s ease; }
+    figcaption a:hover{ background-color: #3f72af; }
+}
+
+@media (min-width: 1000px) {
+    .skill-and-hobby{
+        width: 70%;
+        margin: auto;
+    }
+    #projects{ width: 100%; }
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));}
+}
+
+@media (min-width: 1200px) {}
