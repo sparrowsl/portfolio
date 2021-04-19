@@ -149,12 +149,31 @@ figure img{
     font-size: 2rem;
 }
 
-/* project names
+.project-img::before{
+    content: 'Hello';
+    color: #e3fdfd;
+    background-color: #393e4669;
+    width: 100%;
+    padding: .35em .5em;
+    position: absolute;
+    top: 0;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+/* project names & tech stacks
 ---------------------------------------- */
+#portfolio-template::before{ content: "HTML, CSS, JS"; }
 #portfolio-template::after{ content: "Portfolio Templates"; }
+
+#number-guessing::before{ content: "HTML, CSS, JS"; }
 #number-guessing::after{ content: "Number Guessing"; }
-#easy-to-git::after{ content: "Easy to Git";}
+
+#csslite::before{ content: "CSS";}
 #csslite::after{ content: "CSSLite";}
+
+#easy-to-git::before{ content: "Contributing Developer";}
+#easy-to-git::after{ content: "Easy to Git";}
 
 .projects-wrapper p{
     line-height: 1.5;
