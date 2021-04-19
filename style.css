@@ -126,9 +126,14 @@ abbr{
     border-radius: 4px;
 }
 
+figure{
+    position: relative;
+}
 figure img{
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: contain;
+    object-position: top;
 }
 
 .project-img{ position: relative; }
@@ -193,15 +198,19 @@ footer{ text-align: center; }
 
 /* MEDIA QUERIES
 ==================================================== */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+    figcaption a:last-child{ margin-left: .15em; }
+}
 
 @media (min-width: 550px) {
-    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-    figure{ height: max-content; }
     .skill-and-hobby{
         display: grid;
         grid-template-columns: 1fr max-content;
     }
+    figure{ height: max-content; }
+    figcaption a:last-child{ margin-left: .5em; }
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
 }
 
 @media (min-width: 750px) {
@@ -227,7 +236,7 @@ footer{ text-align: center; }
         width: 90%;
         margin: auto;
     }
-    .projects-wrapper{ grid-template-columns: repeat(2, 1fr); }
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
     figcaption a{ transition: background-color 0.3s ease; }
     figcaption a:hover{ background-color: #3f72af; }
 }
@@ -237,8 +246,8 @@ footer{ text-align: center; }
         width: 70%;
         margin: auto;
     }
-    #projects{ width: 100%; }
-    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));}
+    #projects{ width: 95%; }
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));}
 }
 
 @media (min-width: 1200px) {}
