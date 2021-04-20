@@ -226,19 +226,18 @@ footer{ text-align: center; }
 }
 
 @media (min-width: 550px) {
+    nav ul{ justify-content: center; }
     .skill-and-hobby{
         display: grid;
+        align-items: center;
         grid-template-columns: 1fr max-content;
     }
-    figure{ height: max-content; }
-    figcaption a:last-child{ margin-left: .5em; }
-    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); }
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); }
 }
 
 @media (min-width: 750px) {
-    nav ul{ justify-content: center; }
-    .skill-and-hobby{
-        width: 75%;
+    main{
+        width: 80%;
         margin: auto;
     }
 
@@ -249,27 +248,23 @@ footer{ text-align: center; }
         grid-gap: 3em;
     }
 
-    .intro p{
-        width: 60ch;
-        margin: auto;
-    }
-
-    #projects{
-        width: 100%;
-        margin: auto;
-    }
-    #projects h2{ text-align: center; }
-    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); }
-    figcaption a{ transition: background-color 0.3s ease; }
-    figcaption a:hover{ background-color: #3f72af; }
-}
-
-@media (min-width: 1000px) {
     .skill-and-hobby{
         width: 70%;
         margin: auto;
     }
-    #projects{ width: 90%; }
+
+    .intro p{
+        width: 60ch;
+        margin: auto;
+    }
+    figcaption{ text-align: center; }
+    #projects h2{ text-align: center; }
+    figcaption a{ transition: background-color 0.3s ease; }
+    figcaption a:hover{ background-color: #3f72af; }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1000px) {}
+
+@media (min-width: 1100px) {
+    .projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); }
+}
