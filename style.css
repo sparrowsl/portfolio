@@ -19,8 +19,8 @@ header{
 }
 
 #logo img{
-    width: 200px;
-    height: 200px;
+    width: 20em;
+    height: 20em;
     border-radius: 50%;
 }
 
@@ -37,7 +37,7 @@ header h1{
 }
 
 .intro{ margin: 1em 0; }
-.intro p{ font-size: 1.9rem; }
+.intro p{ font-size: 1.8rem; }
 
 /* NAVIGATION
 ================================================ */
@@ -106,7 +106,6 @@ abbr{
 
 /* HOBBIES
 ================================================== */
-#hobbies{ margin-top: -1.45em; }
 #hobbies ul{
     list-style: circle inside;
     line-height: 1.8;
@@ -122,13 +121,12 @@ abbr{
 }
 
 .projects-wrapper figure{
-    box-shadow: 2px 2px 10px lightgray;
+    box-shadow: 2px 2px 10px 3px lightgray;
     border-radius: 4px;
+    position: relative;
+    overflow: hidden;
 }
 
-figure{
-    position: relative;
-}
 figure img{
     width: 100%;
     height: 200px;
@@ -136,51 +134,33 @@ figure img{
 }
 
 .project-img{ position: relative; }
-.project-img::after{
-    content: '';
-    display: block;
-    color: #046582;
+.tech-used{
     width: 100%;
-    padding: .35em .3em;
-    background-color: white;
+    color: #e3fdfd;
+    background-color: #393e46ce;
+    position: absolute;
+    top: 0;
+    padding: .35em .5em;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.project-name{
+    width: 100%;
+    color: #046582;
+    background-color: #f4f4f4;
+    padding: .3em .3em;
     position: absolute;
     bottom: 0;
     font-size: 2rem;
 }
 
-.project-img::before{
-    content: 'Hello';
-    color: #e3fdfd;
-    background-color: #393e4669;
-    width: 100%;
-    padding: .35em .5em;
-    position: absolute;
-    top: 0;
-    text-align: right;
-    font-size: 1.5rem;
-}
-
-/* project names & tech stacks
----------------------------------------- */
-#portfolio-template::before{ content: "HTML, CSS, JS"; }
-#portfolio-template::after{ content: "Portfolio Templates"; }
-
-#number-guessing::before{ content: "HTML, CSS, JS"; }
-#number-guessing::after{ content: "Number Guessing"; }
-
-#csslite::before{ content: "CSS";}
-#csslite::after{ content: "CSSLite";}
-
-#easy-to-git::before{ content: "Contributing Developer";}
-#easy-to-git::after{ content: "Easy to Git";}
-
-.projects-wrapper p{
-    line-height: 1.5;
+figcaption{ padding: .5em; text-align: center;}
+figcaption p{
     margin-bottom: .8em;
-    font-size: 1.6rem;
+    line-height: 1.5;
 }
 
-figcaption{ padding: .5em; }
 figcaption a{
     text-align: center;
     display: inline-block;
@@ -196,11 +176,11 @@ figcaption a{
 }
 
 figcaption a:last-child{ margin-left: 1.5em; }
-#projects p:last-child{ text-align: center; }
-#projects p:last-child a{
-    color: navy;
+.other-projects{ text-align: center; }
+.other-projects a{
+    color: blue;
     text-transform: capitalize;
-    margin-left: .3em;
+    margin-left: .2em;
 }
 
 /* FOOTER
