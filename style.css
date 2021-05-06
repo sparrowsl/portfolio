@@ -31,7 +31,7 @@ header h1{
 }
 
 #title{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', Arial, sans-serif;
     font-size: 1.85rem;
     font-style: italic;
 }
@@ -93,12 +93,7 @@ section h2{
 
 #skills a{ color: navy; }
 .languages, .libraries, .tools { margin-bottom: 1em; }
-
-section p{
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-}
-
+section p{ line-height: 1.6; }
 abbr{
     text-decoration: none;
     letter-spacing: 1px;
@@ -176,7 +171,10 @@ figcaption a{
 }
 
 figcaption a:last-child{ margin-left: 1.5em; }
-.other-projects{ text-align: center; }
+.other-projects{
+    text-align: center;
+    margin-top: 2em;
+}
 .other-projects a{
     color: blue;
     text-transform: capitalize;
