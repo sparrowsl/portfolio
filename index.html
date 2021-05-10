@@ -4,72 +4,63 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Benjamin I Thorpe</title>
-	<!-- CSS fonts and links -->
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,800&display=swap"
-		rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<header>
-		<div class="name-and-img">
-			<div id="logo">
-				<img src="images/benji.jpg" loading="lazy" alt="Benjamin I. Thorpe">
-			</div>
-
-			<div>
-				<h1>Benjamin I. Thorpe</h1>
-				<p id="title">Frontend Web Developer &amp; Aspiring Backend Developer</p>
-			</div>
-		</div>
-
-		<div class="intro">
-			<p>Motivation is what gets you started. Habit is what keeps you going.
-				The greatest risk in life is not taking one.</p>
-			<!-- <p>Ambition is the path to success. Persistence is the vehicle you arrive in.</p> -->
-		</div>
-	</header>
-
-	<nav>
+		<h1>Benjamin I. Thorpe</h1>
+		<p class="title">Frontend Web Developer &amp; Web Scraper</p>
+		<p class="summary">I build cool functional websites &amp; I scrape the web for fun!</p>
 		<ul>
 			<li>
-				<a href="tel:+23299783218"><img src="images/telephone.svg" alt="Phone"></a>
+				<a href="tel:+23299783218"><img src="images/icons/telephone.svg" alt="Phone"></a>
 			</li>
 			<li>
-				<a href="mailto:benjaminthorpe19@gmail.com"><img src="images/gmail.svg" alt="Email"></a>
+				<a href="mailto:benjaminthorpe19@gmail.com"><img src="images/icons/gmail.svg" alt="Email"></a>
 			</li>
 			<li>
-				<a href="https://www.linkedin.com/in/benjamini/" target="_blank"><img src="images/linkedin.svg"
-						alt="LinkedIn"></a>
+				<a href="https://www.linkedin.com/in/benjamini/" target="_blank">
+					<img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
 			</li>
 			<li>
-				<a href="https://twitter.com/benjithorpe1" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a>
+				<a href="https://twitter.com/benjithorpe1" target="_blank">
+					<img src="images/icons/twitter.svg" alt="Twitter"></a>
 			</li>
 			<li>
-				<a href="https://github.com/benjithorpe" target="_blank"><img src="images/github.svg" alt="GitHub"></a>
+				<a href="https://github.com/benjithorpe" target="_blank">
+					<img src="images/icons/github.svg" alt="GitHub"></a>
 			</li>
 			<li>
 				<a href="https://dev.to/benjithorpe" target="_blank">
-					<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev.to"></a>
+					<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev"></a>
 			</li>
 		</ul>
-	</nav>
-
+		<a href="mailto:benjaminthorpe19@gmail.com" id="get-in-touch">GET IN TOUCH</a>
+	</header>
+	
 	<main>
-		<section class="skill-and-hobby">
-			<section id="skills">
-				<h2>Skills</h2>
+		<section>
+			<h2>About me</h2>
 
-				<div class="skills-wrapper">
+			<div id="about">
+				<figure>
+					<img src="images/benji.jpg" alt="Benjamin Thorpe">
+
+					<figcaption>
+						<p>Benjamin I Thorpe</p>
+					</figcaption>
+				</figure>
+
+				<div id="skills">
 					<div class="languages">
 						<h3>Programming Languages</h3>
 
 						<p><abbr title="HyperText Markup Language">HTML5</abbr>,
 							<abbr title="Cascading Style Sheet">CSS3</abbr>,
-							<!-- <abbr title="Structured Query Language">SQL</abbr>, -->
-							<!-- JavaScript,  -->
-							Python, Core Java
+							<abbr title="Structured Query Language">SQL</abbr>,
+							JavaScript, Python, Core Java
 						</p>
 					</div>
 
@@ -77,96 +68,91 @@
 						<h3>Libraries &amp; Frameworks</h3>
 
 						<p><a href="https://csslite.netlify.app" target="_blank">CSSLite</a>,
-							<!-- Flask, Beautiful Soup, requests -->
+							Beautiful Soup
+							<!-- Flask, requests -->
 						</p>
 					</div>
 
 					<div class="tools">
 						<h3>Tools &amp; Platforms</h3>
 
-						<p>Git/GitHub, Slack, Netlify, SQLite3, Markdown,
-							<a href="https://dev.to/" target="_blank">Dev.to</a>
+						<p>Git/GitHub, Slack, Netlify, SQLite3, Markdown</a>
 						</p>
 					</div>
 				</div> <!-- End of Skills Section -->
-			</section>
 
-			<section id="hobbies">
-				<h2>Hobbies</h2>
+				<div id="hobbies">
+					<h3>Hobbies</h3>
 
-				<ul>
-					<li>Programming</li>
-					<li>Playing Chess</li>
-					<li>Web Scraping</li>
-					<li>Reading</li>
-					<li>Blogging</li>
-				</ul>
-			</section>
+					<ul>
+						<li>Programming</li>
+						<li>Playing Chess</li>
+						<li>Web Scraping</li>
+						<li>Reading</li>
+						<li>Blogging</li>
+					</ul>
+				</div>
+			</div>
 		</section>
 
-		<!-- All the projects I have worked on -->
 		<section id="projects">
 			<h2>Projects</h2>
 
-			<div class="projects-wrapper">
+			<div id="projects-wrapper">
 				<figure>
-					<div class="project-img">
-						<p class="tech-used">HTML, CSS, JavaScript</p>
-						<img src="images/portfolio-templates.png" alt="" loading="lazy">
-						<p class="project-name">Portfolio Templates</p>
-					</div>
+					<img src="images/portfolio-templates.png" loading="lazy">
 
 					<figcaption>
+						<h3>Portfolio Templates</h3>
 						<p>Get inspiration to build your portfolio from different designs.</p>
-						<a href="https://github.com/benjithorpe/portfolio-templates" target="_blank">View Code</a>
+						<blockquote>
+							<p>- With <span>HTML, CSS, JavaScript</span></p>
+						</blockquote>
+					</figcaption>
+
+					<div class="project-links">
+						<a href="https://github.com/benjithorpe/portfolio-templates" target="_blank">Source Code</a>
 						<a href="https://portfoliotemplates.netlify.app/" target="_blank">Live Site</a>
-					</figcaption>
+					</div>
 				</figure>
 
 				<figure>
-					<div class="project-img">
-						<p class="tech-used">HTML, CSS, JavaScript</p>
-						<img src="images/guessing-game.jpg" alt="" loading="lazy">
-						<p class="project-name">Number Guessing</p>
-					</div>
+					<img src="images/guessing-game.jpg" loading="lazy">
 
 					<figcaption>
-						<p>Guess the number correctly, save highscore and share with others.</p>
-						<a href="https://github.com/benjithorpe/random-guessing" target="_blank">View Code</a>
+						<h3>Number Guessing</h3>
+
+						<blockquote>
+							<p>- With <span>HTML, CSS, JavaScript</span></p>
+						</blockquote>
+					</figcaption>
+
+					<div class="project-links">
+						<a href="https://github.com/benjithorpe/random-guessing" target="_blank">Source Code</a>
 						<a href="https://randomguesser.netlify.app/" target="_blank">Live Site</a>
-					</figcaption>
+					</div>
 				</figure>
 
 				<figure>
-					<div class="project-img">
-						<p class="tech-used">CSS</p>
-						<img src="images/csslite.jpg" alt="" loading="lazy">
-						<p class="project-name">CSSLite</p>
-					</div>
+					<img src="images/csslite.jpg" loading="lazy">
 
 					<figcaption>
+						<h3>CSSLite</h3>
 						<p>A simple, lightweight, minimal &amp; easy to use CSS Framework.</p>
-						<a href="https://github.com/benjithorpe/csslite" target="_blank">View Code</a>
+
+						<blockquote>
+							<p>- With <span>CSS</span></p>
+						</blockquote>
+					</figcaption>
+
+					<div class="project-links">
+						<a href="https://github.com/benjithorpe/csslite" target="_blank">Source Code</a>
 						<a href="https://csslite.netlify.app/" target="_blank">Live Site</a>
-					</figcaption>
-				</figure>
-
-				<figure>
-					<div class="project-img">
-						<p class="tech-used">Contributing Developer</p>
-						<img src="images/contrib-dev.jpg" alt="" loading="lazy">
-						<p class="project-name">Easy to Git</p>
 					</div>
-
-					<figcaption>
-						<p>A project to start your journey as an Open-&NoBreak;Source contributor.</p>
-						<a href="https://github.com/DavidMatthewFraser/easy-to-git" target="_blank">View Code</a>
-						<a href="http://easytogit.com/" target="_blank">Live Site</a>
-					</figcaption>
 				</figure>
 			</div>
 
-			<p class="other-projects">Other Projects can be found
+			<p id="other-projects">Other Projects can be found
 				<a href="https://github.com/benjithorpe?tab=repositories" target="_blank">here</a>
 			</p>
 		</section>
