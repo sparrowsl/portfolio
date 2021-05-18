@@ -4,15 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Benjamin I Thorpe</title>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+	<nav>
+		<ul>
+			<li id="logo">BIT</li>
+			<li>About</li>
+			<li>Projects</li>
+		</ul>
+	</nav>
+
 	<header>
-		<h1>Benjamin I. Thorpe</h1>
-		<p class="title">Frontend Web Developer &amp; Web Scraper</p>
-		<p class="summary">I build cool functional websites &amp; I scrape the web for fun!</p>
+		<h1>John J. Doe</h1>
+		<h2 class="title">Frontend Developer &amp; Web Scraper</h2>
+
 		<ul>
 			<li>
 				<a href="tel:+23299783218"><img src="images/icons/telephone.svg" alt="Phone"></a>
@@ -37,47 +44,39 @@
 					<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev"></a>
 			</li>
 		</ul>
-		<a href="mailto:benjaminthorpe19@gmail.com" id="get-in-touch">GET IN TOUCH</a>
 	</header>
-	
+
 	<main>
-		<section>
-			<h2>About me</h2>
-
-			<div id="about">
+		<section id="about">
+			<div id="summary">
 				<figure>
-					<img src="images/benji.jpg" alt="Benjamin Thorpe">
-
-					<figcaption>
-						<p>Benjamin I Thorpe</p>
-					</figcaption>
+					<img src="images/benji.jpg" alt="Benjamin I Thorpe" loading="lazy">
 				</figure>
 
+				<p>I build cool functional websites &amp; I scrape the web for fun!</p>
+				<!-- <a href="mailto:benjaminthorpe19@gmail.com" id="get-in-touch">GET IN TOUCH</a> -->
+			</div>
+
+			<div id="skill-and-hobby">
 				<div id="skills">
 					<div class="languages">
 						<h3>Programming Languages</h3>
 
-						<p><abbr title="HyperText Markup Language">HTML5</abbr>,
-							<abbr title="Cascading Style Sheet">CSS3</abbr>,
-							<abbr title="Structured Query Language">SQL</abbr>,
-							JavaScript, Python, Core Java
-						</p>
+						<p>HTML5, CSS3, SQL, JavaScript, Python, Core Java</p>
 					</div>
 
 					<div class="libraries">
 						<h3>Libraries &amp; Frameworks</h3>
 
-						<p><a href="https://csslite.netlify.app" target="_blank">CSSLite</a>,
-							Beautiful Soup
-							<!-- Flask, requests -->
+						<p><a href="https://csslite.netlify.app" target="_blank">CSSLite</a>, Flask,
+							<!-- Beautiful Soup, requests -->
 						</p>
 					</div>
 
 					<div class="tools">
 						<h3>Tools &amp; Platforms</h3>
 
-						<p>Git/GitHub, Slack, Netlify, SQLite3, Markdown</a>
-						</p>
+						<p>Git/GitHub, Slack, Netlify, SQLite3, Markdown</p>
 					</div>
 				</div> <!-- End of Skills Section -->
 
@@ -86,10 +85,9 @@
 
 					<ul>
 						<li>Programming</li>
+						<li>Blogging</li>
 						<li>Playing Chess</li>
 						<li>Web Scraping</li>
-						<li>Reading</li>
-						<li>Blogging</li>
 					</ul>
 				</div>
 			</div>
@@ -103,15 +101,13 @@
 					<img src="images/portfolio-templates.png" loading="lazy">
 
 					<figcaption>
-						<h3>Portfolio Templates</h3>
-						<p>Get inspiration to build your portfolio from different designs.</p>
-						<blockquote>
-							<p>- With <span>HTML, CSS, JavaScript</span></p>
-						</blockquote>
+						<h3>Sierra Voices</h3>
+						<p>Anonymous platform for Sierra Leoneans to voice opinions.</p>
+						<blockquote>HTML, CSS, JavaScript, Python</blockquote>
 					</figcaption>
 
 					<div class="project-links">
-						<a href="https://github.com/benjithorpe/portfolio-templates" target="_blank">Source Code</a>
+						<a href="https://github.com/benjithorpe/portfolio-templates">Source Code</a>
 						<a href="https://portfoliotemplates.netlify.app/" target="_blank">Live Site</a>
 					</div>
 				</figure>
@@ -120,16 +116,14 @@
 					<img src="images/guessing-game.jpg" loading="lazy">
 
 					<figcaption>
-						<h3>Number Guessing</h3>
-
-						<blockquote>
-							<p>- With <span>HTML, CSS, JavaScript</span></p>
-						</blockquote>
+						<h3>Simple Calen</h3>
+						<p>A basic dynamic &amp; responsive calendar website.</p>
+						<blockquote>HTML, CSS, JavaScript</blockquote>
 					</figcaption>
 
 					<div class="project-links">
-						<a href="https://github.com/benjithorpe/random-guessing" target="_blank">Source Code</a>
-						<a href="https://randomguesser.netlify.app/" target="_blank">Live Site</a>
+						<a href="https://github.com/benjithorpe/simple-calendar">Source Code</a>
+						<a href="https://simplecalen.netlify.app/" target="_blank">Live Site</a>
 					</div>
 				</figure>
 
@@ -139,14 +133,11 @@
 					<figcaption>
 						<h3>CSSLite</h3>
 						<p>A simple, lightweight, minimal &amp; easy to use CSS Framework.</p>
-
-						<blockquote>
-							<p>- With <span>CSS</span></p>
-						</blockquote>
+						<blockquote>CSS</blockquote>
 					</figcaption>
 
 					<div class="project-links">
-						<a href="https://github.com/benjithorpe/csslite" target="_blank">Source Code</a>
+						<a href="https://github.com/benjithorpe/csslite">Source Code</a>
 						<a href="https://csslite.netlify.app/" target="_blank">Live Site</a>
 					</div>
 				</figure>
@@ -160,7 +151,7 @@
 
 	<footer>
 		<small id="copyright">
-			&lt;/&gt; with &hearts; by Benjamin I Thorpe | 2020 - 2021
+			&lt;/&gt; with &hearts; by Benjamin I Thorpe | &copy; 2021
 			<br>
 			There is no place like <b>127.0.0.1</b>
 		</small>
