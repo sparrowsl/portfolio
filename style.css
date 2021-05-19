@@ -7,40 +7,6 @@
 html{ font-size: 62.5%; }
 body{ font-family: 'Trebuchet MS', sans-serif; }
 
-/* NAVIGATION
-===================================================== */
-nav{
-	position: sticky;
-	top: 0;
-	background-color: #f1f1f1;
-}
-
-nav ul{
-	height: 10vh;
-	list-style-type: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 1.5em;
-	margin: 0 2em;
-	font-size: 1.6rem;
-}
-
-nav #logo{
-	margin-right: auto;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-weight: bold;
-	font-style: italic;
-	color: #888;
-	letter-spacing: 0.05em;
-}
-
-nav ul li{
-	color: #333;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-
 /* HEADER
 ===================================================== */
 header{
@@ -49,10 +15,8 @@ header{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* background-image: url("./images/"); */
-	/* background-size: cover; */
 	padding: .3em;
-	border-bottom: 1px solid #990;
+	border-bottom: 1px solid #9999998f;
 }
 
 header h1{
@@ -81,20 +45,6 @@ header ul img{
 	height: 2.5rem;
 }
 
-/* #get-in-touch{
-	width: max-content;
-	margin-top: .5em;
-	display: inline-block;
-	color: white;
-	background-color: royalblue;
-	border-radius: 3px;
-	padding: .6em 1em;
-	font-size: 2rem;
-	font-weight: bold;
-	text-decoration: none;
-} */
-
-
 /* MAIN
 ================================================= */
 main{
@@ -106,8 +56,9 @@ main{
 /* ABOUT
 ================================================== */
 #about {
-	margin-bottom: 1em;
-	min-height: 75vh;
+	margin: auto;
+	display: grid;
+	align-items: center;
 }
 
 #summary{
@@ -134,8 +85,7 @@ main{
 
 /* SKILLS
 ======================================================== */
-#skill-and-hobby{ margin: 2em 0; }
-
+#skill-and-hobby{ margin: 1em 0; }
 #skill-and-hobby h3{
 	color: grey;
 	margin-bottom: .5em;
@@ -146,9 +96,7 @@ main{
 	color: darkblue;
 	text-decoration: none;
 }
-
 .languages, .libraries, .tools { margin-bottom: 1em; }
-
 #skills p{
 	font-size: 1.5rem;
 	line-height: 1.6;
@@ -161,13 +109,12 @@ main{
 	line-height: 1.8;
 	color: #222;
 }
-
 #hobbies li{ font-size: 1.6rem; }
 
 /* PROJECTS
 ================================================== */
 #projects h2{
-	font-size: 2rem;
+	font-size: 2.2rem;
 	margin-bottom: 1em;
 	margin-left: 1em;
 }
@@ -197,7 +144,6 @@ main{
 }
 
 #projects-wrapper figcaption{ padding: .5em; }
-
 #projects-wrapper figcaption p{
 	text-align: center;
 	font-size: 1.45rem;
@@ -225,7 +171,7 @@ blockquote{
 	background-color: royalblue;
 	font-weight: bold;
 	font-size: 1.5rem;
-	padding: .7em 1em;
+	padding: .5em;
 	border-radius: 2px;
 	text-decoration: none;
 }
@@ -245,7 +191,6 @@ blockquote{
 /* FOOTER
 ================================================== */
 footer{ text-align: center; }
-
 #copyright{
 	color: gray;
 	font-size: 1.15rem;
@@ -258,53 +203,41 @@ footer{ text-align: center; }
 ==================================================== */
 @media screen and (min-width: 400px){}
 
-/* // Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	main{ width: 70%; }
+	#about{ width: 70%; }
+	#projects-wrapper{ grid-template-columns: repeat(2, 1fr); }
 }
 
-/* // Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	main{ width: 90%; }
-	#projects-wrapper{ grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); }
-	#about{
-			display: grid;
-			grid-gap: 2em;
-			grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-	}
 
-	header ul img{
-			width: 3rem;
-			height: 3rem;
-	}
-
-	#get-in-touch:hover{
-			background-color: royalblue;
-			color: white;
-	}
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	main{ width: 80%; }
-	#projects-wrapper{
+	#skill-and-hobby{
+		display: flex;
+		gap: 3em;
 		justify-content: center;
-		grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-	}
-	#get-in-touch:hover{ background-color: navy; }
-	.project-links a:hover{
-		background-color: skyblue;
-		color: black;
 	}
 
-	#other-projects a:hover{
-		color: navy;
-		text-decoration: none;
+	#summary{
+		gap: .5em;
+		flex-direction: column;
+		margin-bottom: 2.5em;
 	}
+	.project-links a:hover{	background-color: navy; }
 }
 
-/* // X-Large devices (large desktops, 1200px and up) */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#projects{
+		width: 90%;
+		margin: auto;
+	}
+	#projects-wrapper{ grid-template-columns: repeat(4, 1fr); }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
+/* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {}
