@@ -9,72 +9,72 @@
 
 <body>
 	<header>
-		<h1>John J. Doe</h1>
-		<h2 class="title">Frontend Developer &amp; Web Scraper</h2>
+		<figure>
+			<img src="images/benji.jpg" alt="Benjamin I Thorpe" loading="lazy">
+		</figure>
 
-		<ul>
-			<li>
-				<a href="tel:+23299783218"><img src="images/icons/telephone.svg" alt="Phone"></a>
-			</li>
-			<li>
-				<a href="mailto:benjaminthorpe19@gmail.com"><img src="images/icons/gmail.svg" alt="Email"></a>
-			</li>
-			<li>
-				<a href="https://www.linkedin.com/in/benjamini/" target="_blank">
-					<img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
-			</li>
-			<li>
-				<a href="https://twitter.com/benjithorpe1" target="_blank">
-					<img src="images/icons/twitter.svg" alt="Twitter"></a>
-			</li>
-			<li>
-				<a href="https://github.com/benjithorpe" target="_blank">
-					<img src="images/icons/github.svg" alt="GitHub"></a>
-			</li>
-			<li>
-				<a href="https://dev.to/benjithorpe" target="_blank">
-					<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev"></a>
-			</li>
-		</ul>
+		<h1>Benjamin I. Thorpe</h1>
+		<h2 id="title">Frontend Developer &amp; Web Scraper</h2>
+		<!-- CTA -->
+		<a href="mailto:benjaminthorpe19@gmail.com" id="cta">Get In Touch</a>
+		</div>
 	</header>
 
 	<main>
 		<section id="about">
 			<div id="summary">
-				<figure>
-					<img src="images/benji.jpg" alt="Benjamin I Thorpe" loading="lazy">
-				</figure>
+				<p>
+					I am an aspiring backend developer, who aims to build and contribute in building something
+					useful for the community and the world as a whole.
+					<br>
+					I build cool functional websites that work &amp; I build web scrapers for fun!
+				</p>
 
-				<p>I build cool functional websites &amp; I scrape the web for fun!</p>
-				<!-- <a href="mailto:benjaminthorpe19@gmail.com" id="get-in-touch">GET IN TOUCH</a> -->
+				<ul class="contacts">
+					<li><a href="tel:+23299783218">
+						<img src="images/icons/telephone.svg" alt="Phone"></a>
+					</li>
+					<li><a href="mailto:benjaminthorpe19@gmail.com">
+						<img src="images/icons/gmail.svg" alt="Email"></a>
+					</li>
+					<li><a href="https://www.linkedin.com/in/benjamini/" target="_blank">
+							<img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
+						</li>
+					<li><a href="https://twitter.com/benjithorpe1" target="_blank">
+						<img src="images/icons/twitter.svg" alt="Twitter"></a>
+					</li>
+					<li><a href="https://github.com/benjithorpe" target="_blank">
+						<img src="images/icons/github.svg" alt="GitHub"></a>
+					</li>
+					<li><a href="https://dev.to/benjithorpe" target="_blank">
+						<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev"></a>
+					</li>
+				</ul>
 			</div>
 
 			<div id="skill-and-hobby">
 				<div id="skills">
-					<div class="languages">
+					<!-- Skills -->
+					<div id="languages">
 						<h3>Programming Languages</h3>
-
 						<p>HTML5, CSS3, SQL, JavaScript, Python, Core Java</p>
 					</div>
 
-					<div class="libraries">
+					<div id="frameworks">
 						<h3>Libraries &amp; Frameworks</h3>
-
-						<p><a href="https://csslite.netlify.app" target="_blank">CSSLite</a>, Flask,
-							<!-- Beautiful Soup, requests -->
-						</p>
+						<p><a href="https://csslite.netlify.app">CSSLite</a>,
+							Bulma, Flask, Beautiful Soup
 					</div>
 
-					<div class="tools">
+					<div id="tools">
 						<h3>Tools &amp; Platforms</h3>
-
-						<p>Git/GitHub, Slack, Netlify, SQLite3, Markdown</p>
+						<p>Git/GitHub, Slack, Netlify, Heroku, SQLite3, Markdown</p>
 					</div>
-				</div> <!-- End of Skills Section -->
+				</div>
 
+				<!-- Hobbies -->
 				<div id="hobbies">
 					<h3>Hobbies</h3>
-
 					<ul>
 						<li>Programming</li>
 						<li>Blogging</li>
@@ -85,83 +85,81 @@
 			</div>
 		</section>
 
+		<!-- Projects -->
 		<section id="projects">
 			<h2>Projects</h2>
 
-			<div id="projects-wrapper">
-				<figure>
-					<img src="images/corona-5174671_640.jpg" loading="lazy">
-
-					<figcaption>
-						<h3>Corona Statistic Update</h3>
-						<p>Live updates &amp; statistics for COVID&NoBreak;-19.</p>
-						<blockquote>HTML, CSS, JavaScript</blockquote>
-					</figcaption>
-
-					<div class="project-links">
+			<div id="project-container">
+				<div>
+					<h3 class="project-title">Corona Live Stats</h3>
+					<p class="project-summary">Live updates &amp; statistics for COVID&NoBreak;-19.</p>
+					<figcaption  class="project-links">
 						<a href="https://github.com/benjithorpe/corona-stats">Source Code</a>
-						<a href="https://cvid19stat.netlify.app/" target="_blank">Live Site</a>
-					</div>
-				</figure>
-
-				<figure>
-					<img src="images/megaphone-157874_640.png" loading="lazy">
-
-					<figcaption>
-						<h3>Sierra Voices</h3>
-						<p>Anonymous platform for Sierra Leoneans to voice opinions.</p>
-						<blockquote>HTML, CSS, JavaScript, Python</blockquote>
+						<a href="https://cvid19stat.netlify.app/">Live</a>
 					</figcaption>
+				</div>
 
-					<div class="project-links">
+				<div>
+					<h3 class="project-title">Sierra Voices</h3>
+					<p class="project-summary">Anonymous platform for Sierra Leoneans to voice opinions.</p>
+					<figcaption  class="project-links">
 						<a href="https://github.com/benjithorpe/sierra-voices">Source Code</a>
-						<a href="https://sierravoices.herokuapp.com/" target="_blank">Live Site</a>
-					</div>
-				</figure>
-
-				<figure>
-					<img src="images/calendar-159098_640.png" loading="lazy">
-
-					<figcaption>
-						<h3>Simple Calen</h3>
-						<p>A basic dynamic &amp; responsive calendar app.</p>
-						<blockquote>HTML, CSS, JavaScript</blockquote>
+						<a href="https://sierravoices.herokuapp.com/">Live</a>
 					</figcaption>
+				</div>
 
-					<div class="project-links">
+				<div>
+					<h3 class="project-title">Simple Calen</h3>
+					<p class="project-summary">A basic dynamic &amp; responsive calendar app.</p>
+					<figcaption  class="project-links">
 						<a href="https://github.com/benjithorpe/simple-calendar">Source Code</a>
-						<a href="https://simplecalen.netlify.app/" target="_blank">Live Site</a>
-					</div>
-				</figure>
-
-				<figure>
-					<img src="images/csslite.jpg" loading="lazy">
-
-					<figcaption>
-						<h3>CSSLite</h3>
-						<p>A simple, lightweight, minimal &amp; easy to use CSS Framework.</p>
-						<blockquote>CSS</blockquote>
+						<a href="https://simplecalen.netlify.app/">Live</a>
 					</figcaption>
+				</div>
 
-					<div class="project-links">
+				<div>
+					<h3 class="project-title">CSSLite</h3>
+					<p class="project-summary">A simple, lightweight, minimal &amp; easy to use CSS Framework.</p>
+					<figcaption  class="project-links">
 						<a href="https://github.com/benjithorpe/csslite">Source Code</a>
-						<a href="https://csslite.netlify.app/" target="_blank">Live Site</a>
-					</div>
-				</figure>
+						<a href="https://csslite.netlify.app/">Live</a>
+					</figcaption>
+				</div>
 			</div>
 
-			<p id="other-projects">Other Projects can be found
-				<a href="https://github.com/benjithorpe?tab=repositories" target="_blank">here</a>
-			</p>
+			<div id="more-projects">
+				<p>More projects can be found
+					<a href="https://github.com/benjithorpe?tab=repositories" target="_blank">here</a></p>
+			</div>
 		</section>
 	</main>
 
 	<footer>
-		<small id="copyright">
-			&lt;/&gt; with &hearts; by Benjamin I Thorpe | &copy; 2021
+		<ul class="contacts">
+			<li><a href="tel:+23299783218">
+				<img src="images/icons/telephone.svg" alt="Phone"></a>
+			</li>
+			<li><a href="mailto:benjaminthorpe19@gmail.com">
+				<img src="images/icons/gmail.svg" alt="Email"></a>
+			</li>
+			<li><a href="https://www.linkedin.com/in/benjamini/" target="_blank">
+				<img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
+			</li>
+			<li><a href="https://twitter.com/benjithorpe1" target="_blank">
+				<img src="images/icons/twitter.svg" alt="Twitter"></a>
+			</li>
+			<li><a href="https://github.com/benjithorpe" target="_blank">
+				<img src="images/icons/github.svg" alt="GitHub"></a>
+			</li>
+			<li><a href="https://dev.to/benjithorpe" target="_blank">
+				<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev"></a>
+			</li>
+		</ul>
+
+		<p><small>&lt;/&gt; with &hearts; by Benjamin I Thorpe | &copy; 2021
 			<br>
-			There is no place like <b>127.0.0.1</b>
-		</small>
+			There is no place like <strong>127.0.0.1</strong></small>
+		</p>
 	</footer>
 </body>
 </html>
