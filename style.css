@@ -142,6 +142,14 @@ main{
 	line-height: 1.5;
 }
 
+#project-container blockquote{
+	margin: 1.5em 0;
+	text-align: right;
+	font-style: italic;
+	font-size: 1.4rem;
+	color: #999;
+}
+
 .project-links{
 	margin-top: 1em;
 	display: flex;
@@ -156,6 +164,7 @@ main{
 	font-size: 1.4rem;
 	border-radius: 3px;
 	border: 1px solid skyblue;
+	transition: background-color .3s ease-out;
 }
 
 #more-projects{
@@ -171,6 +180,9 @@ footer{
 	text-align: center;
 	padding: 2em 0;
 	border-top: 1px solid #dae3f1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 footer .contacts{ margin-bottom: 1em; }
 
@@ -190,7 +202,7 @@ footer p{
 		font-size: 4rem;
 		letter-spacing: 1px;
 	}
-	
+
 	#title{ font-size: 1.85rem; }
 	#projects{
 		width: 70%;
@@ -222,6 +234,11 @@ footer p{
 	#languages p, #frameworks p, #tools p{
 		width: 70ch;
 		margin: auto;
+	}
+
+	.project-links a:hover{
+		background-color: steelblue;
+		color: #fff;
 	}
 
 	#project-container{ grid-template-columns: repeat(3, 1fr); }
