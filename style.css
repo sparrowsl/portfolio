@@ -10,7 +10,7 @@ body{ font-family: 'Trebuchet MS', sans-serif; }
 ===================================================== */
 header{
 	min-height: 100vh;
-	background-color: #06333d;
+	background-color: #092b33;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -72,8 +72,6 @@ main{
 }
 
 .contacts{
-	margin-top: 1em;
-	list-style-type: none;
 	display: flex;
 	justify-content: center;
 	gap: 2em;
@@ -128,7 +126,20 @@ main{
 	box-shadow: 1px 1px 7px silver;
 	border-radius: 2px;
 	padding: 1em;
-	transition: box-shadow .28s ease-in-out;
+	position: relative;
+}
+
+#project-container div::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	opacity: 0;
+	box-shadow: 2px 2px 10px silver;
+	z-index: -1;
+	transition: opacity 0.2s ease-out;
 }
 
 .project-title{
@@ -158,13 +169,14 @@ main{
 }
 
 .project-links a{
+	color: blue;
 	display: inline-block;
 	text-decoration: none;
 	padding: .65em 1em;
 	font-size: 1.4rem;
 	border-radius: 3px;
 	border: 1px solid skyblue;
-	transition: background-color .3s ease-out;
+	transition: background-color .25s ease-out;
 }
 
 #more-projects{
@@ -194,9 +206,8 @@ footer p{
 
 /* MEDIA QUERIES
 ==================================================== */
-@media screen and (min-width: 400px){}
+@media (min-width: 400px){}
 
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	h1{
 		font-size: 4rem;
@@ -210,7 +221,6 @@ footer p{
 	}
 }
 
-/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	#projects{ width: initial; }
 	#project-container{ grid-template-columns: repeat(2, 1fr); }
@@ -227,7 +237,6 @@ footer p{
 	}
 }
 
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	main{ width: 80%; }
 	#cta:hover{ background-color: teal; }
@@ -242,13 +251,8 @@ footer p{
 	}
 
 	#project-container{ grid-template-columns: repeat(3, 1fr); }
-	#project-container div:hover{
-		box-shadow: 2px 2px 10px grey;
-	}
+	#project-container div:hover::after{ opacity: 1; }
 }
 
-/* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {}
