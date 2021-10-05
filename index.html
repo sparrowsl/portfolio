@@ -3,174 +3,131 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Benjamin I Thorpe</title>
+	<title>Benjamin Thorpe</title>
+	<!-- Bulma.io CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+	<!-- fontawesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Custom styles -->
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-	<header>
-		<figure>
-			<img src="images/benji.jpg" alt="Benjamin I Thorpe" loading="lazy">
-		</figure>
+<body class=" has-background-light">
+	<header class="container has-text-centered py-6">
 
-		<h1>Benjamin I. Thorpe</h1>
-		<h2 id="title">Frontend Developer &amp; Web Scraper</h2>
-		<!-- CTA -->
-		<a href="mailto:benjaminthorpe19@gmail.com" id="cta">Get In Touch</a>
-		</div>
+		<h1 class="title">I am Benjamin Thorpe</h1>
+		<h2 class="subtitle pt-1"><em>Frontend Developer &amp; Web Scraper</em></h2>
+
+		<!-- social media links -->
+		<ul class="is-flex is-justify-content-center">
+			<li><a href="tel:+23299783218"><i class="fa fa-phone"></i></a></li>
+			<li><a href="mailto:benjaminthorpe19@gmail.com"><i class="fa fa-envelope"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/benjithorpe/"><i class="fab fa-linkedin-in"></i></a></li>
+			<li><a href="https://twitter.com/benjithorpe1"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="https://github.com/benjithorpe"><i class="fab fa-github"></i></a></li>
+		</ul>
 	</header>
 
-	<main>
-		<section id="about">
-			<div id="summary">
-				<p>
-					I am a Frontend Developer who aims to build and contribute in building something
-					useful for the community and the world as a whole.
-				<br>
-					I build user-friendly, responsive &amp; cool functional websites that work. I also build web scrapers for fun!
-				</p>
+	<main class="container">
+		<article>
+			<section class="about-us has-background-white p-6">
+				<h2 class="subtitle"><strong>About Me</strong></h2>
 
-				<div class="contacts">
-					<a href="tel:+23299783218">
-						<img src="images/icons/telephone.svg" alt="Phone"></a>
-
-					<a href="mailto:benjaminthorpe19@gmail.com">
-						<img src="images/icons/gmail.svg" alt="Email"></a>
-
-					<a href="https://www.linkedin.com/in/benjithorpe/" target="_blank">
-						<img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
-
-					<a href="https://twitter.com/benjithorpe1" target="_blank">
-						<img src="images/icons/twitter.svg" alt="Twitter"></a>
-
-					<a href="https://github.com/benjithorpe" target="_blank">
-						<img src="images/icons/github.svg" alt="GitHub"></a>
-
-					<a href="https://dev.to/benjithorpe" target="_blank">
-						<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev"></a>
-				</div>
-			</div>
-
-			<div id="skill-and-hobby">
-				<div id="skills">
-					<!-- Skills -->
-					<div id="languages">
-						<h3>Programming Languages</h3>
-						<p>HTML5, CSS3, SQL, JavaScript, Python, Core Java</p>
+				<div class="info is-flex is-align-items-center">
+					<div class="image">
+						<figure class="image is-128x128">
+							<img src="images/benji.jpg" alt="Benjamin Thorpe" loading="lazy" class="is-rounde">
+						</figure>
 					</div>
 
-					<div id="frameworks">
-						<h3>Libraries &amp; Frameworks</h3>
-						<p><a href="https://csslite.netlify.app">CSSLite</a>,
-							Bulma, Beautiful Soup
-							<!-- Flask, -->
+					<div class="summary">
+						<p>I am a Frontend Developer who aims to build and contribute in building something
+							useful for the community and the world as a whole.</p>
+							<br>
+						<p>I build simple, user-friendly, responsive &amp; cool functional websites that work.
+							<br>
+							<em>I also build web scrapers for fun!</em></p>
+					</div>
+				</div>
+			</section>
+
+			<section class="projects has-background-white p-6">
+				<h2 class="subtitle"><strong>Projects</strong></h2>
+
+				<div class="project-list">
+					<div class="project-card">
+						<figure class="image">
+							<img src="./images/feather.jpg" loading="lazy" alt="Placeholder image">
+						</figure>
+						<div class="card-title py-5 px-2">
+							<p class="title is-5 mb-3"><a href="https://github.com/benjithorpe/csslite" target="_blank">CSSLite</a></p>
+							<p class="subtitle is-6 mt-1"><i class="tag">CSS</i></p>
 						</div>
+					
+						<p class="card-description px-2 pb-3">A simple, minimal and easy to use CSS framework 
+							<span class="tag">for personal use</span>.</p>
+					</div>
 
-					<div id="tools">
-						<h3>Tools &amp; Platforms</h3>
-						<p>Git/GitHub, Slack, Netlify, Heroku, SQLite3, Markdown</p>
+					<div class="project-card">
+						<figure class="image">
+							<img src="./images/codebuddy.jpg" loading="lazy" alt="Code Buddy Image">
+						</figure>
+						<div class="card-title py-5 px-2">
+							<p class="title is-5 mb-3"><a href="https://codebuddy.netlify.app/" target="_blank">Code Buddy</a></p>
+							<p class="subtitle is-6 mt-1"><i class="tag">HTML, CSS, JavaScript, Sveltejs</i></p>
+						</div>
+					
+						<p class="card-description px-2 pb-3">A cool, smart, responsive and reactive web based HTML/CSS editor.</p>
+					</div>
+
+					<div class="project-card">
+						<figure class="image">
+							<img src="./images/sierravoices.jpg" loading="lazy" alt="Sierra Voices Image">
+						</figure>
+						<div class="card-title py-5 px-2">
+							<p class="title is-5 mb-3"><a href="sierravoices.netlify.app/" target="_blank">Sierra Voices</a></p>
+							<p class="subtitle is-6 mt-1"><i class="tag">HTML, CSS, JavaScript, Sveltejs</i></p>
+						</div>
+					
+						<p class="card-description px-2 pb-3">An anonymous platform for Sierra Leoneans to share their voices, 
+							opinions and views about anything.</p>
 					</div>
 				</div>
-
-				<!-- Hobbies -->
-				<div id="hobbies">
-					<h3>Hobbies</h3>
-					<ul>
-						<li>Programming</li>
-						<li>Blogging</li>
-						<li>Playing Chess</li>
-						<li>Web Scraping</li>
-					</ul>
+				<div class="has-text-centered mt-6">
+					<p>More projects can be found
+						<a href="https://github.com/benjithorpe?tab=repositories" target="_blank" class="pl-1">here</a>
+					</p>
 				</div>
-			</div>
-		</section>
+	
+			</section>
 
-		<!-- Projects -->
-		<section id="projects">
-			<h2>Projects</h2>
-
-			<div id="project-container">
-				<div>
-					<h3 class="project-title">Corona Live Stats</h3>
-					<p class="project-summary">Live updates &amp; statistics for COVID&NoBreak;-19.</p>
-					<blockquote>
-						- HTML, CSS, JavaScript
-					</blockquote>
-					<figcaption  class="project-links">
-						<a href="https://github.com/benjithorpe/corona-stats">Source Code</a>
-						<a href="https://cvid19stat.netlify.app/">Live</a>
-					</figcaption>
+			<section class="skills has-background-white p-6">
+				<div class="languages">
+					<h3 class="subtitle"><strong>Languages</strong></h3>
+					<p>HTML5, CSS3, JavaScript, Python</p>
 				</div>
 
-				<div>
-					<h3 class="project-title">Random Quotes</h3>
-					<p class="project-summary">Displays random quotes with their author and categories.</p>
-					<blockquote>
-						- HTML, CSS, JavaScript
-					</blockquote>
-					<figcaption  class="project-links">
-						<a href="https://github.com/benjithorpe/quote-boost">Source Code</a>
-						<a href="https://quoteboost.netlify.app/">Live</a>
-					</figcaption>
+				<div class="frameworks">
+					<h3 class="subtitle"><strong>Frameworks</strong></h3>
+					<p><a href="https://www.github.com/benjithorpe/csslite" target="_blank">CSSLite</a>,
+						Bulma, Beautiful Soup, Svelte</p>
 				</div>
 
-				<div>
-					<h3 class="project-title">Simple Calen</h3>
-					<p class="project-summary">A basic dynamic &amp; responsive calendar app.</p>
-					<blockquote>
-						- HTML, CSS, JavaScript
-					</blockquote>
-					<figcaption  class="project-links">
-						<a href="https://github.com/benjithorpe/simple-calendar">Source Code</a>
-						<a href="https://simplecalen.netlify.app/">Live</a>
-					</figcaption>
+				<div class="tools-and-tech">
+					<h3 class="subtitle"><strong>Tools &amp; Platforms</strong></h3>
+					<p>Git/GitHub, Slack, Discord, Netlify, Heroku, Markdown</p>
 				</div>
-
-				<div>
-					<h3 class="project-title">CSSLite</h3>
-					<p class="project-summary">A simple, lightweight, minimal &amp; easy to use CSS Framework.</p>
-					<blockquote>
-						- CSS
-					</blockquote>
-					<figcaption  class="project-links">
-						<a href="https://github.com/benjithorpe/csslite">Source Code</a>
-						<a href="https://csslite.netlify.app/">Live</a>
-					</figcaption>
-				</div>
-			</div>
-
-			<div id="more-projects">
-				<p>More projects can be found
-					<a href="https://github.com/benjithorpe?tab=repositories" target="_blank">here</a></p>
-			</div>
-		</section>
+			</section>
+		</article>
 	</main>
 
-	<footer>
-		<ul class="contacts">
-			<li><a href="tel:+23299783218">
-				<img src="images/icons/telephone.svg" alt="Phone"></a>
-			</li>
-			<li><a href="mailto:benjaminthorpe19@gmail.com">
-				<img src="images/icons/gmail.svg" alt="Email"></a>
-			</li>
-			<li><a href="https://www.linkedin.com/in/benjithorpe/" target="_blank">
-				<img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
-			</li>
-			<li><a href="https://twitter.com/benjithorpe1" target="_blank">
-				<img src="images/icons/twitter.svg" alt="Twitter"></a>
-			</li>
-			<li><a href="https://github.com/benjithorpe" target="_blank">
-				<img src="images/icons/github.svg" alt="GitHub"></a>
-			</li>
-			<li><a href="https://dev.to/benjithorpe" target="_blank">
-				<img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Dev"></a>
-			</li>
-		</ul>
-
-		<p><small>&lt;/&gt; with &hearts; by Benjamin I Thorpe | &copy; 2021
-			<br>
-			There is no place like <strong>127.0.0.1</strong></small>
+	<footer class="container has-text-centered p-6">
+		<p>
+			<small><i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by Benjamin I Thorpe | &copy; 2021
+				<br>
+				There is no place like <strong class="is-italic">127.0.0.1</strong> <i class="fas fa-home"></i></small>
 		</p>
 	</footer>
 </body>

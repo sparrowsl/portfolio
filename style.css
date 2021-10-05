@@ -1,55 +1,7 @@
-*, *::after, *::before{
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
-}
-html{ font-size: 62.5%; }
-body{ font-family: 'Trebuchet MS', sans-serif; }
-
 /* HEADER
 ===================================================== */
-header{
-	min-height: 100vh;
-	background-color: #092b33;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: white;
-}
-
-header figure img{
-	width: 12.5rem;
-	height: 12.5rem;
-	border-radius: 50%;
-}
-
-h1{
-	margin-top: .5em;
-	margin-bottom: .2em;
-	font-weight: normal;
-	font-size: 3.25rem;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#title{
-	font-weight: lighter;
-	font-style: italic;
-	font-size: 1.65rem;
-}
-
-#cta{
-	text-decoration: none;
-	font-size: 1.6rem;
-	font-weight: bold;
-	text-transform: uppercase;
-	border: 1px solid teal;
-	border-radius: 3px;
-	margin-top: 1.5em;
-	padding: .7em 1em;
-	color: white;
-	background-color: #0080806c;
-}
+header ul{ gap: 1em; font-size: 1.4rem;}
+header ul a{ color: teal; }
 
 /* MAIN
 ================================================= */
@@ -60,148 +12,56 @@ main{
 
 /* ABOUT
 ================================================== */
-#about{
-	margin: 1em 0;
-	padding: .5em;
-}
-
-#summary p{
-	font-size: 1.65rem;
-	line-height: 1.5;
-	text-align: center;
-}
-
-.contacts{
+.about-us{ margin-bottom: 1.5em; }
+.about-us div.info{ 
 	display: flex;
-	justify-content: center;
-	gap: 2em;
+	flex-direction: column;
+	gap: 2em; 
 }
 
-.contacts img{
-	width: 2.8rem;
-	height: 2.8rem;
+.about-us figure.image img{
+	border-radius: 100%;
 }
 
-/* SKILLS & HOBBIES
-======================================================== */
-#skill-and-hobby{ margin: 2em 0; }
-#skill-and-hobby h3{
-	color: darkgray;
-	font-size: 1.8rem;
-	margin-bottom: .5em;
-}
-
-#skills{
-	display: grid;
-	grid-gap: 1.5em;
-}
-
-#skills a{
-	text-decoration: none;
-	color: navy;
-}
-#languages p, #frameworks p, #tools p{ font-size: 1.65rem; }
-#hobbies{ margin-top: 2em; }
-
-#hobbies ul{
-	list-style: inside circle;
-	font-size: 1.65rem;
-	line-height: 1.6;
+.summary p{
+	max-width: 70ch;
+	/* font-size: 1.15rem; */
 }
 
 /* PROJECTS
 ================================================== */
-#projects h2{
-	font-size: 2rem;
-	color: lightslategrey;
-	margin-bottom: .7em;
+.projects{ margin-bottom: 1.5em; }
+.project-list{
+	display: grid;
+	gap: 1em; 
 }
 
-#project-container{
+.project-list a{ color: teal; }
+
+.project-card{
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+	transition: box-shadow .3s ease;
+}
+.project-card:hover{
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project-list figure.image img{
+	max-height: 200px;
+}
+
+/* SKILLS & HOBBIES
+======================================================== */
+.skills{
 	display: grid;
 	grid-gap: 2em;
 }
 
-#project-container div{
-	box-shadow: 1px 1px 7px silver;
-	border-radius: 2px;
-	padding: 1em;
-	position: relative;
-}
-
-#project-container div::after{
-	content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	opacity: 0;
-	box-shadow: 2px 2px 10px silver;
-	z-index: -1;
-	transition: opacity 0.2s ease-out;
-}
-
-.project-title{
-	margin-bottom: .5em;
-	color: teal;
-	font-size: 1.7rem;
-}
-
-.project-summary{
-	font-size: 1.55rem;
-	line-height: 1.5;
-}
-
-#project-container blockquote{
-	margin: 1.5em 0;
-	text-align: right;
-	font-style: italic;
-	font-size: 1.4rem;
-	color: #999;
-}
-
-.project-links{
-	margin-top: 1em;
-	display: flex;
-	gap: 1em;
-	justify-content: center;
-}
-
-.project-links a{
-	color: blue;
-	display: inline-block;
-	text-decoration: none;
-	padding: .65em 1em;
-	font-size: 1.4rem;
-	border-radius: 3px;
-	border: 1px solid skyblue;
-	transition: background-color .25s ease-out;
-}
-
-#more-projects{
-	margin: 1.5em 0;
-	font-size: 1.5rem;
-	text-align: center;
-}
 
 /* FOOTER
 ================================================== */
-footer{
-	min-height: 25vh;
-	text-align: center;
-	padding: 2em 0;
-	border-top: 1px solid #dae3f1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-footer .contacts{ margin-bottom: 1em; }
-
 footer p{
-	color: grey;
-	font-size: 1.35rem;
-	font-style: italic;
+	color: gray;
 }
 
 /* MEDIA QUERIES
@@ -209,49 +69,28 @@ footer p{
 @media (min-width: 400px){}
 
 @media (min-width: 576px) {
-	h1{
-		font-size: 4rem;
-		letter-spacing: 1px;
+	.skills{
+		grid-template-columns: repeat(2, 1fr);
 	}
-
-	#title{ font-size: 1.85rem; }
-	#projects{
-		width: 70%;
-		margin: auto;
+	.about-us div.info{ 
+		flex-direction: row;
 	}
 }
 
 @media (min-width: 768px) {
-	#projects{ width: initial; }
-	#project-container{ grid-template-columns: repeat(2, 1fr); }
-	#summary p{
-		width: 75ch;
-		margin: auto;
-		margin-bottom: 1em;
-	}
-
-	#skill-and-hobby{
-		display: flex;
-		gap: 5em;
-		justify-content: center;
+	.project-list{
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 @media (min-width: 992px) {
-	main{ width: 80%; }
-	#cta:hover{ background-color: teal; }
-	#languages p, #frameworks p, #tools p{
-		width: 70ch;
-		margin: auto;
+	.project-list{
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 2em;
 	}
-
-	.project-links a:hover{
-		background-color: steelblue;
-		color: #fff;
+	.skills{
+		grid-template-columns: repeat(3, 1fr);
 	}
-
-	#project-container{ grid-template-columns: repeat(3, 1fr); }
-	#project-container div:hover::after{ opacity: 1; }
 }
 
 @media (min-width: 1200px) {}
