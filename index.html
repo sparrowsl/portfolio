@@ -4,57 +4,56 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Benjamin Thorpe</title>
+
 	<!-- Bulma.io CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 	<!-- fontawesome CDN -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- Custom styles -->
-	<link rel="stylesheet" href="style.css">
+	<!-- <link rel="stylesheet" href="style.css"> -->
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js" defer></script>
+	<!-- UIkit Icons -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit-icons.min.js" defer></script>
+	<style>
+		/* Overwrite the default dim color of icons. */
+		.uk-icon-button{ color: inherit; }
+		/* .center-header{ display: flex; flex-direction: column; } */
+	</style>
 </head>
 
-<body class=" has-background-light">
-	<header class="container has-text-centered py-6">
+<body>
+	<header class="uk-background-primary uk-flex uk-flex-middle" uk-height-viewport="offset-bottom: 10">
+		<div class="uk-height-large uk-container uk-flex uk-flex-column uk-flex-center">
+			<h1 class="uk-margin-remove-bottom uk-text-bold uk-heading-medium">Hello, I am Benjamin Thorpe</h1>
+			<p class="uk-width-2-3@s uk-width-xlarge@m">I am a Web Developer who aims to build and contribute in building something
+				useful for myself, the community and the world as a whole. I build simple, user-friendly,
+				responsive and functional websites that work.</p>
 
-		<h1 class="title">I am Benjamin Thorpe</h1>
-		<h2 class="subtitle pt-1"><em>Frontend Developer &amp; Web Scraper</em></h2>
+			<div>
+				<button class="uk-button uk-button-secondary uk-margin-small-right">Contact Me</button>
+				<button class="uk-button uk-button-secondary">Email Me</button>
+			</div>
 
-		<!-- social media links -->
-		<ul class="is-flex is-justify-content-center">
-			<li><a href="tel:+23299783218"><i class="fa fa-phone"></i></a></li>
-			<li><a href="mailto:benjaminthorpe19@gmail.com"><i class="fa fa-envelope"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/benjithorpe/"><i class="fab fa-linkedin-in"></i></a></li>
-			<li><a href="https://twitter.com/benjithorpe1"><i class="fab fa-twitter"></i></a></li>
-			<li><a href="https://github.com/benjithorpe"><i class="fab fa-github"></i></a></li>
-		</ul>
+			<hr class="uk-background-primary uk-width-2-3@s">
+
+			<ul class="uk-grid">
+				<li><a href="tel:+23299783218" class="uk-icon-button" uk-icon="whatsapp"></a></li>
+				<li><a href="mailto:benjaminthorpe19@gmail.com" class="uk-icon-button" uk-icon="mail"></a></li>
+				<li><a href="https://www.linkedin.com/in/benjithorpe/" class="uk-icon-button" uk-icon="linkedin"></a></li>
+				<li><a href="https://twitter.com/benjithorpe1" class="uk-icon-button" uk-icon="twitter"></a></li>
+				<li><a href="https://github.com/benjithorpe" class="uk-icon-button" uk-icon="github"></a></li>
+			</ul>
+		</div>
 	</header>
 
-	<main class="container">
-		<article>
-			<section class="about-us has-background-white p-6">
-				<h2 class="subtitle"><strong>About Me</strong></h2>
-
-				<div class="info is-flex is-align-items-center">
-					<div class="image">
-						<figure class="image is-128x128">
-							<img src="images/benji.jpg" alt="Benjamin Thorpe" loading="lazy" class="is-rounde">
-						</figure>
-					</div>
-
-					<div class="summary">
-						<p>I am a Frontend Developer who aims to build and contribute in building something
-							useful for the community and the world as a whole.</p>
-							<br>
-						<p>I build simple, user-friendly, responsive &amp; cool functional websites that work.
-							<br>
-							<em>I also build web scrapers for fun!</em></p>
-					</div>
-				</div>
-			</section>
-
+	<main class="uk-background-muted">
+		<article  class="uk-container uk-width-2-3@s" >
 			<section class="projects has-background-white p-6">
-				<h2 class="subtitle"><strong>Projects</strong></h2>
+				<h2 class="uk-heading-line uk-text-center"><strong>Projects</strong></h2>
 
 				<div class="project-list">
 					<div class="project-card">
@@ -65,8 +64,8 @@
 							<p class="title is-5 mb-3"><a href="https://github.com/benjithorpe/csslite" target="_blank">CSSLite</a></p>
 							<p class="subtitle is-6 mt-1"><i class="tag">CSS</i></p>
 						</div>
-					
-						<p class="card-description px-2 pb-3">A simple, minimal and easy to use CSS framework 
+
+						<p class="card-description px-2 pb-3">A simple, minimal and easy to use CSS framework
 							<span class="tag">for personal use</span>.</p>
 					</div>
 
@@ -78,7 +77,7 @@
 							<p class="title is-5 mb-3"><a href="https://codebuddy.netlify.app/" target="_blank">Code Buddy</a></p>
 							<p class="subtitle is-6 mt-1"><i class="tag">HTML, CSS, JavaScript, Sveltejs</i></p>
 						</div>
-					
+
 						<p class="card-description px-2 pb-3">A cool, smart, responsive and reactive web based HTML/CSS editor.</p>
 					</div>
 
@@ -90,8 +89,8 @@
 							<p class="title is-5 mb-3"><a href="sierravoices.netlify.app/" target="_blank">Sierra Voices</a></p>
 							<p class="subtitle is-6 mt-1"><i class="tag">HTML, CSS, JavaScript, Sveltejs</i></p>
 						</div>
-					
-						<p class="card-description px-2 pb-3">An anonymous platform for Sierra Leoneans to share their voices, 
+
+						<p class="card-description px-2 pb-3">An anonymous platform for Sierra Leoneans to share their voices,
 							opinions and views about anything.</p>
 					</div>
 				</div>
@@ -100,7 +99,7 @@
 						<a href="https://github.com/benjithorpe?tab=repositories" target="_blank" class="pl-1">here</a>
 					</p>
 				</div>
-	
+
 			</section>
 
 			<section class="skills has-background-white p-6">

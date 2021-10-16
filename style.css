@@ -13,10 +13,10 @@ main{
 /* ABOUT
 ================================================== */
 .about-us{ margin-bottom: 1.5em; }
-.about-us div.info{ 
+.about-us div.info{
 	display: flex;
 	flex-direction: column;
-	gap: 2em; 
+	gap: 2em;
 }
 
 .about-us figure.image img{
@@ -33,7 +33,7 @@ main{
 .projects{ margin-bottom: 1.5em; }
 .project-list{
 	display: grid;
-	gap: 1em; 
+	gap: 1em;
 }
 
 .project-list a{ color: teal; }
@@ -72,7 +72,7 @@ footer p{
 	.skills{
 		grid-template-columns: repeat(2, 1fr);
 	}
-	.about-us div.info{ 
+	.about-us div.info{
 		flex-direction: row;
 	}
 }
