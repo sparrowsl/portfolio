@@ -4,38 +4,28 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Benjamin Thorpe</title>
-
-	<!-- Bulma.io CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-	<!-- fontawesome CDN -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<!-- Custom styles -->
-	<!-- <link rel="stylesheet" href="style.css"> -->
-
 	<!-- UIkit CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
 	<!-- UIkit JS -->
 	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js" defer></script>
 	<!-- UIkit Icons -->
 	<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit-icons.min.js" defer></script>
-	<style>
-		/* Overwrite the default dim color of icons. */
-		.uk-icon-button{ color: inherit; }
-		/* .center-header{ display: flex; flex-direction: column; } */
-	</style>
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<header class="uk-background-primary uk-flex uk-flex-middle" uk-height-viewport="offset-bottom: 10">
+	<header class="uk-background-primary uk-flex uk-flex-middle uk-position-relative" uk-height-viewport="offset-bottom: 5">
 		<div class="uk-height-large uk-container uk-flex uk-flex-column uk-flex-center">
 			<h1 class="uk-margin-remove-bottom uk-text-bold uk-heading-medium">Hello, I am Benjamin Thorpe</h1>
-			<p class="uk-width-2-3@s uk-width-xlarge@m">I am a Web Developer who aims to build and contribute in building something
+			<p class="uk-width-2-3@s uk-width-xlarge@m summary">
+				A Software Developer who aims to build and contribute in building something
 				useful for myself, the community and the world as a whole. I build simple, user-friendly,
-				responsive and functional websites that work.</p>
+				responsive and functional websites that work.
+			</p>
 
 			<div>
-				<button class="uk-button uk-button-secondary uk-margin-small-right">Contact Me</button>
-				<button class="uk-button uk-button-secondary">Email Me</button>
+				<button class="uk-button uk-button-secondary">Email me</button>
 			</div>
 
 			<hr class="uk-background-primary uk-width-2-3@s">
@@ -51,82 +41,120 @@
 	</header>
 
 	<main class="uk-background-muted">
-		<article  class="uk-container uk-width-2-3@s" >
-			<section class="projects has-background-white p-6">
-				<h2 class="uk-heading-line uk-text-center"><strong>Projects</strong></h2>
+		<article class="uk-container uk-padding-small">
+			<!-- Projects section -->
+			<section class="uk-padding-large uk-padding-remove-horizontal">
+				<h2 class="uk-text-muted uk-heading-bullet uk-heading-line uk-text-center">
+					<span>Projects</span></h2>
 
-				<div class="project-list">
-					<div class="project-card">
-						<figure class="image">
-							<img src="./images/feather.jpg" loading="lazy" alt="Placeholder image">
-						</figure>
-						<div class="card-title py-5 px-2">
-							<p class="title is-5 mb-3"><a href="https://github.com/benjithorpe/csslite" target="_blank">CSSLite</a></p>
-							<p class="subtitle is-6 mt-1"><i class="tag">CSS</i></p>
+				<div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+
+					<div class="uk-card uk-width-1-2@s uk-width-1-3@l">
+						<div class="uk-card-default uk-card-small">
+							<!-- project title -->
+							<h3 class="uk-card-header uk-text-left">Sivos</h3>
+							<!-- project summary -->
+							<div class="uk-card-body uk-text-left">
+								An anonymous platform for random posts and comments (without authentication).
+							</div>
+							<!-- links -->
+							<div class="uk-card-footer uk-padding-small uk-flex uk-flex-center">
+								<a class=" uk-flex uk-flex-column uk-margin-large-right" href="https://github.com/benjithorpe/sivo">
+									<span uk-icon="github-alt"></span><br>
+									<small class="uk-text-meta">code</small>
+								</a>
+
+								<a class="uk-text-center uk-flex uk-flex-column" href="http://sivos.herokuapp.com/">
+									<span uk-icon="world"></span>
+									<small class="uk-text-meta">live</small>
+								</a>
+							</div>
 						</div>
-
-						<p class="card-description px-2 pb-3">A simple, minimal and easy to use CSS framework
-							<span class="tag">for personal use</span>.</p>
 					</div>
 
-					<div class="project-card">
-						<figure class="image">
-							<img src="./images/codebuddy.jpg" loading="lazy" alt="Code Buddy Image">
-						</figure>
-						<div class="card-title py-5 px-2">
-							<p class="title is-5 mb-3"><a href="https://codebuddy.netlify.app/" target="_blank">Code Buddy</a></p>
-							<p class="subtitle is-6 mt-1"><i class="tag">HTML, CSS, JavaScript, Sveltejs</i></p>
-						</div>
+					<div class="uk-card uk-width-1-2@s uk-width-1-3@l">
+						<div class="uk-card-default uk-card-small">
+							<!-- project title -->
+							<h3 class="uk-card-header uk-text-left">Codebuddy</h3>
+							<!-- project summary -->
+							<div class="uk-card-body uk-text-left">
+								A cool, smart, responsive and reactive web based HTML editor.
+							</div>
+							<!-- links -->
+							<div class="uk-card-footer uk-padding-small uk-flex uk-flex-center">
+								<a class=" uk-flex uk-flex-column uk-margin-large-right" href="https://github.com/benjithorpe/codebuddy">
+									<span uk-icon="github-alt"></span><br>
+									<small class="uk-text-meta">code</small>
+								</a>
 
-						<p class="card-description px-2 pb-3">A cool, smart, responsive and reactive web based HTML/CSS editor.</p>
+								<a class="uk-text-center uk-flex uk-flex-column" href="https://codebuddy.netlify.app/">
+									<span uk-icon="world"></span>
+									<small class="uk-text-meta">live</small>
+								</a>
+							</div>
+						</div>
 					</div>
 
-					<div class="project-card">
-						<figure class="image">
-							<img src="./images/sierravoices.jpg" loading="lazy" alt="Sierra Voices Image">
-						</figure>
-						<div class="card-title py-5 px-2">
-							<p class="title is-5 mb-3"><a href="sierravoices.netlify.app/" target="_blank">Sierra Voices</a></p>
-							<p class="subtitle is-6 mt-1"><i class="tag">HTML, CSS, JavaScript, Sveltejs</i></p>
-						</div>
+					<div class="uk-card uk-width-1-2@s uk-width-1-3@l">
+						<div class="uk-card-default uk-card-small">
+							<!-- project title -->
+							<h3 class="uk-card-header uk-text-left">Learning Logs</h3>
+							<!-- project summary -->
+							<div class="uk-card-body uk-text-left">
+								A Django web app based on the tutorial from Python Crash Course.
+							</div>
+							<!-- links -->
+							<div class="uk-card-footer uk-padding-small uk-flex uk-flex-center">
+								<a class=" uk-flex uk-flex-column uk-margin-large-right" href="https://github.com/benjithorpe/learning_log">
+									<span uk-icon="github-alt"></span><br>
+									<small class="uk-text-meta">code</small>
+								</a>
 
-						<p class="card-description px-2 pb-3">An anonymous platform for Sierra Leoneans to share their voices,
-							opinions and views about anything.</p>
+								<a class="uk-text-center uk-flex uk-flex-column" href="https://learning-log-32.herokuapp.com/">
+									<span uk-icon="world"></span>
+									<small class="uk-text-meta">live</small>
+								</a>
+							</div>
+						</div>
 					</div>
+
 				</div>
-				<div class="has-text-centered mt-6">
+
+				<div class="uk-text-center uk-margin-top">
 					<p>More projects can be found
-						<a href="https://github.com/benjithorpe?tab=repositories" target="_blank" class="pl-1">here</a>
+						<a href="https://github.com/benjithorpe?tab=repositories" target="_blank">here</a>
 					</p>
 				</div>
 
 			</section>
 
-			<section class="skills has-background-white p-6">
-				<div class="languages">
-					<h3 class="subtitle"><strong>Languages</strong></h3>
+			<!-- Languages, tools, platforms, frameworks -->
+			<section class="uk-background-default uk-padding-large uk-grid-divider" uk-grid>
+				<div class="uk-width-1-3@l uk-width-1-2@s">
+					<h3 class="">Languages</h3>
 					<p>HTML5, CSS3, JavaScript, Python</p>
 				</div>
 
-				<div class="frameworks">
-					<h3 class="subtitle"><strong>Frameworks</strong></h3>
-					<p><a href="https://www.github.com/benjithorpe/csslite" target="_blank">CSSLite</a>,
-						Bulma, Beautiful Soup, Svelte</p>
+				<div class="uk-width-1-3@l uk-width-1-2@s">
+					<h3 class="">Frameworks</h3>
+					<p>Django, UIkit, Bulma, Svelte,
+						<a class="uk-link-reset" href="https://www.github.com/benjithorpe/csslite">CSSLite</a>
+					</p>
 				</div>
 
-				<div class="tools-and-tech">
-					<h3 class="subtitle"><strong>Tools &amp; Platforms</strong></h3>
+				<div class="uk-width-1-3@l uk-width-1-2@s">
+					<h3 class="">Tools &amp; Platforms</h3>
 					<p>Git/GitHub, Slack, Discord, Netlify, Heroku, Markdown</p>
 				</div>
 			</section>
 		</article>
 	</main>
 
-	<footer class="container has-text-centered p-6">
-		<p>
-			<small><i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by Benjamin I Thorpe | &copy; 2021
+	<footer class="uk-container uk-text-center uk-padding-small">
+		<p class="uk-text-meta uk-text-italic">
+			<small>with <i class="uk-text-danger" uk-icon="heart"></i> by Benjamin I Thorpe | &copy; 2021
 				<br>
-				There is no place like <strong class="is-italic">127.0.0.1</strong> <i class="fas fa-home"></i></small>
+				There is no place like <b>127.0.0.1</b> <i uk-icon="home"></i></small>
 		</p>
 	</footer>
 </body>
