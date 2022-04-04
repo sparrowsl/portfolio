@@ -1,0 +1,32 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+
+/*     font-family: 'Playfair Display', serif; */
+/*     font-family: 'PT Sans', sans-serif; */
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* Style the active links on the navbar */
+.active {
+  color: red;
+}
+.container{
+  max-width: 1024px;
+  margin-inline: auto;
+  padding: 1em;
+}
