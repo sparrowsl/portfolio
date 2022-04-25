@@ -5,7 +5,7 @@
   import ProjectCard from "../components/ProjectCard.svelte";
 </script>
 
-<section transition:fly={{ y: 200, duration: 2000 }} class="container">
+<section in:fly="{{ y: 200, duration: 500 }}" out:fly="{{ y: -200, duration: 500 }}" class="container">
   <h1>My Projects</h1>
 
   <section class="projects">
@@ -13,6 +13,10 @@
       <ProjectCard {project} />
     {/each}
   </section>
+  <!-- link to more projects -->
+  <!-- <p>
+    <a href="https://github.com/benjithorpe?tab=repositories" target="_blank">more projects</a>
+  </p> -->
 </section>
 
 <style>

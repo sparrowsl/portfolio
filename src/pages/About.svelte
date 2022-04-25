@@ -1,9 +1,9 @@
 <script>
-  import { fly } from "svelte/transition";
+  import { fly, fade } from "svelte/transition";
   import Skills from "../components/Skills.svelte";
 </script>
 
-<article transition:fly={{ y: 200, duration: 2000 }} class="container">
+<article in:fly="{{ y: 200, duration: 500 }}" out:fly="{{ y: -200, duration: 500 }}" class="container">
   <!-- About summary -->
   <h1>About Me</h1>
   <section class="about-me">
