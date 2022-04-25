@@ -28,4 +28,7 @@
 <Nav />
 
 <style>
+	main {
+		margin-bottom: 10vh;
+	}
 </style>

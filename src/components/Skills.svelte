@@ -1,7 +1,7 @@
 <script></script>
 
 <section>
-  <!-- Languages -->
+  <!-- languages -->
   <div class="languages">
     <h3 class="">Languages</h3>
     <p>HTML, CSS, JavaScript, Python</p>
@@ -9,7 +9,7 @@
   <!--  frameworks -->
   <div class="frameworks">
     <h3 class="">Frameworks</h3>
-    <p>UIkit, Bulma, Svelte</p>
+    <p>UIkit, Bulma, Svelte, Flask</p>
   </div>
   <!--  tools and platforms -->
   <div class="tools-platforms">
@@ -19,21 +19,21 @@
 </section>
 
 <style>
-  section{
+  section {
     display: grid;
     gap: 1em;
   }
-  div{
+  div {
     padding: 1.5em 1em;
     background-color: rgba(255, 255, 255, 0.582);
     border-radius: 5px;
   }
-  h3{
+  h3 {
     font-family: "Playfair Display", monospace, serif;
     font-size: 1.8rem;
-    margin-bottom: .7em;
+    margin-bottom: 0.7em;
   }
-  p{
+  p {
     font-size: 1.625rem;
     font-family: "PT Sans", sans-serif;
     color: #333;

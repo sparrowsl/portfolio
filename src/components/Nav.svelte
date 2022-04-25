@@ -15,19 +15,19 @@
       </li>
       <li>
         <a href="/about" use:active>
-          <Icon iconName={"ri-user-line"}/>
+          <Icon iconName={"ri-user-line"} />
           <small>About</small>
         </a>
       </li>
       <li>
         <a href="/projects" use:active>
-          <Icon iconName={"ri-folder-line"}/>
+          <Icon iconName={"ri-folder-line"} />
           <small>Projects</small>
         </a>
       </li>
       <li>
         <a href="/contact" use:active>
-          <Icon iconName={"ri-smartphone-line"}/>
+          <Icon iconName={"ri-smartphone-line"} />
           <!-- <i class="ri-contacts-line"></i> -->
           <small>Contact</small>
         </a>

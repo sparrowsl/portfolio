@@ -1,57 +1,36 @@
 <script>
   import { fly } from "svelte/transition";
 
-  import Image from "./../components/shared/Image.svelte";
+  import { projects } from "../store.js";
+  import ProjectCard from "../components/ProjectCard.svelte";
 </script>
 
-<section transition:fly={{ y: 200, duration: 2000 }} class="projects">
-  <div class="project">
-    <picture>
-      <Image src="/images/pexels-pixabay-270408.jpg" />
+<section transition:fly={{ y: 200, duration: 2000 }} class="container">
+  <h1>My Projects</h1>
 
-      <caption>
-        <h3 class="project-title">Project Title</h3>
-        <p class="project-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla
-          placeat vel exercitationem id corrupti, blanditiis harum autem ea
-          itaque.
-        </p>
-
-        <ul class="project-links">
-          <li><a href="/projects">Live</a></li>
-          <li><a href="/projects">Code</a></li>
-        </ul>
-      </caption>
-    </picture>
-  </div>
+  <section class="projects">
+    {#each $projects as project}
+      <ProjectCard {project} />
+    {/each}
+  </section>
 </section>
 
 <style>
-  .project{
-    background-color: #fff;
-    box-shadow: 0 5px 15px lightgrey;
-    border-radius: 5px;
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: silver;
+    margin-block: 0.7em;
+    font-family: "Playfair Display", monospace, serif;
   }
-  caption{
-    padding: 2em;
+  .projects {
+    display: grid;
+    gap: 2.5em;
   }
-  .project-title {
-    font-family: "Playfair Display", serif;
-    font-size: 2rem;
-    padding-bottom: .5em;
-    color: #445;
-  }
-  .project-desc{
-    font-family: 'PT Sans', sans-serif;
-    font-size: 1.6rem;
-    color: #765;
-  }
-  .project-links{
-    list-style-type: none;
-    display: flex;
-  }
-  caption,
-  picture {
-    display: block;
+
+  @media screen and (min-width: 768px) {
+    .projects {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 </style>
