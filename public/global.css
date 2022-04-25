@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
-
 /*     font-family: 'Playfair Display', serif; */
 /*     font-family: 'PT Sans', sans-serif; */
 
@@ -20,13 +19,39 @@ html{
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-
+body{
+  background-color: hsl(210, 46%, 95%);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: rgb(0,80,160);
+}
 /* Style the active links on the navbar */
 .active {
-  color: red;
+  color: hsl(207, 66%, 42%);
 }
+nav a:not(.active){
+  color: hsl(210, 14%, 53%);
+}
+
 .container{
   max-width: 1024px;
   margin-inline: auto;
   padding: 1em;
+}
+
+@media screen and (min-width: 768px){
+  /* nav a:not(.active):hover{
+    color: rgb(48, 48, 221);
+  } */
 }

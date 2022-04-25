@@ -1,5 +1,7 @@
 <script>
   import { active } from "tinro";
+
+  import Icon from "./shared/Icon.svelte";
 </script>
 
 <section class="container">
@@ -7,26 +9,26 @@
     <ul>
       <li>
         <a href="/" use:active exact>
-          <i class="ri-home-4-line"></i>
+          <Icon iconName={"ri-home-4-line"} />
           <small>Home</small>
         </a>
       </li>
       <li>
         <a href="/about" use:active>
-          <i class="ri-user-line" />
+          <Icon iconName={"ri-user-line"}/>
           <small>About</small>
         </a>
       </li>
       <li>
         <a href="/projects" use:active>
-          <i class="ri-folder-line" />
+          <Icon iconName={"ri-folder-line"}/>
           <small>Projects</small>
         </a>
       </li>
       <li>
         <a href="/contact" use:active>
+          <Icon iconName={"ri-smartphone-line"}/>
           <!-- <i class="ri-contacts-line"></i> -->
-          <i class="ri-smartphone-line" />
           <small>Contact</small>
         </a>
       </li>
@@ -35,8 +37,14 @@
 </section>
 
 <style>
-  .container{
-    border: 1px solid black;
+  .container {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 2px 2px 5px lightgray;
+    padding-block: 1.5em;
   }
   ul {
     list-style-type: none;
@@ -52,6 +60,8 @@
     align-items: center;
     gap: 0.2em;
     font-size: 1.5rem;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
   }
 
   @media screen and (min-width: 768px) {
@@ -60,9 +70,6 @@
       /* justify-content: center; */
       align-items: center;
       font-size: 1.5rem;
-    }
-    li a i{
-      order: 1;
     }
   }
 </style>

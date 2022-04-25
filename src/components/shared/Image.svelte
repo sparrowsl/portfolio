@@ -1,16 +1,18 @@
 <script>
-  export let isLoading = false;
-  export let width = 35;
-  export let height = 35;
-  export let alt = "";
+  export let loading = false;
+  export let width;
+  export let height;
+  export let alt = "an image";
   export let src = "";
 </script>
 
-<img {src} {alt} loading={isLoading ? "lazy" : "eager"} {width} {height} />
+<img
+  {src}
+  {alt}
+  width={width ? width : ""}
+  height={height ? height : ""}
+  loading={loading ? "lazy" : "eager"}
+/>
 
 <style>
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
 </style>

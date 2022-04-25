@@ -1,41 +1,31 @@
 <script>
-	import { fly } from 'svelte/transition';
 	import { Route } from "tinro";
 
-	import Nav from "./components/shared/Nav.svelte";
+	import Nav from "./components/Nav.svelte";
 	import Home from "./pages/Home.svelte";
 	import About from "./pages/About.svelte";
 	import Projects from "./pages/Projects.svelte";
 	import Contact from "./pages/Contact.svelte";
 </script>
 
-<main class="container">
+<main class="">
 	<Route path="/">
-		<div transition:fly="{{ y: 200, duration: 2000 }}">
 		<Home />
-		</div>
 	</Route>
 
 	<Route path="/about">
-		<div transition:fly="{{ y: 200, duration: 2000 }}">
-			<About />
-</div>
-		</Route>
+		<About />
+	</Route>
 
 	<Route path="/projects">
-		<div transition:fly="{{ y: 200, duration: 2000 }}">
-			<Projects />
-</div>
-		</Route>
+		<Projects />
+	</Route>
 
 	<Route path="/contact">
-		<div transition:fly="{{ y: 200, duration: 2000 }}">
-			<Contact />
-</div>
-		</Route>
+		<Contact />
+	</Route>
 </main>
 <Nav />
-
 
 <style>
 </style>
