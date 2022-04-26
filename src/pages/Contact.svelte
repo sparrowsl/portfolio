@@ -3,7 +3,7 @@
   import Icon from "../components/shared/Icon.svelte";
 </script>
 
-<section in:fly={{ y: 200, duration: 500 }} class="container">
+<section in:fly={{ x: 200, duration: 700 }} class="container">
   <h1>Contact</h1>
 
   <ul class="contacts">
