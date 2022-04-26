@@ -1,11 +1,14 @@
 <script>
-	import { Route } from "tinro";
+	import { Route, router } from "tinro";
 
 	import Nav from "./components/Nav.svelte";
 	import Home from "./pages/Home.svelte";
 	import About from "./pages/About.svelte";
 	import Projects from "./pages/Projects.svelte";
 	import Contact from "./pages/Contact.svelte";
+
+	// Allows Tinro to scroll to the top for each page
+	router.subscribe((_) => window.scrollTo(0, 0));
 </script>
 
 <main class="">

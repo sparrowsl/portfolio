@@ -8,7 +8,7 @@
 
   <ul class="contacts">
     <li>
-      <a href="tel:+23299783218" class="">
+      <a href="https://wa.me/23299783218" class="">
         <Icon iconName={"ri-whatsapp-line"} /> <span>WhatsApp</span>
         <!-- <Icon iconName={"ri-smartphone-line"}/> -->
       </a>
@@ -19,17 +19,17 @@
       </a>
     </li>
     <li>
-      <a href="https://www.linkedin.com/in/benjithorpe/" class="">
+      <a href="https://www.linkedin.com/in/benjithorpe/" target="_blank">
         <Icon iconName={"ri-linkedin-fill"} /> <span>LinkedIn</span>
       </a>
     </li>
     <li>
-      <a href="https://twitter.com/benjithorpe1" class="">
+      <a href="https://twitter.com/benjithorpe1" target="_blank">
         <Icon iconName={"ri-twitter-line"} /> <span>Twitter</span>
       </a>
     </li>
     <li>
-      <a href="https://github.com/benjithorpe" class="">
+      <a href="https://github.com/benjithorpe" target="_blank">
         <Icon iconName={"ri-github-fill"} /> <span>Github</span>
       </a>
     </li>
