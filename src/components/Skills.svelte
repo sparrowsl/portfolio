@@ -32,6 +32,7 @@
     font-family: "Playfair Display", monospace, serif;
     font-size: 1.8rem;
     margin-bottom: 0.7em;
+    color: rgba(0, 128, 128, 0.582);
   }
   p {
     font-size: 1.625rem;

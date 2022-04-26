@@ -5,7 +5,7 @@
   import ProjectCard from "../components/ProjectCard.svelte";
 </script>
 
-<section in:fly="{{ y: 200, duration: 500 }}" out:fly="{{ y: -200, duration: 500 }}" class="container">
+<section in:fly={{ y: 200, duration: 500 }} class="container">
   <h1>My Projects</h1>
 
   <section class="projects">

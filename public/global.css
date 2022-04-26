@@ -28,12 +28,10 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-a:visited {
-	color: rgb(0,80,160);
-}
 /* Style the active links on the navbar */
 .active {
-  color: hsl(207, 66%, 42%);
+  color: teal;
+  font-weight: bold;
 }
 nav a:not(.active){
   color: hsl(210, 14%, 53%);

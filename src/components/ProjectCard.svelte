@@ -64,6 +64,8 @@
     font-size: 2rem;
     padding-bottom: 0.5em;
     color: #445;
+    color: rgba(0, 128, 128, 0.582);
+    color: teal;
   }
   .desc {
     font-family: "PT Sans", sans-serif;
@@ -83,8 +85,8 @@
     align-items: center;
     gap: 0.5em;
     font-size: 1.75rem;
-    color: rgb(24, 189, 189);
     color: teal;
+    color: rgb(74, 170, 154);
   }
   caption,
   picture {

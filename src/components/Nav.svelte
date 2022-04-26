@@ -44,30 +44,34 @@
     right: 0;
     left: 0;
     box-shadow: 2px 2px 5px lightgray;
-    padding-block: 1.5em;
+    height: 10vh;
+
+    display: grid;
+    align-items: center;
   }
   ul {
     list-style-type: none;
     display: flex;
-    /* gap: 2em; */
     justify-content: space-evenly;
+    align-items: center;
   }
   li a {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     gap: 0.2em;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     font-family: "Playfair Display", serif;
-    letter-spacing: 1px;
   }
 
   @media screen and (min-width: 768px) {
+    ul {
+      gap: 5.5em;
+      justify-content: center;
+    }
     li a {
-      flex-direction: row;
-      /* justify-content: center; */
+      justify-content: center;
       align-items: center;
       font-size: 1.5rem;
     }
