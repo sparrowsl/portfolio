@@ -13,10 +13,6 @@
       <ProjectCard {project} />
     {/each}
   </section>
-  <!-- link to more projects -->
-  <!-- <p>
-    <a href="https://github.com/benjithorpe?tab=repositories" target="_blank">more projects</a>
-  </p> -->
 </section>
 
 <style>
@@ -33,8 +29,19 @@
   }
 
   @media screen and (min-width: 768px) {
+    .container{
+      padding-inline: 7vw;
+    }
     .projects {
       grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .container{
+      padding-inline: 0;
+    }
+    .projects {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 </style>

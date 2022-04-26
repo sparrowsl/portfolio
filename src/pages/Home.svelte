@@ -26,17 +26,17 @@
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/benjithorpe/" target="_blank">
+        <a href="https://www.linkedin.com/in/benjithorpe/">
           <Icon iconName={"ri-linkedin-fill"} />
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/benjithorpe1" target="_blank">
+        <a href="https://twitter.com/benjithorpe1">
           <Icon iconName={"ri-twitter-line"} />
         </a>
       </li>
       <li>
-        <a href="https://github.com/benjithorpe" target="_blank">
+        <a href="https://github.com/benjithorpe">
           <Icon iconName={"ri-github-fill"} />
         </a>
       </li>
@@ -47,21 +47,17 @@
 <style>
   .container {
     background-color: #fff;
-  }
-  section {
     min-height: 100vh;
     display: grid;
-    /* justify-content: center; */
     align-items: center;
   }
   h1 {
     font-size: 4rem;
     margin-bottom: 0.5em;
-    /* text-transform: uppercase; */
     font-family: "Playfair Display", monospace, serif;
     color: rgba(0, 128, 128, 0.582);
   }
-  h1 span{
+  h1 span {
     color: teal;
   }
   .info {
@@ -70,7 +66,6 @@
     color: #333;
     font-family: "PT Sans", sans-serif;
     max-width: 65ch;
-    /* text-align: center; */
   }
   .icons {
     margin-top: 2.5em;
@@ -82,5 +77,17 @@
   .icons li a {
     font-size: 3rem;
     color: rgba(0, 128, 128, 0.582);
+  }
+  .icons li a:hover {
+    text-decoration: none;
+    color: rgba(0, 128, 128, 0.89);
+  }
+  @media screen and (min-width: 768px) {
+    header{
+      padding-inline: 10vw;
+    }
+    .icons {
+      justify-content: start;
+    }
   }
 </style>

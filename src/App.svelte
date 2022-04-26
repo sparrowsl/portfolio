@@ -27,6 +27,10 @@
 	<Route path="/contact">
 		<Contact />
 	</Route>
+
+	<Route fallback redirect="/">
+		<Home />
+	</Route>
 </main>
 <Nav />
 

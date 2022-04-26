@@ -40,4 +40,9 @@
     color: #333;
     line-height: 1.75;
   }
+  @media screen and (min-width: 768px){
+    section{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 </style>

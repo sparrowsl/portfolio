@@ -19,12 +19,12 @@
 
       <ul class="project-links">
         <li>
-          <a href={project.links.code}>
+          <a href={project.links.code} target="_blank">
             <Icon iconName={"ri-code-s-slash-line"} /> Code
           </a>
         </li>
         <li>
-          <a href={project.links.live}>
+          <a href={project.links.live} target="_blank">
             <Icon iconName={"ri-global-line"} /> Demo
           </a>
         </li>

@@ -36,5 +36,25 @@
     font-family: "PT Sans", sans-serif;
     color: #333;
     margin-bottom: 1em;
+    max-width: 70ch;
+  }
+  .about-me{
+    margin-bottom: 2em;
+  }
+  @media screen and (min-width: 768px) {
+    .container{
+      padding-inline: 7vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+  }
+
+  @media screen and (min-width: 768px) {
+
+
   }
 </style>

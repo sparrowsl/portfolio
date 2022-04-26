@@ -19,17 +19,17 @@
       </a>
     </li>
     <li>
-      <a href="https://www.linkedin.com/in/benjithorpe/" target="_blank">
+      <a href="https://www.linkedin.com/in/benjithorpe/">
         <Icon iconName={"ri-linkedin-fill"} /> <span>LinkedIn</span>
       </a>
     </li>
     <li>
-      <a href="https://twitter.com/benjithorpe1" target="_blank">
+      <a href="https://twitter.com/benjithorpe1">
         <Icon iconName={"ri-twitter-line"} /> <span>Twitter</span>
       </a>
     </li>
     <li>
-      <a href="https://github.com/benjithorpe" target="_blank">
+      <a href="https://github.com/benjithorpe">
         <Icon iconName={"ri-github-fill"} /> <span>Github</span>
       </a>
     </li>
@@ -65,8 +65,12 @@
     font-size: 2rem;
     color: hsl(210, 31%, 47%);
     font-family: "PT Sans", sans-serif;
+    text-decoration: none;
   }
   .contacts li a span {
     font-size: 1.4rem;
+  }
+  .contacts li a span:hover {
+    text-decoration: underline;
   }
 </style>
