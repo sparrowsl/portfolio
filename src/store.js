@@ -1,5 +1,6 @@
-import { readable } from "svelte/store";
+import { readable, writable } from "svelte/store";
 
+export let darkMode = writable(false);
 export const projects = readable([
   {
     title: "Codebuddy",

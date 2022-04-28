@@ -16,6 +16,9 @@
 </section>
 
 <style>
+  .container {
+    padding-inline: 7vw;
+  }
   h1 {
     font-size: 3rem;
     text-align: center;
@@ -26,22 +29,12 @@
   .projects {
     display: grid;
     gap: 2.5em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
   @media screen and (min-width: 768px) {
-    .container{
-      padding-inline: 7vw;
-    }
-    .projects {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  @media screen and (min-width: 768px) {
-    .container{
-      padding-inline: 0;
-    }
-    .projects {
-      grid-template-columns: repeat(3, 1fr);
+    .container {
+      padding-inline: 2vw;
     }
   }
 </style>

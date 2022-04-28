@@ -63,8 +63,6 @@
     font-family: "Playfair Display", serif;
     font-size: 2rem;
     padding-bottom: 0.5em;
-    color: #445;
-    color: rgba(0, 128, 128, 0.582);
     color: teal;
   }
   .desc {
@@ -85,8 +83,12 @@
     align-items: center;
     gap: 0.5em;
     font-size: 1.75rem;
-    color: teal;
     color: rgb(74, 170, 154);
+  }
+  .project-links li a:hover {
+    color: teal;
+    /* color: rgb(74, 170, 154); */
+    text-decoration: none;
   }
   caption,
   picture {

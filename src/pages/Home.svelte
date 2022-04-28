@@ -1,6 +1,7 @@
 <script>
   import { fly } from "svelte/transition";
   import Icon from "../components/shared/Icon.svelte";
+import Skills from "../components/Skills.svelte";
 </script>
 
 <section in:fly={{ y: 200, duration: 500 }} class="container">
@@ -42,14 +43,21 @@
       </li>
     </ul>
   </header>
+
+  <Skills/>
 </section>
 
 <style>
   .container {
-    background-color: #fff;
+    /* background-color: #fff; */
     min-height: 100vh;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+  header{
+    margin-bottom: 2em;
   }
   h1 {
     font-size: 4rem;
@@ -83,7 +91,7 @@
     color: rgba(0, 128, 128, 0.89);
   }
   @media screen and (min-width: 768px) {
-    header{
+    .container{
       padding-inline: 10vw;
     }
     .icons {

@@ -1,22 +1,20 @@
 <script>
   import { active } from "tinro";
+  import { darkMode } from "../store";
 
   import Icon from "./shared/Icon.svelte";
+  import Theme from "./shared/Theme.svelte";
 </script>
 
-<section class="container">
+<section class="container" class:dark={$darkMode}>
   <nav>
+    <Theme />
+
     <ul>
       <li>
         <a href="/" use:active exact>
           <Icon iconName={"ri-home-4-line"} />
           <small>Home</small>
-        </a>
-      </li>
-      <li>
-        <a href="/about" use:active>
-          <Icon iconName={"ri-user-line"} />
-          <small>About</small>
         </a>
       </li>
       <li>
@@ -48,6 +46,9 @@
 
     display: grid;
     align-items: center;
+  }
+  nav {
+    position: relative;
   }
   ul {
     list-style-type: none;

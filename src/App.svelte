@@ -3,7 +3,6 @@
 
 	import Nav from "./components/Nav.svelte";
 	import Home from "./pages/Home.svelte";
-	import About from "./pages/About.svelte";
 	import Projects from "./pages/Projects.svelte";
 	import Contact from "./pages/Contact.svelte";
 
@@ -16,16 +15,16 @@
 		<Home />
 	</Route>
 
-	<Route path="/about">
-		<About />
-	</Route>
-
 	<Route path="/projects">
 		<Projects />
 	</Route>
 
 	<Route path="/contact">
 		<Contact />
+	</Route>
+
+	<Route fallback redirect="/">
+		<Home />
 	</Route>
 </main>
 <Nav />
