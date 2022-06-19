@@ -9,7 +9,7 @@ export const projects = readable([
 		stack: ["HTML", "CSS", "JavaScript", "sveltekit"],
 		links: {
 			live: "https://theaterscreen.netlify.app/",
-			code: "https://github.com/benjithorpe/theaterscreen"
+			code: "https://github.com/benjithorpe/theater-screen"
 		}
 	},
 	{

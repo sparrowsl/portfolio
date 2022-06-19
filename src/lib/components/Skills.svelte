@@ -1,7 +1,7 @@
 <script></script>
 
-<section class="container">
-	<h1 class="my-5 text-center text-3xl text-[silver]">Skills</h1>
+<section class="grid min-h-screen items-center p-10" id="skills">
+	<h2 class="my-5 font-playfair text-5xl font-bold">Skills</h2>
 	<p class="font-light italic text-gray-500">
 		These are some of the technologies I am currently fluent in
 	</p>
@@ -26,11 +26,4 @@
 </section>
 
 <style>
-	h1,
-	h3 {
-		font-family: "Playfair Display", monospace, serif;
-	}
-	p {
-		font-family: "PT Sans", sans-serif;
-	}
 </style>

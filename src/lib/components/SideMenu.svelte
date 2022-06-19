@@ -1,0 +1,38 @@
+<script></script>
+
+<aside class="grid items-center justify-center bg-teal-700 p-5">
+	<section>
+		<!-- Profile image -->
+		<figure>
+			<img
+				src="/profile.jpg"
+				alt="profile"
+				class="hidden w-36 rounded-full border-4 border-teal-500 lg:block"
+			/>
+		</figure>
+
+		<!-- Menu items -->
+		<ul class="mt-5 grid justify-center gap-3 font-pt-sans font-bold">
+			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
+				<a href="#about">About</a>
+			</li>
+			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
+				<a href="#experience">Experience</a>
+			</li>
+			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
+				<a href="#education">Education</a>
+			</li>
+			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
+				<a href="#skills">Skills</a>
+			</li>
+			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
+				<a href="#interest">Interest</a>
+			</li>
+			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
+				<a href="#awards">Awards</a>
+			</li>
+		</ul>
+	</section>
+</aside>
+
+<style></style>

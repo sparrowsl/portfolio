@@ -2,7 +2,7 @@
 	import { fly } from "svelte/transition";
 
 	import { projects } from "../store.js";
-	import ProjectCard from "../components/ProjectCard.svelte";
+	import ProjectCard from "./Interest.svelte";
 </script>
 
 <section in:fly={{ y: 200, duration: 500 }} class="container">

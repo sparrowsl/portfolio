@@ -1,7 +1,4 @@
 <script>
-	import MenuLinks from "./MenuLinks.svelte";
-
-	let showNav = false;
 </script>
 
 <nav class="flex justify-between gap-3 md:hidden">
@@ -13,9 +10,7 @@
 		class:hidden={!showNav}
 		class="menu-items absolute top-full right-0 left-0 mx-5 mt-1 flex
     flex-col gap-3 rounded-md bg-slate-50 p-3 shadow-md shadow-slate-300 "
-	>
-		<MenuLinks on:click={() => (showNav = !showNav)} />
-	</div>
+	/>
 
 	<!-- Hambuger -->
 	<div class="menu-toggle text-2xl font-bold md:hidden" on:click={() => (showNav = !showNav)}>

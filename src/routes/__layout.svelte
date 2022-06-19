@@ -1,12 +1,14 @@
 <script>
 	import "../tailwind.css";
 	import "remixicon/fonts/remixicon.css";
-	import Nav from "$lib/components/Nav.svelte";
+	import SideMenu from "../lib/components/SideMenu.svelte";
 </script>
 
-<Nav />
-<main class="flex min-h-[90vh]">
-	<slot />
-</main>
+<section class="grid lg:grid-cols-[250px,_1fr]">
+	<SideMenu />
+	<main class="h-screen overflow-y-auto scroll-smooth bg-gray-100">
+		<slot />
+	</main>
+</section>
 
 <style></style>
