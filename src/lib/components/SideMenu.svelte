@@ -1,6 +1,6 @@
 <script></script>
 
-<aside class="grid items-center justify-center bg-teal-700 p-5">
+<aside class="hidden p-5 lg:grid lg:items-center lg:justify-center lg:bg-teal-700">
 	<section>
 		<!-- Profile image -->
 		<figure>

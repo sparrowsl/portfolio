@@ -4,7 +4,7 @@
 <section class="grid min-h-screen items-center border-[1px] border-b-gray-300" id="about">
 	<header class="p-10">
 		<h1 class="mb-2 font-playfair text-6xl uppercase text-gray-600">
-			Clarence <span class="text-teal-600">Thorpe</span>
+			Benjamin <span class="text-teal-600">Thorpe</span>
 		</h1>
 		<!-- Address -->
 		<p class="font-pt-sans uppercase text-slate-600">
@@ -33,7 +33,7 @@
 			<li
 				class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500 p-5 hover:bg-teal-700"
 			>
-				<a href="mailto:benjaminthorpe19@gmail.com" class="">
+				<a href="mailto:benithorpe@gmail.com" class="">
 					<i class="ri-mail-line text-2xl text-white" />
 				</a>
 			</li>

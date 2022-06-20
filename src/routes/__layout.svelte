@@ -4,9 +4,9 @@
 	import SideMenu from "../lib/components/SideMenu.svelte";
 </script>
 
-<section class="grid lg:grid-cols-[250px,_1fr]">
+<section class="grid lg:grid-cols-[20vw,_1fr]">
 	<SideMenu />
-	<main class="h-screen overflow-y-auto scroll-smooth bg-gray-100">
+	<main class="h-screen overflow-y-auto scroll-smooth">
 		<slot />
 	</main>
 </section>
