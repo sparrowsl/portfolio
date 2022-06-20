@@ -1,5 +1,0 @@
-/* -------- HEADER --------- */
-/* Overwrite the default dim color of icons. */
-.uk-icon-button{ color: inherit; }
-.summary{ color: #fcfcfc; font-size: 1.1rem; }
-.uk-button{ border-radius: 3px; }
