@@ -3,15 +3,14 @@
 
 	<section class="grid gap-5">
 		<p class="font-raleway max-w-[75ch] text-slate-800">
-			Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am
-			an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy
-			mountain biking, free climbing, and kayaking.
+			Apart from being a tech nerd, I enjoy most of my time playing games(Call of Duty: Mobile &amp;
+			Chess) and watching movies.
 		</p>
 
 		<p class="font-raleway max-w-[75ch] text-slate-800">
-			When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
-			shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest
-			technology advancements in the front-end web development world.
+			When forced outdoors, I play pranks and have fun with friends and learn about my area and
+			problems I could solve with code, and I spend a large amount of my free time exploring the
+			latest technology advancements in the web development world.
 		</p>
 	</section>
 </article>
