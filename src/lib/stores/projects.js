@@ -1,6 +1,5 @@
-import { readable, writable } from "svelte/store";
+import { readable } from "svelte/store";
 
-export let darkMode = writable(false);
 export const projects = readable([
 	{
 		title: "Theater Screen",
@@ -45,7 +44,7 @@ export const projects = readable([
 	{
 		title: "Advice Generator",
 		desc: `Generates random advices. Makes use of the
-						<a href='https://api.adviceslip.com/' class="text-blue-700">Advice Slip API</a>`,
+						<a href='https://api.adviceslip.com/' class="text-blue-500 underline font-bold">Advice Slip API</a>`,
 		image: "",
 		stack: ["HTML", "CSS", "JavaScript"],
 		links: {

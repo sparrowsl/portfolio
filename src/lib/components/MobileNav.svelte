@@ -33,18 +33,18 @@
 				Skills
 			</a>
 			<a
-				href="#experience"
-				class="font-raleway text-gray-700 md:hover:text-gray-900"
-				on:click={() => (show = false)}
-			>
-				Experience
-			</a>
-			<a
 				href="#projects"
 				class="font-raleway text-gray-700 md:hover:text-gray-900"
 				on:click={() => (show = false)}
 			>
 				Projects
+			</a>
+			<a
+				href="#experience"
+				class="font-raleway text-gray-700 md:hover:text-gray-900"
+				on:click={() => (show = false)}
+			>
+				Experience
 			</a>
 			<a
 				href="#interest"
@@ -65,9 +65,9 @@
 		<!-- Hambuger -->
 		<div class="font-light md:hidden" on:click={toggleNav}>
 			{#if show}
-				<i class="ri-close-line block text-3xl text-teal-500" />
+				<i class="bx bx-x text-3xl text-teal-500" />
 			{:else}
-				<i class="ri-menu-3-line block text-3xl text-teal-500" />
+				<i class="bx bx-menu-alt-right bx-tada text-3xl text-teal-500" />
 			{/if}
 		</div>
 	</section>

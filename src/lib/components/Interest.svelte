@@ -2,7 +2,7 @@
 </script>
 
 <article class="flex min-h-screen flex-col justify-center px-5 md:px-10" id="interest">
-	<h2 class="font-playfair my-5 mb-10 text-5xl font-bold text-slate-500">Interest</h2>
+	<h2 class="font-pt-sans my-5 mb-10 text-5xl font-bold text-slate-500">Interest</h2>
 
 	<section class="grid gap-5">
 		<p class="font-raleway max-w-[75ch] text-slate-800">

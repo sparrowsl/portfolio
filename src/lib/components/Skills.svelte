@@ -1,70 +1,21 @@
 <script>
-	const tools = [
-		{
-			classes: "bx bxl-html5",
-			name: "HTML"
-		},
-		{
-			classes: "bx bxl-css3",
-			name: "CSS"
-		},
-		{
-			classes: "bx bxl-javascript",
-			name: "JavaScript"
-		},
-		{
-			classes: "bx bxl-javascript",
-			name: "Svelte/SvelteKit"
-		},
-		{
-			classes: "bx bxl-python",
-			name: "Python"
-		},
-		{
-			classes: "bx bxl-flask",
-			name: "Flask"
-		},
-		{
-			classes: "bx bxl-tailwind-css",
-			name: "TailwindCSS"
-		},
-		{
-			classes: "bx bxl-markdown",
-			name: "Markdown"
-		},
-		{
-			classes: "bx bxl-git",
-			name: "Git"
-		},
-		{
-			classes: "bx bxl-github",
-			name: "GitHub"
-		},
-		{
-			classes: "bx bxl-netlify",
-			name: "Netlify"
-		},
-		{
-			classes: "bx bxl-heroku",
-			name: "Heroku"
-		}
-	];
+	import { skills } from "../stores/skills.js";
 </script>
 
 <article
 	class="flex min-h-screen flex-col justify-center border-b-[1px] border-b-gray-300 px-5 md:px-10"
 	id="skills"
 >
-	<h2 class="font-playfair my-10 text-5xl font-bold text-slate-500">Skills</h2>
+	<h2 class="font-pt-sans my-10 text-5xl font-bold text-slate-500">Skills</h2>
 
 	<section>
 		<!-- Languages, Tools and Platforms -->
 		<h3 class="font-raleway mb-3 text-xl text-gray-700">Languages, Frameworks &amp; Tools</h3>
 		<ul class="font-pt-sans flex max-w-[90ch] flex-wrap gap-5 text-sm text-gray-600">
-			{#each tools as tool}
+			{#each $skills as skill}
 				<li class="flex flex-col items-center justify-center">
-					<i class="{tool.classes} animate-pulse text-5xl" />
-					<span class="text-sm text-teal-900">{tool.name}</span>
+					<i class="{skill.classes} animate-pulse text-5xl" />
+					<span class="text-sm font-bold">{skill.name}</span>
 				</li>
 			{/each}
 		</ul>
