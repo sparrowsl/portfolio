@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <article class="flex min-h-screen flex-col justify-center px-5 md:px-10" id="interest">
 	<h2 class="font-pt-sans my-5 mb-10 text-5xl font-bold text-slate-500">Interest</h2>
 
@@ -18,6 +15,3 @@
 		</p>
 	</section>
 </article>
-
-<style>
-</style>

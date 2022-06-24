@@ -7,8 +7,8 @@
 <nav class="scroll-sn sticky top-0 bg-slate-50 md:px-10 lg:hidden">
 	<section class="relative flex items-center justify-between p-4 md:px-0">
 		<!-- Brand -->
-		<div class="brand font-pt-sans text-xl font-extrabold tracking-wide text-teal-600 lg:text-2xl">
-			BIT
+		<div class="brand font-pt-sans text-xl font-semibold text-teal-600 lg:text-2xl">
+			Benjamin Thorpe
 		</div>
 
 		<!-- Menu Items -->
@@ -65,13 +65,10 @@
 		<!-- Hambuger -->
 		<div class="font-light md:hidden" on:click={toggleNav}>
 			{#if show}
-				<i class="bx bx-x text-3xl text-teal-500" />
+				<i class="bx bx-x bx-tada text-3xl text-teal-500" />
 			{:else}
 				<i class="bx bx-menu-alt-right bx-tada text-3xl text-teal-500" />
 			{/if}
 		</div>
 	</section>
 </nav>
-
-<style>
-</style>

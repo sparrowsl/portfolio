@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <header
 	class="flex min-h-screen flex-col justify-center border-b-[1px] border-b-gray-300 px-5 md:px-10"
 	id="about"
@@ -8,7 +5,7 @@
 	<h1 class="font-pt-sans mb-5 text-6xl uppercase text-gray-600 md:mb-2">
 		Benjamin <span class="text-teal-600">Thorpe</span>
 	</h1>
-	<h3 class="font-raleway mb-2 font-bold text-slate-600">
+	<h3 class="font-raleway mb-2 text-center font-bold text-slate-600 md:text-left">
 		A Web Developer by profession addicted to
 		<a href="https://svelte.dev" class="text-teal-600">Svelte.js</a>
 		&amp; <a href="https://flask.palletsprojects.com/en/2.1.x/" class="text-teal-600">Flask</a>.
@@ -67,6 +64,3 @@
 		</li>
 	</ul>
 </header>
-
-<style>
-</style>

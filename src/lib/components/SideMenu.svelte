@@ -1,5 +1,3 @@
-<script></script>
-
 <aside class="hidden p-5 lg:grid lg:items-center lg:justify-center lg:bg-teal-700">
 	<section>
 		<!-- Profile image -->
@@ -34,5 +32,3 @@
 		</ul>
 	</section>
 </aside>
-
-<style></style>

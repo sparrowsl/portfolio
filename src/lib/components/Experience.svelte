@@ -25,6 +25,3 @@
 		</section>
 	{/each}
 </article>
-
-<style>
-</style>

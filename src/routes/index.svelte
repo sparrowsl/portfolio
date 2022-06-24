@@ -13,5 +13,3 @@
 <Experience />
 <Interest />
 <Awards />
-
-<style></style>

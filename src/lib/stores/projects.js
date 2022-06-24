@@ -22,7 +22,7 @@ export const projects = readable([
 		}
 	},
 	{
-		title: "Countries info",
+		title: "Countries Info",
 		desc: "Display information of countries in the world. toggle between light and dark mode.",
 		image: "",
 		stack: ["HTML", "CSS", "JavaScript", "Svelte"],
