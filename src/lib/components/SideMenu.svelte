@@ -12,18 +12,18 @@
 		</figure>
 
 		<!-- Menu items -->
-		<ul class="mt-5 grid justify-center gap-3 font-pt-sans font-bold">
+		<ul class="font-pt-sans mt-5 grid justify-center gap-3 font-bold">
 			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
 				<a href="#about">About</a>
 			</li>
 			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
-				<a href="#experience">Experience</a>
-			</li>
-			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
-				<a href="#education">Education</a>
-			</li>
-			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
 				<a href="#skills">Skills</a>
+			</li>
+			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
+				<a href="#projects">Projects</a>
+			</li>
+			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
+				<a href="#experience">Experience</a>
 			</li>
 			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
 				<a href="#interest">Interest</a>

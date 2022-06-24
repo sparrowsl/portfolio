@@ -1,40 +1,20 @@
 <script>
-	import { fly } from "svelte/transition";
-
-	import { projects } from "../store.js";
-	import ProjectCard from "./Interest.svelte";
+	import { projects } from "../stores/store.js";
+	import ProjectCard from "../components/ProjectCard.svelte";
 </script>
 
-<section in:fly={{ y: 200, duration: 500 }} class="container">
-	<h1>My Projects</h1>
+<article
+	class="flex min-h-screen flex-col justify-center border-[1px] border-b-gray-300 px-5 md:px-10"
+	id="projects"
+>
+	<h2 class="font-playfair my-5 mb-10 text-5xl font-bold text-slate-500">Projects</h2>
 
-	<section class="projects">
+	<section class="grid grid-cols-3 gap-5 md:gap-10">
 		{#each $projects as project}
 			<ProjectCard {project} />
 		{/each}
 	</section>
-</section>
+</article>
 
 <style>
-	.container {
-		padding-inline: 7vw;
-	}
-	h1 {
-		font-size: 3rem;
-		text-align: center;
-		color: silver;
-		margin-block: 0.7em;
-		font-family: "Playfair Display", monospace, serif;
-	}
-	.projects {
-		display: grid;
-		gap: 2.5em;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	}
-
-	@media screen and (min-width: 768px) {
-		.container {
-			padding-inline: 2vw;
-		}
-	}
 </style>

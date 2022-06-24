@@ -8,7 +8,7 @@ export const projects = readable([
 		image: "",
 		stack: ["HTML", "CSS", "JavaScript", "sveltekit"],
 		links: {
-			live: "https://theaterscreen.netlify.app/",
+			demo: "https://theaterscreen.netlify.app/",
 			code: "https://github.com/benjithorpe/theater-screen"
 		}
 	},
@@ -18,7 +18,7 @@ export const projects = readable([
 		image: "",
 		stack: ["HTML", "CSS", "JavaScript", "Svelte"],
 		links: {
-			live: "https://codebuddy.netlify.app/",
+			demo: "https://codebuddy.netlify.app/",
 			code: "https://github.com/benjithorpe/codebuddy"
 		}
 	},
@@ -28,7 +28,7 @@ export const projects = readable([
 		image: "",
 		stack: ["HTML", "CSS", "JavaScript", "Svelte"],
 		links: {
-			live: "http://fem-countries-data.vercel.app/",
+			demo: "http://fem-countries-data.vercel.app/",
 			code: "https://github.com/benjithorpe/FEM-countries-data"
 		}
 	},
@@ -38,7 +38,7 @@ export const projects = readable([
 		image: "",
 		stack: ["HTML", "CSS", "Python", "Django"],
 		links: {
-			live: "http://sivos.herokuapp.com/",
+			demo: "http://sivos.herokuapp.com/",
 			code: "https://github.com/benjithorpe/sivo"
 		}
 	},
@@ -49,7 +49,7 @@ export const projects = readable([
 		image: "",
 		stack: ["HTML", "CSS", "JavaScript"],
 		links: {
-			live: "https://fem-advice-generator.netlify.app/",
+			demo: "https://fem-advice-generator.netlify.app/",
 			code: "https://github.com/benjithorpe/FEM-advice-generator"
 		}
 	}

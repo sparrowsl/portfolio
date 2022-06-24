@@ -40,11 +40,11 @@
 				Experience
 			</a>
 			<a
-				href="#education"
+				href="#projects"
 				class="font-raleway text-gray-700 md:hover:text-gray-900"
 				on:click={() => (show = false)}
 			>
-				Education
+				Projects
 			</a>
 			<a
 				href="#interest"

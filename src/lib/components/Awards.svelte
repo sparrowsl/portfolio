@@ -1,8 +1,11 @@
 <script>
 </script>
 
-<section class="grid min-h-screen items-center border-[1px] border-b-gray-300" id="awards">
-	<h2 class="my-5 font-playfair text-5xl font-bold">Awards</h2>
+<section
+	class="flex min-h-screen flex-col justify-center border-[1px] border-b-gray-300 px-5 md:px-10"
+	id="awards"
+>
+	<h2 class="font-playfair my-5 text-5xl font-bold text-slate-500">Awards</h2>
 </section>
 
 <style>

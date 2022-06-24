@@ -26,38 +26,38 @@
 	<!-- Social media icons -->
 	<ul class="flex gap-5">
 		<li
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500 p-5 hover:bg-teal-700"
+			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
 			<a href="https://wa.me/23299783218" class="">
-				<i class="ri-whatsapp-line text-2xl text-white" />
+				<i class="bx bxl-whatsapp text-2xl text-white" />
 			</a>
 		</li>
 		<li
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500 p-5 hover:bg-teal-700"
+			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
 			<a href="mailto:benithorpe@gmail.com" class="">
-				<i class="ri-mail-line text-2xl text-white" />
+				<i class="bx bxl-gmail text-2xl text-white" />
 			</a>
 		</li>
 		<li
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500 p-5 hover:bg-teal-700"
+			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
 			<a href="https://www.linkedin.com/in/benjithorpe/" class="">
-				<i class="ri-linkedin-fill text-2xl text-white" />
+				<i class="bx bxl-linkedin-square text-2xl text-white" />
 			</a>
 		</li>
 		<li
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500 p-5 hover:bg-teal-700"
+			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
 			<a href="https://twitter.com/benjithorpe1">
-				<i class="ri-twitter-line text-2xl text-white" />
+				<i class="bx bxl-twitter text-2xl text-white" />
 			</a>
 		</li>
 		<li
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500 p-5 hover:bg-teal-700"
+			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
 			<a href="https://github.com/benjithorpe">
-				<i class="ri-github-fill text-2xl text-white" />
+				<i class="bx bxl-github text-2xl text-white" />
 			</a>
 		</li>
 	</ul>
