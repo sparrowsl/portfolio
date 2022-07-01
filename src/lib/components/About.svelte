@@ -5,7 +5,7 @@
 	<h1 class="font-pt-sans mb-5 text-6xl uppercase text-gray-600 md:mb-2">
 		Benjamin <span class="text-teal-600">Thorpe</span>
 	</h1>
-	<h3 class="font-raleway mb-2 text-center font-bold text-slate-600 md:text-left">
+	<h3 class="font-raleway mb-2 text-center font-light text-slate-600 md:text-left">
 		A Web Developer by profession addicted to
 		<a href="https://svelte.dev" class="text-teal-600">Svelte.js</a>
 		&amp; <a href="https://flask.palletsprojects.com/en/2.1.x/" class="text-teal-600">Flask</a>.
@@ -26,7 +26,7 @@
 	</p>
 
 	<!-- Social media icons -->
-	<ul class="flex justify-evenly md:justify-start md:gap-7">
+	<ul class="flex justify-start md:gap-7">
 		<li
 			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>

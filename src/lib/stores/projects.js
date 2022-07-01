@@ -11,6 +11,17 @@ export const projects = readable([
 			code: "https://github.com/benjithorpe/theater-screen"
 		}
 	},
+
+	{
+		title: "Eatery",
+		desc: "A small restaurant website clone",
+		image: "",
+		stack: ["HTML", "CSS", "JavaScript", "SvelteKit"],
+		links: {
+			demo: "http://eateryfoods.netlify.app/",
+			code: "https://github.com/benjithorpe/eatery"
+		}
+	},
 	{
 		title: "Codebuddy",
 		desc: "A smart and reactive web based HTML/CSS editor.",
@@ -19,16 +30,6 @@ export const projects = readable([
 		links: {
 			demo: "https://codebuddy.netlify.app/",
 			code: "https://github.com/benjithorpe/codebuddy"
-		}
-	},
-	{
-		title: "Countries Info",
-		desc: "Display information of countries in the world. toggle between light and dark mode.",
-		image: "",
-		stack: ["HTML", "CSS", "JavaScript", "Svelte"],
-		links: {
-			demo: "http://fem-countries-data.vercel.app/",
-			code: "https://github.com/benjithorpe/FEM-countries-data"
 		}
 	},
 	{

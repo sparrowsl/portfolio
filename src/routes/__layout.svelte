@@ -11,5 +11,3 @@
 		<slot />
 	</main>
 </section>
-
-<style></style>

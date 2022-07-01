@@ -54,11 +54,11 @@
 				Interest
 			</a>
 			<a
-				href="#awards"
+				href="#certificates"
 				class="font-raleway text-gray-700 md:hover:text-gray-900"
 				on:click={() => (show = false)}
 			>
-				Awards
+				Certificates
 			</a>
 		</div>
 

@@ -37,10 +37,6 @@
 				<i class="bx bx-check text-teal-600" />
 				<span class="text-gray-600">Agile Development & Scrum </span>
 			</li>
-			<li class="font-raleway flex items-center gap-3">
-				<i class="bx bx-x text-red-400" />
-				<span class="text-gray-600">Lorem ipsum dolor sit amet.</span>
-			</li>
 		</ul>
 	</section>
 </article>

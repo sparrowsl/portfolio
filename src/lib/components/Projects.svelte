@@ -17,13 +17,15 @@
 				<div class="mt-5 flex h-fit justify-start gap-10">
 					<a
 						href={project.links.code}
-						class="font-pt-sans animate-pulse rounded border-[1px] border-teal-400 px-2 py-1 font-bold text-teal-600"
+						class="font-pt-sans animate-pulse rounded border-[1px] border-teal-400
+						px-2 py-1 font-bold text-teal-600"
 					>
 						source code
 					</a>
 					<a
 						href={project.links.demo}
-						class="font-pt-sans flex items-center rounded border-[1px] border-blue-400 px-2 font-bold text-blue-700"
+						class="font-pt-sans flex items-center rounded border-[1px] border-blue-400
+						px-2 font-bold text-blue-700"
 					>
 						live demo <i class="bx bx-chevron-right animate-pulse text-lg" />
 					</a>

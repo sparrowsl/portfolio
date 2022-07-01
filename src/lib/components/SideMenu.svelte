@@ -27,7 +27,7 @@
 				<a href="#interest">Interest</a>
 			</li>
 			<li class="font-bold uppercase text-gray-100 hover:text-gray-300">
-				<a href="#awards">Awards</a>
+				<a href="#certificates">Certificates</a>
 			</li>
 		</ul>
 	</section>
