@@ -7,7 +7,7 @@
 <section class="lg:grid lg:grid-cols-[20vw,_1fr]">
 	<MobileNav />
 	<SideMenu />
-	<main class="overflow-hidden scroll-smooth lg:h-screen lg:overflow-y-auto">
+	<main class="overflow-hidden lg:h-screen lg:overflow-y-auto">
 		<slot />
 	</main>
 </section>

@@ -11,7 +11,7 @@
 		&amp; <a href="https://flask.palletsprojects.com/en/2.1.x/" class="text-teal-600">Flask</a>.
 	</h3>
 	<!-- Address -->
-	<p class="font-pt-sans uppercase text-slate-500">
+	<p class="font-pt-sans text-center uppercase text-slate-500 md:text-left">
 		Freetown, Sierra Leone ·
 		<a href="mailto:benthorpe.dev@gmail.com" class="text-lg lowercase text-blue-800">
 			benthorpe.dev@gmail.com
@@ -25,7 +25,7 @@
 	</p>
 
 	<!-- Social media icons -->
-	<div class="flex justify-start md:gap-7">
+	<div class="flex justify-start gap-5">
 		<a
 			href="https://wa.me/23299783218"
 			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"

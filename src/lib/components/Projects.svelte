@@ -27,7 +27,7 @@
 						class="font-pt-sans flex items-center rounded border-[1px] border-blue-400
 						px-2 font-bold text-blue-700"
 					>
-						live demo <i class="bx bx-chevron-right animate-pulse text-lg" />
+						demo <i class="bx bx-chevron-right animate-pulse text-lg" />
 					</a>
 				</div>
 			</section>

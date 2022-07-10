@@ -8,7 +8,7 @@
 >
 	<h2 class="font-pt-sans my-5 text-5xl font-bold text-slate-500">Awards &amp; Certifications</h2>
 
-	<ul>
+	<ul class="grid gap-2">
 		{#each $certificates as cert}
 			<li class="font-raleway flex items-center gap-2">
 				<i class="bx bxs-trophy bx-tada text-xl text-[gold]" />
