@@ -2,6 +2,10 @@ import { readable } from "svelte/store";
 
 export const certificates = readable([
 	{
+		title: "Diploma in Software Engineering",
+		institute: "(BlueCrest University College)"
+	},
+	{
 		title: "Python Certificate",
 		institute: "(HackerRank)"
 	},
@@ -12,9 +16,5 @@ export const certificates = readable([
 	{
 		title: "Diploma in Python Programming",
 		institute: "(Alison)"
-	},
-	{
-		title: "Diploma in Software Engineering",
-		institute: "(BlueCrest University College)"
 	}
 ]);

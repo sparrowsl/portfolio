@@ -1,8 +1,9 @@
 <script>
-	import { darkMode } from "../../store.js";
 </script>
 
-<div class="theme" on:click={() => console.log(($darkMode = !$darkMode))} />
-
-<style>
-</style>
+<div
+	class="absolute flex items-center justify-center rounded-full p-4"
+	on:click={() => console.log("theme changed...")}
+>
+	theme
+</div>

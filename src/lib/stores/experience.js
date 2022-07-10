@@ -2,12 +2,12 @@ import { readable } from "svelte/store";
 
 export const experiences = readable([
 	{
-		title: "Web Developer Intern",
+		title: "Web Developer (Intern)",
 		company: "SoftMagazin",
 		duration: "June 2022 - Present"
 	},
 	{
-		title: "Python Developer Intern",
+		title: "Python Developer (Intern)",
 		company: "Side Hustle",
 		duration: "October 2021 - December 2021"
 	},

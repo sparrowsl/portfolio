@@ -11,56 +11,54 @@
 		&amp; <a href="https://flask.palletsprojects.com/en/2.1.x/" class="text-teal-600">Flask</a>.
 	</h3>
 	<!-- Address -->
-	<p class="font-pt-sans uppercase text-slate-600">
+	<p class="font-pt-sans uppercase text-slate-500">
 		Freetown, Sierra Leone ·
-		<a href="tel:+23299783218" class="font-bold text-teal-600">(+232) 99-783-218</a> ·
-		<a href="mailto:benithorpe@gmail.com" class="text-lg font-bold lowercase text-blue-600">
-			benithorpe@gmail.com
+		<a href="mailto:benthorpe.dev@gmail.com" class="text-lg lowercase text-blue-800">
+			benthorpe.dev@gmail.com
 		</a>
 	</p>
 	<!-- Summary -->
-	<p class="font-raleway my-7 max-w-[75ch] text-lg text-slate-700">
+	<p class="font-raleway my-7 max-w-[75ch] text-lg text-slate-600">
 		I build simple, user-friendly, responsive, fast and functional websites that work. My aim is to
 		build and contribute in building something useful for myself, the community and the world as a
 		whole.
 	</p>
 
 	<!-- Social media icons -->
-	<ul class="flex justify-start md:gap-7">
-		<li
+	<div class="flex justify-start md:gap-7">
+		<a
+			href="https://wa.me/23299783218"
 			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
-			<a href="https://wa.me/23299783218" class="">
-				<i class="bx bxl-whatsapp text-2xl text-white" />
-			</a>
-		</li>
-		<li
+			<i class="bx bxl-whatsapp text-2xl text-white" />
+		</a>
+
+		<a
+			href="mailto:benthorpe.dev@gmail.com"
 			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
-			<a href="mailto:benithorpe@gmail.com" class="">
-				<i class="bx bxl-gmail text-2xl text-white" />
-			</a>
-		</li>
-		<li
+			<i class="bx bxl-gmail text-2xl text-white" />
+		</a>
+
+		<a
+			href="https://www.linkedin.com/in/benjithorpe/"
 			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
-			<a href="https://www.linkedin.com/in/benjithorpe/" class="">
-				<i class="bx bxl-linkedin-square text-2xl text-white" />
-			</a>
-		</li>
-		<li
+			<i class="bx bxl-linkedin-square text-2xl text-white" />
+		</a>
+
+		<a
+			href="https://twitter.com/benjithorpe1"
 			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
-			<a href="https://twitter.com/benjithorpe1">
-				<i class="bx bxl-twitter text-2xl text-white" />
-			</a>
-		</li>
-		<li
+			<i class="bx bxl-twitter text-2xl text-white" />
+		</a>
+
+		<a
+			href="https://github.com/benjithorpe"
 			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
 		>
-			<a href="https://github.com/benjithorpe">
-				<i class="bx bxl-github text-2xl text-white" />
-			</a>
-		</li>
-	</ul>
+			<i class="bx bxl-github text-2xl text-white" />
+		</a>
+	</div>
 </header>

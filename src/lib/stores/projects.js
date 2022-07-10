@@ -11,7 +11,6 @@ export const projects = readable([
 			code: "https://github.com/benjithorpe/theater-screen"
 		}
 	},
-
 	{
 		title: "Eatery",
 		desc: "A small restaurant website clone",

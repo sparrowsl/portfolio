@@ -8,9 +8,9 @@
 		</p>
 
 		<p class="max-w-[75ch] text-slate-800">
-			When I am away from my keyboard, I play pranks, have fun with friends and learn about my area
-			and problems I could solve with code, and I spend a large amount of my free time exploring
-			&amp; researching the latest technology advancements in the web development world.
+			When I am away from my keyboard, I play pranks, have fun with friends and learn about my
+			surrounding and problems I could solve with code, and I spend a large amount of my free time
+			exploring &amp; researching the latest technology advancements in the web development world.
 		</p>
 	</section>
 </article>

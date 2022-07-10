@@ -14,7 +14,7 @@
 		<ul class="font-pt-sans flex max-w-[90ch] flex-wrap gap-5 text-sm text-gray-600">
 			{#each $skills as skill}
 				<li class="flex flex-col items-center justify-center">
-					<i class="{skill.classes} animate-pulse text-5xl" />
+					<i class="{skill.icon} animate-pulse text-5xl" />
 					<span class="text-sm font-bold">{skill.name}</span>
 				</li>
 			{/each}
@@ -32,10 +32,6 @@
 			<li class="font-raleway flex items-center gap-3">
 				<i class="bx bx-check text-teal-600" />
 				<span class="text-gray-600">Cross Browser Testing &amp; Debugging</span>
-			</li>
-			<li class="font-raleway flex items-center gap-3">
-				<i class="bx bx-check text-teal-600" />
-				<span class="text-gray-600">Agile Development & Scrum </span>
 			</li>
 		</ul>
 	</section>

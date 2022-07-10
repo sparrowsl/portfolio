@@ -8,9 +8,9 @@
 >
 	<h2 class="font-pt-sans my-5 mb-10 text-5xl font-bold text-slate-500">Projects</h2>
 
-	<section class="grid gap-10 md:grid-cols-3">
+	<div class="grid gap-10 md:grid-cols-3">
 		{#each $projects as project}
-			<div class="grid">
+			<section class="grid">
 				<h3 class="font-raleway mb-2 text-xl font-bold text-gray-800">{project.title}</h3>
 				<p class="font-raleway text-slate-600">{@html project.desc}</p>
 
@@ -30,7 +30,7 @@
 						live demo <i class="bx bx-chevron-right animate-pulse text-lg" />
 					</a>
 				</div>
-			</div>
+			</section>
 		{/each}
-	</section>
+	</div>
 </article>
