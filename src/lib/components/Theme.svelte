@@ -1,9 +1,19 @@
 <script>
+	import Icon from "@iconify/svelte";
+
+	let isDark = true;
+	const toggleTheme = () => {
+		isDark = !isDark;
+	};
 </script>
 
 <div
-	class="absolute flex items-center justify-center rounded-full p-4"
-	on:click={() => console.log("theme changed...")}
+	class="fixed bottom-5 right-7 grid place-items-center rounded-full bg-gray-800 p-3 dark:bg-gray-100"
+	on:click={toggleTheme}
 >
-	theme
+	{#if isDark}
+		<Icon icon="emojione:sun" class="text-2xl" />
+	{:else}
+		<Icon icon="emojione:crescent-moon" class="text-2xl" />
+	{/if}
 </div>

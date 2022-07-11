@@ -43,8 +43,8 @@ export const projects = readable([
 	},
 	{
 		title: "Advice Generator",
-		desc: `Generates random advices. Makes use of the
-						<a href='https://api.adviceslip.com/' class="text-blue-500 underline font-bold">Advice Slip API</a>`,
+		desc: `Generates random advices. Making use of the
+						<a href='https://api.adviceslip.com/' class="text-blue-600">Advice Slip API</a>`,
 		image: "",
 		stack: ["HTML", "CSS", "JavaScript"],
 		links: {
