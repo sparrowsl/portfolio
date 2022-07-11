@@ -1,5 +1,6 @@
 <script>
 	import { certificates } from "../stores/certs.js";
+	import Icon from "@iconify/svelte";
 </script>
 
 <section
@@ -11,7 +12,7 @@
 	<ul class="grid gap-2">
 		{#each $certificates as cert}
 			<li class="font-raleway flex items-center gap-2">
-				<i class="bx bxs-trophy bx-tada text-xl text-[gold]" />
+				<Icon icon="emojione:trophy" />
 				<span class="text-gray-700">{cert.title} - {cert.institute}</span>
 			</li>
 		{/each}

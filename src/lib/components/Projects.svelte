@@ -1,4 +1,6 @@
 <script>
+	import Icon from "@iconify/svelte";
+
 	import { projects } from "../stores/projects.js";
 </script>
 
@@ -27,7 +29,8 @@
 						class="font-pt-sans flex items-center rounded border-[1px] border-blue-400
 						px-2 font-bold text-blue-700"
 					>
-						demo <i class="bx bx-chevron-right animate-pulse text-lg" />
+						demo
+						<Icon icon="simple-line-icons:arrow-right" class="ml-1 text-[0.6em]" />
 					</a>
 				</div>
 			</section>

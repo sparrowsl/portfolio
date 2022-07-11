@@ -1,3 +1,7 @@
+<script>
+	import Icon from "@iconify/svelte";
+</script>
+
 <header
 	class="flex min-h-screen flex-col justify-center border-b-[1px] border-b-gray-300 px-5 md:px-10"
 	id="about"
@@ -10,6 +14,7 @@
 		<a href="https://svelte.dev" class="text-teal-600">Svelte.js</a>
 		&amp; <a href="https://flask.palletsprojects.com/en/2.1.x/" class="text-teal-600">Flask</a>.
 	</h3>
+
 	<!-- Address -->
 	<p class="font-pt-sans text-center uppercase text-slate-500 md:text-left">
 		Freetown, Sierra Leone ·
@@ -17,6 +22,7 @@
 			benthorpe.dev@gmail.com
 		</a>
 	</p>
+
 	<!-- Summary -->
 	<p class="font-raleway my-7 max-w-[75ch] text-lg text-slate-600">
 		I build simple, user-friendly, responsive, fast and functional websites that work. My aim is to
@@ -25,40 +31,25 @@
 	</p>
 
 	<!-- Social media icons -->
-	<div class="flex justify-start gap-5">
-		<a
-			href="https://wa.me/23299783218"
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
-		>
-			<i class="bx bxl-whatsapp text-2xl text-white" />
+	<div class="flex justify-start gap-7">
+		<a href="https://wa.me/23299783218" class="">
+			<Icon icon="simple-icons:whatsapp" class="text-4xl text-teal-600" />
 		</a>
 
-		<a
-			href="mailto:benthorpe.dev@gmail.com"
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
-		>
-			<i class="bx bxl-gmail text-2xl text-white" />
+		<a href="mailto:benthorpe.dev@gmail.com" class="">
+			<Icon icon="simple-icons:gmail" class="text-4xl text-teal-600" />
 		</a>
 
-		<a
-			href="https://www.linkedin.com/in/benjithorpe/"
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
-		>
-			<i class="bx bxl-linkedin-square text-2xl text-white" />
+		<a href="https://www.linkedin.com/in/benjithorpe/" class="">
+			<Icon icon="simple-icons:linkedin" class="text-4xl text-teal-600" />
 		</a>
 
-		<a
-			href="https://twitter.com/benjithorpe1"
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
-		>
-			<i class="bx bxl-twitter text-2xl text-white" />
+		<a href="https://twitter.com/benjithorpe1" class="">
+			<Icon icon="simple-icons:twitter" class="text-4xl text-teal-600" />
 		</a>
 
-		<a
-			href="https://github.com/benjithorpe"
-			class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-700 p-5 hover:bg-teal-600"
-		>
-			<i class="bx bxl-github text-2xl text-white" />
+		<a href="https://github.com/benjithorpe" class="">
+			<Icon icon="simple-icons:github" class="text-4xl text-teal-600" />
 		</a>
 	</div>
 </header>

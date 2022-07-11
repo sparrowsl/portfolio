@@ -1,6 +1,7 @@
 <script>
-	let show = false;
+	import Icon from "@iconify/svelte";
 
+	let show = false;
 	const toggleNav = () => (show = !show);
 </script>
 
@@ -65,9 +66,9 @@
 		<!-- Hambuger -->
 		<div class="font-light md:hidden" on:click={toggleNav}>
 			{#if show}
-				<i class="bx bx-x bx-tada text-3xl text-teal-500" />
+				<Icon icon="simple-line-icons:close" class="text-xl font-bold text-teal-700" />
 			{:else}
-				<i class="bx bx-menu-alt-right bx-tada text-3xl text-teal-500" />
+				<Icon icon="simple-line-icons:menu" class="text-xl font-bold text-teal-700" />
 			{/if}
 		</div>
 	</section>

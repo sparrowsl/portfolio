@@ -2,51 +2,51 @@ import { readable } from "svelte/store";
 
 export const skills = readable([
 	{
-		icon: "bx bxl-html5",
+		icon: "html5",
 		name: "HTML"
 	},
 	{
-		icon: "bx bxl-css3",
+		icon: "css3",
 		name: "CSS"
 	},
 	{
-		icon: "bx bxl-javascript",
+		icon: "javascript",
 		name: "JavaScript"
 	},
 	{
-		icon: "bx bxl-javascript",
+		icon: "svelte",
 		name: "Svelte/SvelteKit"
 	},
 	{
-		icon: "bx bxl-python",
+		icon: "python",
 		name: "Python"
 	},
 	{
-		icon: "bx bxl-flask",
+		icon: "flask",
 		name: "Flask"
 	},
 	{
-		icon: "bx bxl-tailwind-css",
+		icon: "tailwindcss",
 		name: "TailwindCSS"
 	},
 	{
-		icon: "bx bxl-markdown",
+		icon: "markdown",
 		name: "Markdown"
 	},
 	{
-		icon: "bx bxl-git",
+		icon: "git",
 		name: "Git"
 	},
 	{
-		icon: "bx bxl-github",
+		icon: "github",
 		name: "GitHub"
 	},
 	{
-		icon: "bx bxl-netlify",
+		icon: "netlify",
 		name: "Netlify"
 	},
 	{
-		icon: "bx bxl-heroku",
+		icon: "heroku",
 		name: "Heroku"
 	}
 ]);

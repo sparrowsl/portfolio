@@ -1,5 +1,6 @@
 <script>
 	import { skills } from "../stores/skills.js";
+	import Icon from "@iconify/svelte";
 </script>
 
 <article
@@ -11,10 +12,11 @@
 	<section>
 		<!-- Languages, Tools and Platforms -->
 		<h3 class="font-raleway mb-3 text-xl text-gray-700">Languages, Frameworks &amp; Tools</h3>
+
 		<ul class="font-pt-sans flex max-w-[90ch] flex-wrap gap-5 text-sm text-gray-600">
 			{#each $skills as skill}
 				<li class="flex flex-col items-center justify-center">
-					<i class="{skill.icon} animate-pulse text-5xl" />
+					<Icon icon="simple-icons:{skill.icon}" class="text-3xl" />
 					<span class="text-sm font-bold">{skill.name}</span>
 				</li>
 			{/each}
@@ -26,12 +28,16 @@
 		<h3 class="font-raleway mb-3 text-xl font-bold text-gray-700">Workflow</h3>
 		<ul class="grid gap-2">
 			<li class="font-raleway flex items-center gap-3">
-				<i class="bx bx-check text-teal-600" />
+				<Icon icon="simple-line-icons:check" class="text-lg text-teal-500" />
 				<span class="text-gray-600">Mobile-First, Responsive Web Design </span>
 			</li>
 			<li class="font-raleway flex items-center gap-3">
-				<i class="bx bx-check text-teal-600" />
+				<Icon icon="simple-line-icons:check" class="text-lg text-teal-500" />
 				<span class="text-gray-600">Cross Browser Testing &amp; Debugging</span>
+			</li>
+			<li class="font-raleway flex items-center gap-3">
+				<Icon icon="simple-line-icons:check" class="text-lg text-teal-500" />
+				<span class="text-gray-600">Agile Development Process</span>
 			</li>
 		</ul>
 	</section>
