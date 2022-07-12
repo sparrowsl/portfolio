@@ -4,7 +4,7 @@
 
 <article
 	class="font-pt-sans flex min-h-screen flex-col justify-center border-b-[1px] border-b-gray-300
-	 p-5 dark:bg-gray-800 md:px-10"
+	 p-5 transition-colors dark:bg-gray-800 md:px-10"
 	id="experience"
 >
 	<h2 class="my-5 mb-10 text-5xl font-bold text-slate-500 dark:text-slate-300">Experience</h2>

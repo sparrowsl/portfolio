@@ -5,7 +5,7 @@
 
 <section
 	class="flex min-h-screen flex-col justify-center border-t-[1px] border-b-gray-300 px-5
-	dark:bg-gray-800 md:px-10"
+	transition-colors dark:bg-gray-800 md:px-10"
 	id="certificates"
 >
 	<h2 class="font-pt-sans my-5 text-5xl font-bold text-slate-500 dark:text-slate-300">

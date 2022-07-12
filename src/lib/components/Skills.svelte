@@ -29,7 +29,8 @@
 	<!-- Workflow -->
 	<section class="mt-10">
 		<h3
-			class="font-pt-sans mb-3 text-xl font-bold text-gray-700 dark:font-normal dark:text-gray-100"
+			class="font-pt-sans mb-3 text-xl font-bold text-gray-700 transition-colors
+			dark:font-normal dark:text-gray-100"
 		>
 			Workflow
 		</h3>

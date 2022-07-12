@@ -4,7 +4,7 @@
 
 <header
 	class="flex min-h-screen flex-col justify-center border-b-[1px] border-b-gray-300
-	px-5 dark:bg-gray-800 md:px-10"
+	px-5 transition-colors dark:bg-gray-800 md:px-10"
 	id="about"
 >
 	<h1 class="font-pt-sans mb-5 text-6xl uppercase text-gray-600 dark:text-gray-100 md:mb-2">

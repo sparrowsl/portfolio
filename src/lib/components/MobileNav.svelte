@@ -5,7 +5,9 @@
 	const toggleNav = () => (show = !show);
 </script>
 
-<nav class="scroll-sn sticky top-0 z-10 bg-slate-50 dark:bg-gray-900 md:px-10 lg:hidden">
+<nav
+	class="scroll-sn sticky top-0 z-10 bg-slate-50 transition-colors dark:bg-gray-900 md:px-10 lg:hidden"
+>
 	<section class="relative flex items-center justify-between p-4 md:px-0">
 		<!-- Brand -->
 		<div

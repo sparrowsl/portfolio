@@ -5,7 +5,7 @@
 
 <article
 	class="flex min-h-screen flex-col justify-center border-b-[1px] border-b-gray-300
-	px-5 py-10 dark:bg-gray-800 md:py-0 md:px-10"
+	px-5 py-10 transition-colors dark:bg-gray-800 md:py-0 md:px-10"
 	id="projects"
 >
 	<h2 class="font-pt-sans my-5 mb-10 text-5xl font-bold text-slate-500 dark:text-slate-300">
