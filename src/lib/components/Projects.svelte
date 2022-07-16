@@ -23,8 +23,8 @@
 				<div class="mt-5 flex h-fit justify-start gap-10">
 					<a
 						href={project.links.code}
-						class="font-pt-sans animate-pulse rounded border-[1px] border-teal-400
-						px-2 py-1 font-bold text-teal-600 dark:font-normal"
+						class="font-pt-sans animate-pulse rounded border-[1px] border-teal-400 px-2
+						py-1 font-bold text-teal-600 dark:animate-none dark:font-normal"
 					>
 						source code
 					</a>

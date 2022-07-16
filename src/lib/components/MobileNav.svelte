@@ -42,20 +42,20 @@
 				Skills
 			</a>
 			<a
+				href="#experience"
+				class="font-raleway text-gray-700 dark:font-semibold dark:text-gray-100 md:hover:text-gray-900
+			 dark:md:hover:text-gray-400"
+				on:click={() => (show = false)}
+			>
+				Experience
+			</a>
+			<a
 				href="#projects"
 				class="font-raleway text-gray-700 dark:font-semibold dark:text-gray-100 md:hover:text-gray-900
 				 dark:md:hover:text-gray-400"
 				on:click={() => (show = false)}
 			>
 				Projects
-			</a>
-			<a
-				href="#experience"
-				class="font-raleway text-gray-700 dark:font-semibold dark:text-gray-100 md:hover:text-gray-900
-				 dark:md:hover:text-gray-400"
-				on:click={() => (show = false)}
-			>
-				Experience
 			</a>
 			<a
 				href="#interest"
@@ -65,14 +65,7 @@
 			>
 				Interest
 			</a>
-			<a
-				href="#certificates"
-				class="font-raleway text-gray-700 dark:font-semibold dark:text-gray-100 md:hover:text-gray-900
-				 dark:md:hover:text-gray-400"
-				on:click={() => (show = false)}
-			>
-				Certificates
-			</a>
+
 		</div>
 
 		<!-- Hambuger -->

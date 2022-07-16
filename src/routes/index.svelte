@@ -1,6 +1,5 @@
 <script>
 	import About from "../lib/components/About.svelte";
-	import Awards from "../lib/components/Awards.svelte";
 	import Experience from "../lib/components/Experience.svelte";
 	import Interest from "../lib/components/Interest.svelte";
 	import Projects from "../lib/components/Projects.svelte";
@@ -9,7 +8,6 @@
 
 <About />
 <Skills />
-<Projects />
 <Experience />
+<Projects />
 <Interest />
-<Awards />

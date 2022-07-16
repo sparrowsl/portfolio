@@ -1,5 +1,5 @@
 <script>
-	import { experiences } from "../stores/experience.js";
+	import { experiences } from "../stores/store.js";
 </script>
 
 <article

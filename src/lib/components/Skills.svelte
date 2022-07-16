@@ -1,6 +1,6 @@
 <script>
-	import { skills } from "../stores/skills.js";
 	import Icon from "@iconify/svelte";
+	import { skills } from "../stores/store.js";
 </script>
 
 <article
@@ -19,8 +19,14 @@
 		<ul class="font-pt-sans flex max-w-[90ch] flex-wrap gap-5 text-sm text-gray-600">
 			{#each $skills as skill}
 				<li class="flex flex-col items-center justify-center dark:text-gray-100">
-					<Icon icon="simple-icons:{skill.icon}" class="text-3xl" />
-					<span class="text-sm font-bold dark:font-light">{skill.name}</span>
+					<Icon icon="simple-icons:{skill}" class="text-3xl" />
+					{#if skill === "svelte"}
+						<span class="text-sm font-bold capitalize dark:font-light">{skill}/Sveltekit</span>
+					{:else if (skill.includes("html") || skill.includes("css")) && !skill.includes("tailwind")}
+						<span class="text-sm font-bold uppercase dark:font-light">{skill}</span>
+					{:else}
+						<span class="text-sm font-bold capitalize dark:font-light">{skill}</span>
+					{/if}
 				</li>
 			{/each}
 		</ul>

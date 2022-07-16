@@ -18,16 +18,13 @@
 				<a href="#skills">Skills</a>
 			</li>
 			<li class="font-bold uppercase text-gray-100 hover:text-gray-300 dark:hover:text-gray-400">
-				<a href="#projects">Projects</a>
-			</li>
-			<li class="font-bold uppercase text-gray-100 hover:text-gray-300 dark:hover:text-gray-400">
 				<a href="#experience">Experience</a>
 			</li>
 			<li class="font-bold uppercase text-gray-100 hover:text-gray-300 dark:hover:text-gray-400">
-				<a href="#interest">Interest</a>
+				<a href="#projects">Projects</a>
 			</li>
 			<li class="font-bold uppercase text-gray-100 hover:text-gray-300 dark:hover:text-gray-400">
-				<a href="#certificates">Certificates</a>
+				<a href="#interest">Interest</a>
 			</li>
 		</ul>
 	</section>

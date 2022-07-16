@@ -8,9 +8,5 @@
 	 dark:bg-gray-100 lg:right-20 lg:bottom-14"
 	on:click={() => ($isDarkMode = !$isDarkMode)}
 >
-	{#if $isDarkMode}
-		<Icon icon="emojione:sun" class="text-2xl" />
-	{:else}
-		<Icon icon="emojione:crescent-moon" class="text-2xl" />
-	{/if}
+	<Icon icon={$isDarkMode ? "emojione:sun" : "emojione:crescent-moon"} class="text-2xl" />
 </div>

@@ -31,16 +31,16 @@ export const projects = readable([
 			code: "https://github.com/benjithorpe/codebuddy"
 		}
 	},
-	{
-		title: "Sivo",
-		desc: "An anonymous platform for random post and comments (no authentication required).",
-		image: "",
-		stack: ["HTML", "CSS", "Python", "Django"],
-		links: {
-			demo: "http://sivos.herokuapp.com/",
-			code: "https://github.com/benjithorpe/sivo"
-		}
-	},
+	// {
+	// 	title: "Sivo",
+	// 	desc: "An anonymous platform for random post and comments (no authentication required).",
+	// 	image: "",
+	// 	stack: ["HTML", "CSS", "Python", "Django"],
+	// 	links: {
+	// 		demo: "http://sivos.herokuapp.com/",
+	// 		code: "https://github.com/benjithorpe/sivo"
+	// 	}
+	// },
 	{
 		title: "Advice Generator",
 		desc: `Generates random advices. Making use of the
