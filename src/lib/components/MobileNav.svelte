@@ -57,15 +57,6 @@
 			>
 				Projects
 			</a>
-			<a
-				href="#interest"
-				class="font-raleway text-gray-700 dark:font-semibold dark:text-gray-100 md:hover:text-gray-900
-				 dark:md:hover:text-gray-400"
-				on:click={() => (show = false)}
-			>
-				Interest
-			</a>
-
 		</div>
 
 		<!-- Hambuger -->

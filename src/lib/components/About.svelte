@@ -15,10 +15,10 @@
 	>
 		A Web Developer by profession addicted to
 		<a href="https://svelte.dev" class="text-teal-600 dark:text-teal-400">Svelte.js</a>
-		&amp;
-		<a href="https://flask.palletsprojects.com/en/2.1.x/" class="text-teal-600 dark:text-teal-400"
-			>Flask</a
-		>.
+		and
+		<a href="https://flask.palletsprojects.com/en/2.1.x/" class="text-teal-600 dark:text-teal-400">
+			Flask
+		</a>.
 	</h3>
 
 	<!-- Address -->
@@ -34,8 +34,8 @@
 
 	<!-- Summary -->
 	<p class="font-raleway my-7 max-w-[75ch] text-lg text-slate-600 dark:text-gray-100">
-		I build simple, user-friendly, responsive, fast and functional websites that work. My aim is to
-		build and contribute in building something useful for myself, the community and the world as a
+		I build simple, user-friendly, responsive, fast, and functional websites that work. My aim is to
+		build and contribute to building something useful for myself, the community, and the world as a
 		whole.
 	</p>
 

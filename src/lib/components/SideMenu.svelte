@@ -3,9 +3,9 @@
 		<!-- Profile image -->
 		<figure>
 			<img
-				src="/profile.jpg"
+				src="/IMG-20200916-WA0022.jpg"
 				alt="profile"
-				class="hidden w-36 rounded-full border-4 border-teal-500 dark:border-gray-800 lg:block"
+				class="hidden h-36 w-36 rounded-full border-4 border-teal-500 dark:border-gray-800 lg:block"
 			/>
 		</figure>
 
@@ -22,9 +22,6 @@
 			</li>
 			<li class="font-bold uppercase text-gray-100 hover:text-gray-300 dark:hover:text-gray-400">
 				<a href="#projects">Projects</a>
-			</li>
-			<li class="font-bold uppercase text-gray-100 hover:text-gray-300 dark:hover:text-gray-400">
-				<a href="#interest">Interest</a>
 			</li>
 		</ul>
 	</section>
