@@ -1,24 +1,19 @@
-import { readable, writable } from "svelte/store";
-
-// Store for toggling the theme
-export let isDarkMode = writable(false);
+import { readable } from "svelte/store";
 
 // Store for skills
 export const skills = readable([
-	"html5",
-	"css3",
-	"javascript",
-	"svelte",
-	"python",
-	"flask",
-	"tailwindcss",
-	"prisma",
-	"markdown",
-	"git",
-	"github",
-	"netlify",
-	"vercel",
-	"heroku"
+	"HTML5",
+	"CSS3",
+	"JavaScript",
+	"Svelte",
+	"SvelteKit",
+	"TailwindCSS",
+	"Prisma",
+	"Markdown",
+	"Git",
+	"GitHub",
+	"Netlify",
+	"Vercel"
 ]);
 
 // Store for experiences
