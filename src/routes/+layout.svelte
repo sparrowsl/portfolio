@@ -2,14 +2,19 @@
 	import "../app.css";
 	import SideMenu from "../lib/components/SideMenu.svelte";
 	import MobileNav from "../lib/components/MobileNav.svelte";
+	import Navigation from "../lib/components/shared/Navigation.svelte";
 </script>
 
-<section class="lg:grid lg:grid-cols-[20vw,_1fr]">
-	<MobileNav />
-	<SideMenu />
-	<main
-		class="relative overflow-hidden bg-gray-800 lg:h-screen lg:overflow-y-auto lg:scroll-smooth"
-	>
+<div class="container mx-auto max-w-6xl px-5">
+	<!-- <MobileNav />
+	<SideMenu /> -->
+	<Navigation />
+	<main class="">
 		<slot />
 	</main>
-</section>
+</div>
+
+<!-- <About />
+<Skills />
+<Experience />
+<Projects /> -->

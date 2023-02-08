@@ -2,7 +2,7 @@
 	<section>
 		<!-- Profile image -->
 		<img
-			src="/IMG-20200916-WA0022.jpg"
+			src="/profile.jpg"
 			alt="profile"
 			class="hidden h-36 w-36 rounded-full border-2 border-gray-800 lg:block"
 		/>
