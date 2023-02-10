@@ -1,14 +1,16 @@
 import { readable } from "svelte/store";
 
-// Store for skills
-export const skills = readable([
+// Store for technologies
+export const technologies = readable([
 	"HTML5",
 	"CSS3",
-	"JavaScript",
+	"JavaScript (ES6+)",
 	"Svelte",
 	"SvelteKit",
 	"TailwindCSS",
 	"Prisma",
+	"MongoDB",
+	// "SQLite",
 	"Markdown",
 	"Git",
 	"GitHub",

@@ -10,8 +10,10 @@
 			href="https://autohealthsl.com"
 			target="_blank"
 			rel="noreferrer"
-			class="font-bold text-teal-400">AutoHealth</a
-		>.
+			class="font-bold text-teal-400"
+		>
+			AutoHealth.
+		</a>
 	</p>
 
 	<p class="text-slate mb-5 italic">
@@ -19,8 +21,10 @@
 			href="https://svelte.dev"
 			target="_blank"
 			rel="noreferrer"
-			class="text-teal-400">Svelte.js</a
+			class="text-teal-400"
 		>
+			Svelte.js
+		</a>
 	</p>
 	<a href="/" class="block w-fit rounded border border-teal-400 px-4 py-3 text-sm text-teal-400">
 		Check out my Resume
