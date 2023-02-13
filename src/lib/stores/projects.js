@@ -20,15 +20,5 @@ export const projects = readable([
 			demo: "https://theaterscreen.netlify.app/",
 			code: "https://github.com/benjithorpe/theater-screen"
 		}
-	},
-	{
-		title: "Codebuddy",
-		desc: "A smart and reactive web based HTML/CSS editor.",
-		image: "",
-		stack: ["HTML", "CSS", "JavaScript", "Svelte"],
-		links: {
-			demo: "https://codebuddy.netlify.app/",
-			code: "https://github.com/benjithorpe/codebuddy"
-		}
 	}
 ]);
