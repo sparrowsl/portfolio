@@ -1,7 +1,5 @@
-import { readable } from "svelte/store";
-
 // Store for technologies
-export const technologies = readable([
+export const technologies = [
 	"HTML5",
 	"CSS3",
 	"JavaScript (ES6+)",
@@ -16,4 +14,4 @@ export const technologies = readable([
 	"GitHub",
 	"Netlify",
 	"Vercel"
-]);
+];

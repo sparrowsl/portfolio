@@ -1,6 +1,4 @@
-import { readable } from "svelte/store";
-
-export const projects = readable([
+export const projects = [
 	{
 		title: "Eatery",
 		desc: "A small restaurant website clone",
@@ -21,4 +19,4 @@ export const projects = readable([
 			code: "https://github.com/benjithorpe/theater-screen"
 		}
 	}
-]);
+];

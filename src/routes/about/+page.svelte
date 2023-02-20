@@ -27,8 +27,8 @@
 			<!-- Technologies -->
 			<Technologies />
 		</div>
-		<aside>
-			<img src="/IMG-20221002-WA0023.jpg" alt="Benjamin Thorpe's avatar" />
+		<aside class="rounded border-2 border-teal-400">
+			<img src="/IMG-20221002-WA0023.jpg" alt="Benjamin Thorpe's avatar" class="" />
 		</aside>
 	</section>
 </article>

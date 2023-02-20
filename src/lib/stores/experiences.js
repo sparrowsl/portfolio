@@ -1,7 +1,5 @@
-import { readable } from "svelte/store";
-
 // Store for experiences
-export const experiences = readable([
+export const experiences = [
 	{
 		title: "Software Developer (Intern)",
 		company: "AutoHealth",
@@ -37,4 +35,4 @@ export const experiences = readable([
 		duration: "August 2020 ── April 2021",
 		tasks: ["", "", ""]
 	}
-]);
+];
