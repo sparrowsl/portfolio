@@ -1,3 +1,3 @@
 # My Portfolio
 
-Built with SvelteKit and TailwindCSS
+Built with SvelteKit and UnoCSS
