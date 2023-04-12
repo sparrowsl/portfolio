@@ -1,22 +1,22 @@
-export const projects = [
+export default [
 	{
 		title: "Eatery",
-		desc: "A small restaurant website clone",
+		description: "A small restaurant website clone",
 		image: "",
-		stack: ["HTML", "CSS", "JavaScript", "SvelteKit"],
+		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
 		links: {
 			demo: "http://eateryfoods.netlify.app/",
-			code: "https://github.com/benjithorpe/eatery"
-		}
+			code: "https://github.com/sparrowsl/eatery",
+		},
 	},
 	{
 		title: "Theater Screen",
-		desc: "Displays movies and information about each movie viewed.",
+		description: "Displays movies and information about each movie viewed.",
 		image: "",
-		stack: ["HTML", "CSS", "JavaScript", "sveltekit"],
+		stack: ["JavaScript", "SvelteKit", "TailwindCSS", "TMDB API"],
 		links: {
 			demo: "https://theaterscreen.netlify.app/",
-			code: "https://github.com/benjithorpe/theater-screen"
-		}
-	}
+			code: "https://github.com/sparrowsl/theater-screen",
+		},
+	},
 ];
