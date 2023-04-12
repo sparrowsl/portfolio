@@ -3,7 +3,7 @@ import extractorSvelte from "@unocss/extractor-svelte";
 
 export default defineConfig({
 	shortcuts: {
-		container: "mx-auto max-w-6xl",
+		container: "mx-auto max-w-5xl",
 	},
 	rules: [["opensans", { "font-family": "Open Sans, sans-serif" }]],
 	theme: {

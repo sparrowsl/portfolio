@@ -3,6 +3,6 @@
 	import "uno.css";
 </script>
 
-<main class="container">
+<main class="container bg-navy text-white opensans">
 	<slot />
 </main>
