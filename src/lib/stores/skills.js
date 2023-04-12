@@ -1,7 +1,7 @@
 export default [
 	{ name: "HTML5", icon: "simple-icons:html5" },
 	{ name: "CSS3", icon: "simple-icons:css3" },
-	{ name: "JavaScript(ES6+)", icon: "simple-icons:javascript" },
+	{ name: "JavaScript (ES6+)", icon: "simple-icons:javascript" },
 	// { name: "Python", icon: "simple-icons:python" },
 	{ name: "Dart", icon: "simple-icons:dart" },
 	// { name: "Go", icon: "simple-icons:go" },

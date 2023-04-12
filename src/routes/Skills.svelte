@@ -5,17 +5,20 @@
 </script>
 
 <!-- TODO: use clip-path and small min-height -->
-<article class="flex flex-col min-h-95svh justify-center">
-	<ArticleTitle title="Skills">Languages, Frameworks, Tools &amp; Platforms</ArticleTitle>
+<div class="text-black skills">
+	<article class="container flex flex-col pt-3 justify-center">
+		<ArticleTitle title="Skills" color="black">
+			Languages, Frameworks, Tools &amp; Platforms
+		</ArticleTitle>
 
-	<section class="flex flex-wrap mt-5 max-w-3xl gap-x-5 gap-y-10">
-		{#each skills as skill}
-			<SkillCard skill="{skill}" />
-		{/each}
-	</section>
+		<section class="flex flex-wrap mt-5 max-w-3xl gap-x-5 gap-y-10">
+			{#each skills as skill}
+				<SkillCard skill="{skill}" />
+			{/each}
+		</section>
 
-	<!-- Workflow -->
-	<!-- <section class="mt-10">
+		<!-- Workflow -->
+		<!-- <section class="mt-10">
 		<h3 class="font-pt-sans font-normal text-xl mb-3 transition-colors text-gray-100">Workflow</h3>
 
 		<ul class="grid gap-2">
@@ -33,4 +36,5 @@
 			</li>
 		</ul>
 	</section> -->
-</article>
+	</article>
+</div>
