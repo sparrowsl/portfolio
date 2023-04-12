@@ -12,6 +12,7 @@
 		loading="lazy"
 		width="500"
 		height="280"
+		class="rounded shadow-xl"
 	/>
 	<figcaption class="mr-40 -ml-10">
 		<h3 class="font-bold text-(right 2xl gray-700)">{project.title}</h3>
