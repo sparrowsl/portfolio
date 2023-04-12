@@ -5,7 +5,7 @@
 	export let project;
 </script>
 
-<figure class="grid grid-cols-2 relative items-center">
+<figure class="grid items-center md:grid-cols-2">
 	<img
 		src="{project?.image || 'https://placehold.co/500x280'}"
 		alt="placeholder view"
@@ -14,9 +14,9 @@
 		height="280"
 		class="rounded shadow-xl"
 	/>
-	<figcaption class="mr-40 -ml-10">
+	<figcaption class="-mt-9 md:(mr-5 -ml-20 mt-1) lg:(mr-40 -ml-10)">
 		<h3 class="font-bold text-(right 2xl gray-700)">{project.title}</h3>
-		<p class="bg-lightest_slate rounded-sm shadow-md mt-5 p-5 text-gray-700">
+		<p class="bg-lightest_slate rounded-sm shadow-md p-5 text-gray-700 lg:mt-5">
 			{project.description}
 		</p>
 
@@ -38,29 +38,3 @@
 		</div>
 	</figcaption>
 </figure>
-
-<!-- <div class="grid gap-10 md:grid-cols-3">
-	{#each $projects as project}
-		<section class="grid">
-			<h3 class="font-pt-sans font-normal text-xl mb-2 text-gray-200">
-				{project.title}
-			</h3>
-			<p class="font-raleway text-gray-200">{@html project.desc}</p>
-
-			<div class="flex font-pt-sans font-normal h-fit mt-5 gap-10 justify-start">
-				<a
-					href="{project.links.code}"
-					class="border rounded border-teal-400 py-1 px-3 text-teal-600"
-				>
-					source code
-				</a>
-				<a
-					href="{project.links.demo}"
-					class="border rounded flex border-blue-700 px-2 text-blue-500 items-center"
-				>
-					demo
-				</a>
-			</div>
-		</section>
-	{/each}
-</div> -->

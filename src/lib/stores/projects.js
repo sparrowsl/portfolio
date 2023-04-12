@@ -12,7 +12,7 @@ export default [
 	{
 		title: "Theater Screen",
 		description: `A web app that displays movies and summary about each movie. Sort movies by Popular,
-		Top Rated and Upcoming. Search for any movie, move to different page and see other movies.`,
+		Top Rated and Upcoming. Search for any movie.`,
 		image: "",
 		stack: ["JavaScript", "SvelteKit", "TailwindCSS", "TMDB API"],
 		links: {

@@ -6,9 +6,11 @@
 
 <div class="-mt-10 pb-10 text-gray-800 projects">
 	<article class="container min-h-screen pt-15">
-		<ArticleTitle title="Projects" color="black">Some projects I have built...</ArticleTitle>
+		<span class="text-center">
+			<ArticleTitle title="Projects" color="black">Some projects I have built...</ArticleTitle>
+		</span>
 
-		<section class="mt-16 grid gap-y-10">
+		<section class="mt-16 grid gap-y-15 lg:gap-y-10">
 			{#each projects as project}
 				<ProjectCard project="{project}" />
 			{/each}

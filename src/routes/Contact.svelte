@@ -3,7 +3,7 @@
 </script>
 
 <article class="bg-navy contact">
-	<div class="container flex flex-col mx-auto min-h-50svh py-30 justify-center">
+	<div class="container flex flex-col mx-auto min-h-50svh py-30 px-4 justify-center md:px-0">
 		<h2 class="font-bold text-center mb-2 tracking-wide text-4xl uppercase">Get In Touch</h2>
 		<h3 class="mx-auto max-w-xl text-sm text-center text-light_slate mb-5 tracking-wider leading-6">
 			I am not currently open for any new job opportunities but my inbox is always open if you want

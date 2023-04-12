@@ -4,7 +4,7 @@
 	import SkillCard from "../lib/components/SkillCard.svelte";
 </script>
 
-<div class="text-gray-800 skills">
+<div class="py-10 text-gray-800 skills md:py-5">
 	<article class="container flex flex-col pt-3 justify-center">
 		<ArticleTitle title="Skills" color="black">
 			Languages, Frameworks, Tools &amp; Platforms

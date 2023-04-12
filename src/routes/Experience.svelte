@@ -7,18 +7,18 @@
 	onMount(() => ($selected = experiences[0]));
 </script>
 
-<div class="bg-navy -mt-10 experience">
+<div class="bg-navy -mt-10 py-20 experience md:p-0">
 	<article class="container flex flex-col min-h-95svh justify-center">
 		<ArticleTitle title="Experience">Where I have worked &amp currently working.</ArticleTitle>
 
-		<section class="flex mt-5 gap-5">
-			<div class="min-w-content tab-header">
+		<section class="mt-5 md:(flex gap-5)">
+			<div class="flex mb-5 overflow-x-scroll md:(block mb-0 overflow-hidden min-w-150px)">
 				{#each experiences as experience (experience.company)}
 					<button
 						on:click="{() => ($selected = experience)}"
 						class="{$selected.company === experience.company
-							? 'border-(b r lightest_navy) bg-light_navy  text-teal-400'
-							: 'text-slate hover:(bg-light_navy rounded)'} border-none transition-colors duration-300 text-left w-full py-2 px-8 block"
+							? 'bg-light_navy text-teal-400'
+							: 'text-slate hover:(bg-light_navy rounded)'} transition-colors duration-300 text-left w-full py-2 px-4 border-none lg:px-8 block whitespace-nowrap"
 					>
 						{experience.company}
 					</button>
