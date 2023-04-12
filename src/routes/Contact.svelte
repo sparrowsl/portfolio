@@ -1,26 +1,50 @@
 <script>
-	import ArticleTitle from "../lib/components/shared/ArticleTitle.svelte";
+	import Icon from "@iconify/svelte";
 </script>
 
-<!-- <div class="-mt-10 pb-10 text-gray-800 projects"> -->
-<div class="bg-navy contact">
-	<article class="container flex flex-col min-h-50svh py-30 justify-center">
-		<div class="mx-auto text-center">
-			<h2 class="font-bold mb-2 tracking-wide text-4xl uppercase">Get In Touch</h2>
-			<h3 class="max-w-xl text-sm text-light_slate mb-5 tracking-wider leading-6.5">
-				I am not currently looking for any new opportunities but my inbox is always open if you want
-				to say hi, I will try my best to get back to you ASAP!
-			</h3>
+<article class="bg-navy contact">
+	<div class="container flex flex-col mx-auto min-h-50svh py-30 justify-center">
+		<h2 class="font-bold text-center mb-2 tracking-wide text-4xl uppercase">Get In Touch</h2>
+		<h3 class="mx-auto max-w-xl text-sm text-center text-light_slate mb-5 tracking-wider leading-6">
+			I am not currently open for any new job opportunities but my inbox is always open if you want
+			to say hi and discuss Open Source, I will try my best to get back to you ASAP!
+		</h3>
 
-			<a
-				href="mailto:benthorpe.dev@gmail.com"
-				class="border rounded-full mx-auto border-teal-400 w-fit py-2 px-6 text-teal-400 block hover:bg-light_navy"
-			>
-				Say Hi
-			</a>
-		</div>
-	</article>
-</div>
+		<a
+			href="mailto:benthorpe.dev@gmail.com"
+			class="border rounded-full mx-auto border-teal-400 py-2 px-10 text-teal-400 hover:bg-light_navy"
+		>
+			Say Hi
+		</a>
+
+		<!-- Contact Links -->
+		<ul class="flex mt-10 gap-7 justify-center">
+			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
+				<a href="mailto:benthorpe.dev@gmail.com" class="">
+					<Icon icon="simple-icons:gmail" class=" text-2xl" />
+				</a>
+			</li>
+
+			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
+				<a href="https://www.linkedin.com/in/benjithorpe/" class="">
+					<Icon icon="simple-icons:linkedin" class=" text-2xl" />
+				</a>
+			</li>
+
+			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
+				<a href="https://twitter.com/sparrow_sl" class="">
+					<Icon icon="simple-icons:twitter" class=" text-2xl" />
+				</a>
+			</li>
+
+			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
+				<a href="https://github.com/sparrowsl" class="">
+					<Icon icon="simple-icons:github" class=" text-2xl" />
+				</a>
+			</li>
+		</ul>
+	</div>
+</article>
 
 <style>
 	.contact {
