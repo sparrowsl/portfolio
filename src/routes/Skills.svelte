@@ -4,7 +4,6 @@
 	import SkillCard from "../lib/components/SkillCard.svelte";
 </script>
 
-<!-- TODO: use clip-path and small min-height -->
 <div class="text-black skills">
 	<article class="container flex flex-col pt-3 justify-center">
 		<ArticleTitle title="Skills" color="black">
@@ -16,25 +15,5 @@
 				<SkillCard skill="{skill}" />
 			{/each}
 		</section>
-
-		<!-- Workflow -->
-		<!-- <section class="mt-10">
-		<h3 class="font-pt-sans font-normal text-xl mb-3 transition-colors text-gray-100">Workflow</h3>
-
-		<ul class="grid gap-2">
-			<li class="flex font-raleway gap-3 items-center">
-				<Icon icon="material-symbols:check-small-rounded" class="text-2xl text-teal-500" />
-				<span class="text-gray-100">Mobile-First, Responsive Web Design </span>
-			</li>
-			<li class="flex font-raleway gap-3 items-center">
-				<Icon icon="material-symbols:check-small-rounded" class="text-2xl text-teal-500" />
-				<span class="text-gray-100">Cross Browser Testing &amp; Debugging</span>
-			</li>
-			<li class="flex font-raleway gap-3 items-center">
-				<Icon icon="material-symbols:check-small-rounded" class="text-2xl text-teal-500" />
-				<span class="text-gray-100">Agile Development Process</span>
-			</li>
-		</ul>
-	</section> -->
 	</article>
 </div>
