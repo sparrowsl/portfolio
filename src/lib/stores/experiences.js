@@ -1,3 +1,5 @@
+import { writable } from "svelte/store";
+
 export default [
 	{
 		title: "Software Developer (Intern)",
@@ -35,3 +37,5 @@ export default [
 		tasks: ["", "", ""],
 	},
 ];
+
+export const selected = writable({});
