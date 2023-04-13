@@ -3,7 +3,7 @@
 	export let project;
 </script>
 
-<figure class="grid items-center md:grid-cols-2">
+<figure class="grid items-center project md:grid-cols-2">
 	<img
 		src="{project?.image || 'https://placehold.co/500x280'}"
 		alt="placeholder view"

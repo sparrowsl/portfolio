@@ -1,7 +1,25 @@
 <script>
+	import { browser } from "$app/environment";
 	import projects from "$lib/stores/projects.js";
-	import ProjectCard from "../lib/components/ProjectCard.svelte";
-	import ArticleTitle from "../lib/components/shared/ArticleTitle.svelte";
+	import ProjectCard from "$lib/components/ProjectCard.svelte";
+	import ArticleTitle from "$lib/components/shared/ArticleTitle.svelte";
+
+	if (browser) {
+		let projectsArray = document.querySelectorAll(".project");
+		console.log(projectsArray);
+		const appearOnScreen = new IntersectionObserver((entries, appearOnScreen) => {
+			entries.forEach((entry) => {
+				if (!entry.isIntersecting) {
+					entry.target.classList.remove(...["animate-slide-in-left", "animate-duration-1300"]);
+					return;
+				}
+				entry.target.classList.add(...["animate-slide-in-left", "animate-duration-1300"]);
+				// appearOnScreen.unobserve(entry.target);
+			});
+		});
+
+		projectsArray.forEach((proj) => appearOnScreen.observe(proj));
+	}
 </script>
 
 <div class="-mt-10 pb-10 text-gray-800 projects">
