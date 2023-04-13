@@ -7,7 +7,11 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@iconify/svelte": "^3.0.1",
+		"@iconify-json/arcticons": "^1.1.48",
+		"@iconify-json/mdi": "^1.1.50",
+		"@iconify-json/ri": "^1.1.7",
+		"@iconify-json/simple-icons": "^1.1.49",
+		"@iconify-json/vscode-icons": "^1.1.23",
 		"@sveltejs/adapter-static": "^2.0.0",
 		"@sveltejs/kit": "^1.0.1",
 		"@unocss/extractor-svelte": "^0.51.4",

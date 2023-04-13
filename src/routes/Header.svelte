@@ -2,10 +2,7 @@
 	<section class="container flex flex-col min-h-95svh justify-center">
 		<span class="mb-5 text-teal-400 block">Hello there! I am</span>
 		<h1 class="font-bold mb-3 tracking-wide text-5xl uppercase md:text-7xl">Benjamin Thorpe</h1>
-		<!-- <h2 class="font-bold text-(light_slate 5xl)">I build stuff for the web.</h2> -->
-		<h2 class="font-bold text-light_slate text-3xl md:text-5xl">
-			I love building stuff for the web.
-		</h2>
+		<h2 class="font-bold text-(light_slate 5xl)">I build stuff for the web.</h2>
 
 		<p class="my-5 max-w-2xl leading-6.5">
 			I am a software developer focusing on building exceptional, simple, fast, responsive and

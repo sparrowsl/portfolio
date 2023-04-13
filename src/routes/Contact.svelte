@@ -1,7 +1,3 @@
-<script>
-	import Icon from "@iconify/svelte";
-</script>
-
 <article class="bg-navy contact">
 	<div class="container flex flex-col mx-auto min-h-50svh py-30 px-4 justify-center md:px-0">
 		<h2 class="font-bold text-center mb-2 tracking-wide text-4xl uppercase">Get In Touch</h2>
@@ -21,25 +17,25 @@
 		<ul class="flex mt-10 gap-7 justify-center">
 			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
 				<a href="mailto:benthorpe.dev@gmail.com" class="">
-					<Icon icon="simple-icons:gmail" class=" text-2xl" />
+					<div class="text-2xl simple-icons:gmail"></div>
 				</a>
 			</li>
 
 			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
 				<a href="https://www.linkedin.com/in/benjithorpe/" class="">
-					<Icon icon="simple-icons:linkedin" class=" text-2xl" />
+					<div class="text-2xl simple-icons:linkedin"></div>
 				</a>
 			</li>
 
 			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
 				<a href="https://twitter.com/sparrow_sl" class="">
-					<Icon icon="simple-icons:twitter" class=" text-2xl" />
+					<div class="text-2xl simple-icons:twitter"></div>
 				</a>
 			</li>
 
 			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
 				<a href="https://github.com/sparrowsl" class="">
-					<Icon icon="simple-icons:github" class=" text-2xl" />
+					<div class="text-2xl simple-icons:github"></div>
 				</a>
 			</li>
 		</ul>

@@ -1,6 +1,4 @@
 <script>
-	import Icon from "@iconify/svelte";
-
 	/** @type {{title: string, description: string, image: string, stack: string[], links: {demo: string, code: string}}} */
 	export let project;
 </script>
@@ -30,10 +28,10 @@
 		<!-- External links -->
 		<div class="flex mt-5 gap-5 items-center justify-end">
 			<a href="{project.links.code}" target="_blank">
-				<Icon icon="bi:github" class="text-(2xl gray-600) hover:text-gray-800" />
+				<div class="text-(2xl bi:github gray-600) hover:text-gray-800"></div>
 			</a>
 			<a href="{project.links.demo}" target="_blank">
-				<Icon icon="ci:external-link" class="text-(2xl gray-600) hover:text-gray-800" />
+				<div class="text-(2xl ci:external-link gray-600) hover:text-gray-800"></div>
 			</a>
 		</div>
 	</figcaption>

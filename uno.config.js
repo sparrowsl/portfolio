@@ -1,7 +1,20 @@
-import { defineConfig, transformerVariantGroup } from "unocss";
+// @ts-nocheck
+import { defineConfig, presetIcons, presetUno, transformerVariantGroup } from "unocss";
 import extractorSvelte from "@unocss/extractor-svelte";
 
+import skills from "./src/lib/stores/skills.js";
+
 export default defineConfig({
+	presets: [
+		presetUno(),
+		presetIcons({
+			extraProperties: { display: "inline-block", "vertical-align": "middle" },
+		}),
+	],
+	safelist: [
+		...skills.map((skill) => `i-${skill.icon}`),
+		...skills.map((skill) => `text-${skill.color}`),
+	],
 	shortcuts: {
 		container: "px-4 mx-auto max-w-5xl lg:px-0",
 	},

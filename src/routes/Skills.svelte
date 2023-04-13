@@ -1,7 +1,7 @@
 <script>
 	import skills from "$lib/stores/skills.js";
-	import ArticleTitle from "../lib/components/shared/ArticleTitle.svelte";
-	import SkillCard from "../lib/components/SkillCard.svelte";
+	import ArticleTitle from "$lib/components/shared/ArticleTitle.svelte";
+	import SkillCard from "$lib/components/SkillCard.svelte";
 </script>
 
 <div class="py-10 text-gray-800 skills md:py-5">
