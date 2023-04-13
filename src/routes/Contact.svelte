@@ -15,27 +15,27 @@
 
 		<!-- Contact Links -->
 		<ul class="flex mt-10 gap-7 justify-center">
-			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
+			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1) ">
 				<a href="mailto:benthorpe.dev@gmail.com" class="">
-					<div class="text-2xl simple-icons:gmail"></div>
+					<div class="text-2xl i-simple-icons:gmail"></div>
 				</a>
 			</li>
 
-			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
+			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1) ">
 				<a href="https://www.linkedin.com/in/benjithorpe/" class="">
-					<div class="text-2xl simple-icons:linkedin"></div>
+					<div class="text-2xl i-simple-icons:linkedin"></div>
 				</a>
 			</li>
 
-			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
+			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1) ">
 				<a href="https://twitter.com/sparrow_sl" class="">
-					<div class="text-2xl simple-icons:twitter"></div>
+					<div class="text-2xl i-simple-icons:twitter"></div>
 				</a>
 			</li>
 
-			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1)">
+			<li class="transition-transform text-teal-600 hover:(text-teal-300 -translate-y-1) ">
 				<a href="https://github.com/sparrowsl" class="">
-					<div class="text-2xl simple-icons:github"></div>
+					<div class="text-2xl i-simple-icons:github"></div>
 				</a>
 			</li>
 		</ul>

@@ -1,10 +1,23 @@
 <article class="bg-navy pt-20 pb-35 md:(p-0)">
-	<section class="container flex flex-col min-h-95svh justify-center">
-		<span class="mb-5 text-teal-400 block">Hello there! I am</span>
-		<h1 class="font-bold mb-3 tracking-wide text-5xl uppercase md:text-7xl">Benjamin Thorpe</h1>
-		<h2 class="font-bold text-(light_slate 5xl)">I build stuff for the web.</h2>
+	<section class="container flex flex-col min-h-95svh relative justify-center">
+		<!-- Logo -->
+		<i
+			class="text-light_slate -top-18 text-5xl i-mdi:alpha-b-circle absolute md:top-5 hover:animate-spin"
+		></i>
 
-		<p class="my-5 max-w-2xl leading-6.5">
+		<span class="mb-5 text-teal-400 block">Hello there! I am</span>
+		<h1
+			class="font-bold mb-3 tracking-wider animate-light-speed-in-left text-5xl uppercase md:text-7xl"
+		>
+			Benjamin Thorpe
+		</h1>
+		<h2
+			class="font-bold text-light_slate animate-light-speed-in-right text-5xl animate-duration-1500"
+		>
+			I build stuff for the web.
+		</h2>
+
+		<p class="my-5 max-w-2xl animate-flip-in-x leading-6.5 animate-duration-1600">
 			I am a software developer focusing on building exceptional, simple, fast, responsive and
 			functional softwares that work with smooth and slick digital experiences.
 			<i class="font-light">(eg: Websites, Web Apps, Mobile Apps)</i>. Currently, I'm focused on
