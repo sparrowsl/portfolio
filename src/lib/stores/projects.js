@@ -2,7 +2,7 @@ export default [
 	{
 		title: "Note Taker",
 		description: `A web app simulation of the Android Notepad app.`,
-		image: "",
+		image: "/notes-taker.png",
 		stack: ["JavaScript", "SvelteKit", "TailwindCSS", "Day.js"],
 		links: {
 			demo: "https://notestaker.vercel.app/",
@@ -12,7 +12,7 @@ export default [
 	{
 		title: "Eatery",
 		description: "A small and simple restaurant website, with a form to book a reservation table.",
-		image: "",
+		image: "/eatery.png",
 		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
 		links: {
 			demo: "http://eateryfoods.netlify.app/",
@@ -23,7 +23,7 @@ export default [
 		title: "Theater Screen",
 		description: `A web app that displays movies and summary about each movie. Sort movies by Popular,
 		Top Rated and Upcoming. Search for any movie.`,
-		image: "",
+		image: "/theater.png",
 		stack: ["JavaScript", "SvelteKit", "TailwindCSS", "TMDB API"],
 		links: {
 			demo: "https://theaterscreen.netlify.app/",

@@ -6,14 +6,13 @@
 
 	if (browser) {
 		let projectsArray = document.querySelectorAll(".project");
-		console.log(projectsArray);
 		const appearOnScreen = new IntersectionObserver((entries, appearOnScreen) => {
 			entries.forEach((entry) => {
 				if (!entry.isIntersecting) {
-					entry.target.classList.remove(...["animate-slide-in-left", "animate-duration-1300"]);
+					entry.target.classList.remove(...["animate-slide-in-left", "animate-duration-1200"]);
 					return;
 				}
-				entry.target.classList.add(...["animate-slide-in-left", "animate-duration-1300"]);
+				entry.target.classList.add(...["animate-slide-in-left", "animate-duration-1200"]);
 				// appearOnScreen.unobserve(entry.target);
 			});
 		});

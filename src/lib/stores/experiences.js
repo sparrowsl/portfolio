@@ -1,41 +1,29 @@
-import { writable } from "svelte/store";
-
 export default [
 	{
 		title: "Software Developer (Intern)",
 		company: "AutoHealth",
 		duration: "January 2023 ── Present",
 		tasks: [
-			"Lorem ipsum dolor sit amet.",
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nulla.",
+			"Contribute to building the company's website which raised the awareness of the company",
+			"Help in data gathering for key core data for the use of LifeBlood.",
 		],
 	},
 	{
 		title: "Fullstack Web Developer (Intern)",
 		company: "SoftMagazin",
 		duration: "June 2022 ── Present",
-		tasks: [
-			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit consequuntur accusamus ipsam! Quis, quia at?",
-		],
-	},
-	{
-		title: "Python Developer (Intern)",
-		company: "Side Hustle",
-		duration: "October 2021 ── December 2021",
-		tasks: ["", "", ""],
+		tasks: ["Building an internal web app portal to display information."],
 	},
 	{
 		title: "Slack Community Manager",
 		company: "TheNewBoston",
 		duration: "October 2020 ── March 2021",
-		tasks: ["", "", ""],
+		tasks: ["Responsible for answering questions and directing new users to specific channels"],
 	},
 	{
 		title: "Contributing Developer",
 		company: "EasyToGit",
 		duration: "August 2020 ── April 2021",
-		tasks: ["", "", ""],
+		tasks: ["", ""],
 	},
 ];
-
-export const selected = writable({});
