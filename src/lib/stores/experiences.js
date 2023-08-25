@@ -1,11 +1,21 @@
 export default [
+	// {
+	// 	title: "Web Developer",
+	// 	company: "CJ BEm",
+	// 	duration: "August 2023 ── Present",
+	// 	tasks: [
+	// 		// "Contribute to building the company's website which raised the awareness of the company",
+	// 	],
+	// 	stack: ["SvelteKit"],
+	// },
 	{
-		title: "Software Developer",
+		title: "Fullstack Developer",
 		company: "Orange Digital Center",
 		duration: "May 2023 ── Present",
 		tasks: [
 			// "Contribute to building the company's website which raised the awareness of the company",
 		],
+		stack: ["React", "Express", "Nextjs", "Prisma", "MySQL", "TailwindCSS"],
 	},
 	{
 		title: "Software Developer",
@@ -15,12 +25,14 @@ export default [
 			"Contribute to building the company's website which raised the awareness of the company",
 			"Help in data gathering of key medical data for the use of LifeBlood.",
 		],
+		stack: ["Flutter", "SvelteKit"],
 	},
 	{
 		title: "Fullstack Web Developer",
 		company: "SoftMagazin",
 		duration: "June 2022 ── Present",
 		tasks: ["Building an internal web app portal to display information."],
+		stack: ["SvelteKit", "UnoCSS", "Prisma", "MySQL"],
 	},
 	// {
 	// 	title: "Contributing Developer",

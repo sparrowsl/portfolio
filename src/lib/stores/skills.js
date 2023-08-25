@@ -1,11 +1,11 @@
 export default [
 	{ name: "HTML5", icon: "simple-icons:html5", color: "#E34F26" },
 	{ name: "CSS3", icon: "simple-icons:css3", color: "#1572B6" },
-	{ name: "JavaScript (ES6+)", icon: "simple-icons:javascript", color: "#F7DF1E" },
+	{ name: "JavaScript", icon: "simple-icons:javascript", color: "#F7DF1E" },
 	{ name: "Python", icon: "simple-icons:python", color: "#3776AB" },
 	// { name: "Dart", icon: "simple-icons:dart", color: "#0175C2" },
 	{ name: "Go", icon: "simple-icons:go", color: "#00ADD8" },
-	// { name: "Nodejs", icon: "simple-icons:nodedotjs", color: "#339933" },
+	{ name: "Nodejs", icon: "simple-icons:nodedotjs", color: "#339933" },
 	{ name: "TailwindCSS", icon: "simple-icons:tailwindcss", color: "#06B6D4" },
 	{ name: "UnoCSS", icon: "simple-icons:unocss", color: "#333333" },
 	{ name: "Svelte(Kit)", icon: "simple-icons:svelte", color: "#FF3E00" },

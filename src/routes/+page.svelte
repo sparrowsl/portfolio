@@ -8,7 +8,7 @@
 	import Contact from "./Contact.svelte";
 </script>
 
-<main class="bg-light_slate text-white opensans">
+<main class="bg-light_slate text-white font-opensans">
 	<HeroSection />
 	<Skills />
 	<Experience />

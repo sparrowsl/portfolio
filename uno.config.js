@@ -16,6 +16,7 @@ export default defineConfig({
 		}),
 		presetWebFonts({
 			fonts: {
+				rajdhani: [{ name: "Rajdhani", weights: ["300", "400", "500", "600", "700"] }],
 				opensans: [{ name: "Open Sans", weights: ["300", "400", "500", "600", "700", "800"] }],
 			},
 		}),
