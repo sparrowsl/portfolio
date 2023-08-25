@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from "svelte";
 	import experiences from "$lib/stores/experiences.js";
-	import ArticleTitle from "$lib/components/shared/ArticleTitle.svelte";
+	import Header from "$lib/components/Header.svelte";
 	import ExperienceCard from "$lib/components/ExperienceCard.svelte";
 
 	let selected;
@@ -10,7 +10,7 @@
 
 <div class="bg-navy -mt-10 py-20 experience md:p-0">
 	<article class="container flex flex-col min-h-95svh justify-center">
-		<ArticleTitle title="Experience">Where I have worked &amp currently working.</ArticleTitle>
+		<Header title="Experience">Where I have worked &amp currently working.</Header>
 
 		{#if selected}
 			<section class="mt-5 md:(flex gap-5)">
