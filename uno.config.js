@@ -1,7 +1,11 @@
-// @ts-nocheck
-import { defineConfig, presetIcons, presetUno, transformerVariantGroup } from "unocss";
+import {
+	defineConfig,
+	presetIcons,
+	presetUno,
+	presetWebFonts,
+	transformerVariantGroup,
+} from "unocss";
 import extractorSvelte from "@unocss/extractor-svelte";
-
 import skills from "./src/lib/stores/skills.js";
 
 export default defineConfig({
@@ -9,6 +13,11 @@ export default defineConfig({
 		presetUno(),
 		presetIcons({
 			extraProperties: { display: "inline-block", "vertical-align": "middle" },
+		}),
+		presetWebFonts({
+			fonts: {
+				opensans: [{ name: "Open Sans", weights: ["300", "400", "500", "600", "700", "800"] }],
+			},
 		}),
 	],
 	safelist: [
