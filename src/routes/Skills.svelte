@@ -12,7 +12,7 @@
 
 		<section class="flex flex-wrap mt-5 max-w-3xl gap-x-5 gap-y-10">
 			{#each skills as skill}
-				<SkillCard skill="{skill}" />
+				<SkillCard {skill} />
 			{/each}
 		</section>
 	</article>

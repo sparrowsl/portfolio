@@ -17,16 +17,15 @@
 				<div class="flex mb-5 overflow-x-scroll md:(block mb-0 overflow-hidden min-w-150px)">
 					{#each experiences as experience (experience.company)}
 						<button
-							on:click="{() => (selected = experience)}"
+							on:click={() => (selected = experience)}
 							class="{selected?.company === experience.company
 								? 'bg-light_navy text-teal-400'
-								: 'text-slate hover:(bg-light_navy rounded)'} transition-colors duration-300 text-left w-full py-2 px-4 border-none lg:px-8 block whitespace-nowrap"
-						>
+								: 'text-slate hover:(bg-light_navy rounded)'} transition-colors duration-300 text-left w-full py-2 px-4 border-none lg:px-8 block whitespace-nowrap">
 							{experience.company}
 						</button>
 					{/each}
 				</div>
-				<ExperienceCard experience="{selected}" />
+				<ExperienceCard experience={selected} />
 			</section>
 		{/if}
 	</article>

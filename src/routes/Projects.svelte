@@ -29,7 +29,7 @@
 
 		<section class="mt-16 grid gap-y-15 lg:gap-y-10">
 			{#each projects as project}
-				<ProjectCard project="{project}" />
+				<ProjectCard {project} />
 			{/each}
 		</section>
 	</article>
