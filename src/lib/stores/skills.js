@@ -4,7 +4,7 @@ export default [
 	{ name: "JavaScript", icon: "simple-icons:javascript", color: "#F7DF1E" },
 	{ name: "Python", icon: "simple-icons:python", color: "#3776AB" },
 	// { name: "Dart", icon: "simple-icons:dart", color: "#0175C2" },
-	{ name: "Go", icon: "simple-icons:go", color: "#00ADD8" },
+	// { name: "Go", icon: "simple-icons:go", color: "#00ADD8" },
 	{ name: "Nodejs", icon: "simple-icons:nodedotjs", color: "#339933" },
 	{ name: "TailwindCSS", icon: "simple-icons:tailwindcss", color: "#06B6D4" },
 	{ name: "UnoCSS", icon: "simple-icons:unocss", color: "#333333" },
