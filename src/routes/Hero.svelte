@@ -9,7 +9,9 @@
 
 		<p class="my-5 max-w-2xl leading-6.5">
 			I am a Software Developer focusing on building simple, clean, fast, responsive and functional
-			webapps that work with smooth and slick digital experiences.
+			webapps that work with smooth and slick digital experiences. Currently, I'm focused on
+			building accessible, smooth and user-friendly softwares at
+			<a href="https://cjbem.netlify.app" class="text-teal font-semibold">CJ BEm.</a>
 		</p>
 
 		<p class="text-slate mb-5 italic font-rajdhani text-lg">

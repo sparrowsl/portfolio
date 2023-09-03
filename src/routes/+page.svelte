@@ -11,7 +11,7 @@
 <main class="bg-light_slate text-white font-opensans">
 	<HeroSection />
 	<Skills />
-	<Experience />
+	<!-- <Experience /> -->
 	<Projects />
 	<Contact />
 </main>

@@ -1,15 +1,5 @@
 export default [
 	{
-		title: "Note Taker",
-		description: `A web app simulation of the Android Notepad app.`,
-		image: "/notes-taker.png",
-		stack: ["JavaScript", "SvelteKit", "TailwindCSS", "Day.js"],
-		links: {
-			demo: "https://notestaker.vercel.app/",
-			code: "https://github.com/sparrowsl/notes-taker",
-		},
-	},
-	{
 		title: "Eatery",
 		description: "A small and simple restaurant website, with a form to book a reservation table.",
 		image: "/eatery.png",

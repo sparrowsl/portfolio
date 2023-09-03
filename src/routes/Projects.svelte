@@ -4,10 +4,10 @@
 	import Header from "$lib/components/Header.svelte";
 </script>
 
-<div class="-mt-10 pb-10 text-gray-800 projects">
+<div class="pt-20 text-gray-800 projects bg-navy">
 	<article class="container min-h-screen pt-15">
-		<span class="text-center">
-			<Header title="Projects" color="black">Some projects I have built...</Header>
+		<span class="text-center text-white">
+			<Header title="Projects" color="white" subtitle="Some projects I have built..." />
 		</span>
 
 		<section class="mt-16 grid gap-y-15 lg:gap-y-10">
@@ -17,3 +17,9 @@
 		</section>
 	</article>
 </div>
+
+<style>
+	.projects {
+		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+	}
+</style>

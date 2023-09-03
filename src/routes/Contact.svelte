@@ -2,8 +2,8 @@
 	<div class="container flex flex-col mx-auto min-h-50svh py-30 px-4 justify-center md:px-0">
 		<h2 class="font-bold text-center mb-2 tracking-wide text-4xl uppercase">Get In Touch</h2>
 		<h3 class="mx-auto max-w-xl text-sm text-center text-light_slate mb-5 tracking-wider leading-6">
-			I am open for any new job opportunities and my inbox is always available if you want to say hi
-			and discuss Open Source, I will try my best to get back to you ASAP!
+			I am open for any new opportunities and my inbox is always available if you want to say hi and
+			discuss Open Source, I will try my best to get back to you ASAP!
 		</h3>
 
 		<a
@@ -40,9 +40,3 @@
 		</ul>
 	</div>
 </article>
-
-<style>
-	.contact {
-		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-	}
-</style>

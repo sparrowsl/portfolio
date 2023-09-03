@@ -4,7 +4,7 @@ export default [
 		company: "CJ BEm",
 		duration: "August 2023 ── Present",
 		tasks: ["Built the company's website, improving the awareness of the company"],
-		stack: ["Vue", "Docker"],
+		stack: ["Vue"],
 	},
 	{
 		title: "Fullstack Developer",
