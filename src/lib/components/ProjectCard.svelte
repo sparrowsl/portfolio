@@ -12,7 +12,10 @@
 		height="280"
 		class="rounded shadow-xl" />
 	<figcaption class="-mt-9 md:(mr-5 -ml-20 mt-1) lg:(mr-40 -ml-10)">
-		<h3 class="font-bold text-(right 2xl white) font-rajdhani">{project.title}</h3>
+		<h3
+			class="font-bold bg-white w-fit ml-auto text-(right 2xl) md:(bg-transparent text-white) font-rajdhani">
+			{project.title}
+		</h3>
 		<p class="bg-lightest_slate rounded-sm shadow-md p-5 text-gray-700 lg:mt-5">
 			{project.description}
 		</p>
@@ -27,10 +30,10 @@
 		<!-- External links -->
 		<div class="flex mt-5 gap-5 items-center justify-end">
 			<a href={project.links.code} target="_blank">
-				<div class="text-2xl text-white i-simple-icons:github hover:text-gray-800" />
+				<div class="text-2xl text-white i-simple-icons:github hover:text-teal" />
 			</a>
 			<a href={project.links.demo} target="_blank">
-				<div class="text-2xl text-white i-ri:external-link-line hover:text-gray-800" />
+				<div class="text-2xl text-white i-mdi:open-in-new hover:text-teal" />
 			</a>
 		</div>
 	</figcaption>

@@ -4,8 +4,8 @@
 	import Header from "$lib/components/Header.svelte";
 </script>
 
-<div class="pt-20 text-gray-800 projects bg-navy">
-	<article class="container min-h-screen pt-15">
+<div class="pt-36 text-gray-800 projects bg-navy md:pt-20">
+	<article class="container min-h-screen py-15">
 		<span class="text-center text-white">
 			<Header title="Projects" color="white" subtitle="Some projects I have built..." />
 		</span>

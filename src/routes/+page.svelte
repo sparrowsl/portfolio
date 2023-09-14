@@ -5,7 +5,7 @@
 	import HeroSection from "./Hero.svelte";
 	import Projects from "./Projects.svelte";
 	import Skills from "./Skills.svelte";
-	import Contact from "./Contact.svelte";
+	import Footer from "./Footer.svelte";
 </script>
 
 <main class="bg-light_slate text-white font-opensans">
@@ -13,5 +13,5 @@
 	<Skills />
 	<!-- <Experience /> -->
 	<Projects />
-	<Contact />
+	<Footer />
 </main>
