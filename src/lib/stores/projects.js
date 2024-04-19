@@ -1,4 +1,4 @@
-export default [
+export const projects = [
 	{
 		title: "Eatery",
 		description: "A small and simple restaurant website, with a form to book a reservation table.",

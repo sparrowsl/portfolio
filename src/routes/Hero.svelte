@@ -1,28 +1,21 @@
-<section class="bg-navy pt-2 pb-35 md:p-0">
-	<article class="container flex flex-col min-h-80dvh justify-center">
-		<!-- Logo -->
-		<i class="text-light_slate bottom-20 text-5xl i-mdi:alpha-b-circle absolute md:top-5" />
-
-		<span class="text-teal block text-lg">Hello there! I am</span>
+<section class="pt-2 pb-35 md:p-0">
+	<article class="container flex flex-col min-h-75dvh justify-center">
+		<p class="block text-gray-600 border rounded-full w-fit bg-white px-4 py-1">
+			Hello there, I am
+		</p>
 		<h1 class="font-bold mb-3 text-5xl uppercase md:text-7xl">Benjamin</h1>
-		<h2 class="font-bold text-light_slate text-5xl font-rajdhani">I build stuff for the web.</h2>
+		<h2 class="font-semibold text-3xl font-firasans text-gray-500">I build stuff for fun.</h2>
 
 		<p class="my-5 max-w-2xl leading-6.5">
-			I am a Software Developer focusing on building simple, clean, fast, responsive and functional
-			webapps that work with smooth and slick digital experiences. Currently, I'm focused on
-			building accessible, smooth and user-friendly softwares at
-			<a href="https://cjbem.netlify.app" class="text-teal font-semibold">CJ BEm.</a>
+			I am a Software Engineer focusing on building simple, clean, fast, and functional systems that
+			work with smooth and slick digital experiences. Currently, I'm focused on building accessible,
+			smooth and user-friendly softwares at
+			<a href="https://dsti.gov.sl" class="text-teal font-bold">DSTI</a>
 		</p>
 
-		<p class="text-slate mb-5 italic font-rajdhani text-lg">
-			Die hard fan of <a href="https://svelte.dev" class="text-teal font-semibold">Svelte</a>
-			and I scrape the web for fun!
+		<p class="italic font-firasans text-lg">
+			Hardcore fan of <a href="https://svelte.dev" class="text-teal">Svelte</a>
+			and <a href="https://go.dev" class="text-teal">Go</a>
 		</p>
 	</article>
 </section>
-
-<style>
-	section {
-		clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-	}
-</style>

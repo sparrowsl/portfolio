@@ -6,7 +6,7 @@ import {
 	transformerVariantGroup,
 } from "unocss";
 import extractorSvelte from "@unocss/extractor-svelte";
-import skills from "./src/lib/stores/skills.js";
+// import { skills } from "./src/lib/stores/experiences.js";
 
 export default defineConfig({
 	presets: [
@@ -18,18 +18,21 @@ export default defineConfig({
 			fonts: {
 				rajdhani: [{ name: "Rajdhani", weights: ["300", "400", "500", "600", "700"] }],
 				opensans: [{ name: "Open Sans", weights: ["300", "400", "500", "600", "700", "800"] }],
+				firasans: [{ name: "Fira Sans", weights: ["300", "400", "500", "600", "700", "800"] }],
 			},
 		}),
 	],
-	safelist: [
-		...skills.map((skill) => `i-${skill.icon}`),
-		...skills.map((skill) => `text-${skill.color}`),
-	],
+	// safelist: [
+	// 	...skills.map((skill) => `i-${skill.icon}`),
+	// 	...skills.map((skill) => `text-${skill.color}`),
+	// ],
 	shortcuts: {
 		container: "px-4 mx-auto max-w-5xl lg:px-0",
 	},
 	theme: {
 		colors: {
+			accent: "#FAA300",
+			primary: "#FFC700",
 			brand: "#0A2647",
 			dark_navy: "#020c1b",
 			navy: "#0a192f",
@@ -41,7 +44,7 @@ export default defineConfig({
 			teal: "rgba(45, 212, 191)",
 			light_slate: "#a8b2d1",
 			lightest_slate: "#ccd6f6",
-			white: "#e6f1ff",
+			// white: "#e6f1ff",
 		},
 	},
 	transformers: [transformerVariantGroup()],

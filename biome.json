@@ -1,0 +1,83 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"lineWidth": 100,
+		"ignore": [
+			"node_modules",
+			".svelte-kit",
+			".husky"
+		]
+	},
+	"javascript": {
+		"formatter": {
+			"bracketSameLine": true,
+			"quoteStyle": "double"
+		}
+	},
+	"linter": {
+		"ignore": [
+			"node_modules",
+			".svelte-kit",
+			".husky"
+		],
+		"rules": {
+			"recommended": true,
+			"a11y": {
+				"recommended": true
+			},
+			"correctness": {
+				"recommended": true,
+				"noNewSymbol": "warn",
+				"noUnusedImports": "warn",
+				"noUndeclaredVariables": "warn",
+				"noUnusedVariables": "warn",
+				"useHookAtTopLevel": "error"
+			},
+			"performance": {
+				"recommended": true
+			},
+			"security": {
+				"recommended": true
+			},
+			"suspicious": {
+				"recommended": true,
+				"noApproximativeNumericConstant": "error",
+				"noConsoleLog": "warn",
+				"noMisrefactoredShorthandAssign": "error",
+				"noEmptyBlockStatements": "warn",
+				"useAwait": "warn"
+			},
+			"style": {
+				"recommended": true,
+				"noImplicitBoolean": "error",
+				"noNegationElse": "warn",
+				"noShoutyConstants": "error",
+				"useBlockStatements": "error",
+				"useCollapsedElseIf": "warn",
+				"useFragmentSyntax": "warn",
+				"useForOf": "warn",
+				"useShorthandAssign": "warn",
+				"useSingleCaseStatement": "error"
+			},
+			"complexity": {
+				"recommended": true,
+				"noVoid": "warn",
+				"useSimplifiedLogicExpression": "warn",
+				"noUselessTernary": "warn"
+			},
+			"nursery": {
+				"recommended": true,
+				"noDuplicateJsonKeys": "error",
+				"noDuplicateElseIf": "warn",
+				"useImportRestrictions": "warn",
+				"useSortedClasses": {
+					"level": "warn",
+					"options": {}
+				}
+			}
+		}
+	}
+}

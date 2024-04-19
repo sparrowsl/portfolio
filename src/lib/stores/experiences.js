@@ -1,17 +1,20 @@
-export default [
+export const experiences = [
+	{
+		title: "Software Developer",
+		company: "Orange Foundation SL",
+		duration: "May 2023 ── Present",
+		tasks: [
+			"Contribute to building a fuel management system to track fuel usage by vehicles.",
+			"Lead a team to build a B2B platform for customers to track issues and reports"
+		],
+		stack: ["React", "Express", "Prisma", "MySQL", "TailwindCSS"],
+	},
 	{
 		title: "Web Developer",
 		company: "CJ BEm",
-		duration: "August 2023 ── Present",
+		duration: "August 2023 ── March 2024",
 		tasks: ["Built the company's website, improving the awareness of the company"],
-		stack: ["Vue"],
-	},
-	{
-		title: "Fullstack Developer",
-		company: "Orange Digital Center",
-		duration: "May 2023 ── Present",
-		tasks: ["Contribute to building a fuel management system to track fuel usage by vehicles."],
-		stack: ["React", "Express", "Nextjs", "Prisma", "MySQL", "TailwindCSS"],
+		stack: ["Vue", "React", "Express", "TailwindCSS"],
 	},
 	{
 		title: "Software Developer",
@@ -30,10 +33,56 @@ export default [
 		tasks: ["Building an internal web app portal to display information."],
 		stack: ["SvelteKit", "UnoCSS", "Prisma", "MySQL"],
 	},
-	// {
-	// 	title: "Contributing Developer",
-	// 	company: "EasyToGit",
-	// 	duration: "August 2020 ── April 2021",
-	// 	tasks: [],
-	// },
+];
+
+export const tech = [
+	{ name: "HTML5", icon: "simple-icons:html5", color: "#E34F26" },
+	{ name: "CSS3", icon: "simple-icons:css3", color: "#1572B6" },
+	{ name: "JavaScript", icon: "simple-icons:javascript", color: "#F7DF1E" },
+	// { name: "Python", icon: "simple-icons:python", color: "#3776AB" },
+	// { name: "Dart", icon: "simple-icons:dart", color: "#0175C2" },
+	{ name: "Go", icon: "simple-icons:go", color: "#00ADD8" },
+	{ name: "Nodejs", icon: "simple-icons:nodedotjs", color: "#339933" },
+	{ name: "TailwindCSS", icon: "simple-icons:tailwindcss", color: "#06B6D4" },
+	// { name: "UnoCSS", icon: "simple-icons:unocss", color: "#333333" },
+	{ name: "Svelte", icon: "simple-icons:svelte", color: "#FF3E00" },
+	// { name: "Solidjs", icon: "simple-icons:solid", color:"#2C4F7C" },
+	{ name: "Express", icon: "simple-icons:express", color: "#000000" },
+	// { name: "Flutter", icon: "simple-icons:flutter", color: "#02569B" },
+	{ name: "Prisma", icon: "simple-icons:prisma", color: "#2D3748" },
+	// { name: "PlayWright", icon: "simple-icons:playwright", color:"#2EAD33" },
+	// { name: "Vitest", icon: "simple-icons:vitest", color:"#6E9F18" },
+	{ name: "Docker", icon: "simple-icons:docker", color: "#2496ED" },
+	// { name: "SQLite", icon: "simple-icons:sqlite", color: "#003B57" },
+	{ name: "MySQL", icon: "simple-icons:mysql", color: "#4479A1" },
+	// { name: "PocketBase", icon: "simple-icons:pocketbase", color:"#B8DBE4" },
+	{ name: "Git", icon: "simple-icons:git", color: "#F05032" },
+	{ name: "GitHub", icon: "simple-icons:github", color: "#181717" },
+	// { name: "Netlify", icon: "simple-icons:netlify", color: "#00C7B7" },
+	// { name: "Vercel", icon: "simple-icons:vercel", color: "#000000" },
+	// { name: "Render", icon: "simple-icons:render", color: "#46E3B7" },
+];
+
+export const projects = [
+	{
+		title: "Eatery",
+		description: "A small and simple restaurant website, with a form to book a reservation table.",
+		image: "/eatery.png",
+		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
+		links: {
+			demo: "http://eateryfoods.netlify.app/",
+			code: "https://github.com/sparrowsl/eatery",
+		},
+	},
+	{
+		title: "Theater Screen",
+		description: `A web app that displays movies and summary about each movie. Sort movies by Popular,
+		Top Rated and Upcoming. Search for any movie.`,
+		image: "/theater.png",
+		stack: ["JavaScript", "SvelteKit", "TailwindCSS", "TMDB API"],
+		links: {
+			demo: "https://theaterscreen.netlify.app/",
+			code: "https://github.com/sparrowsl/theater-screen",
+		},
+	},
 ];
