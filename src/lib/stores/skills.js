@@ -21,7 +21,4 @@ export const tech = [
 	// { name: "PocketBase", icon: "simple-icons:pocketbase", color:"#B8DBE4" },
 	{ name: "Git", icon: "simple-icons:git", color: "#F05032" },
 	{ name: "GitHub", icon: "simple-icons:github", color: "#181717" },
-	// { name: "Netlify", icon: "simple-icons:netlify", color: "#00C7B7" },
-	// { name: "Vercel", icon: "simple-icons:vercel", color: "#000000" },
-	// { name: "Render", icon: "simple-icons:render", color: "#46E3B7" },
 ];

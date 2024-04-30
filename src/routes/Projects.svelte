@@ -9,6 +9,12 @@
 		<span class="text-center text-white">
 			<Header title="Projects" color="white" subtitle="Some projects I have built..." />
 		</span>
+		<div>
+			<h2 class="font-bold tracking-wide text-4xl uppercase">Projects</h2>
+			<p class="mb-3 text-sm text-black tracking-wider">
+				Some projects & tools I have built and worked on...
+			</p>
+		</div>
 
 		<section class="mt-16 grid gap-y-15 lg:gap-y-10">
 			{#each projects as project}
@@ -17,9 +23,3 @@
 		</section>
 	</article>
 </div>
-
-<style>
-	.projects {
-		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-	}
-</style>

@@ -10,12 +10,12 @@
 			I am a Software Engineer focusing on building simple, clean, fast, and functional systems that
 			work with smooth and slick digital experiences. Currently, I'm focused on building accessible,
 			smooth and user-friendly softwares at
-			<a href="https://dsti.gov.sl" class="text-teal font-bold">DSTI</a>
+			<a href="https://orange.sl" class="text-light_navy font-bold">Orange SL</a>
 		</p>
 
-		<p class="italic font-firasans text-lg">
-			Hardcore fan of <a href="https://svelte.dev" class="text-teal">Svelte</a>
-			and <a href="https://go.dev" class="text-teal">Go</a>
+		<p class="italic font-opensans text-lg">
+			Hardcore fan of <a href="https://svelte.dev" class="text-light_navy font-bold">Svelte</a>
+			and <a href="https://go.dev" class="text-light_navy font-bold">Go</a>
 		</p>
 	</article>
 </section>
