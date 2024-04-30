@@ -1,24 +1,43 @@
 <script>
-	import projects from "$lib/stores/projects.js";
-	import ProjectCard from "$lib/components/ProjectCard.svelte";
-	import Header from "$lib/components/Header.svelte";
+	import { projects } from "$lib/utils.js";
 </script>
 
-<div class="pt-36 text-gray-800 projects bg-navy md:pt-20">
+<div class="text-gray-800">
 	<article class="container min-h-screen py-15">
-		<span class="text-center text-white">
-			<Header title="Projects" color="white" subtitle="Some projects I have built..." />
-		</span>
 		<div>
 			<h2 class="font-bold tracking-wide text-4xl uppercase">Projects</h2>
 			<p class="mb-3 text-sm text-black tracking-wider">
-				Some projects & tools I have built and worked on...
+				Some projects &amp; tools I have built and worked on...
 			</p>
 		</div>
 
-		<section class="mt-16 grid gap-y-15 lg:gap-y-10">
-			{#each projects as project}
-				<ProjectCard {project} />
+		<section class="mt-10 grid gap-5 grid-cols-3">
+			{#each projects as project (project.title)}
+				<div class="rounded-md p-5 shadow-lg min-h-56 grid">
+					<h3 class="font-bold text-(center 2xl light_navy) font-opensans">
+						{project.title}
+					</h3>
+
+					<p class="text-gray-700 text-sm my-3 line-clamp-3 leading-6">
+						{project.description}
+					</p>
+
+					<!-- Tech Stack -->
+					<ul
+						class="flex text-xs gap-x-3 gap-y-2 flex-wrap-reverse items-center justify-end self-end">
+						{#each project.stack as stack (stack)}
+							<li class="whitespace-nowrap border-gray text-xs border rounded-full px-3 py-1">
+								{stack}
+							</li>
+						{/each}
+					</ul>
+
+					<!-- See project link -->
+					<a href={project.links?.code} class="block ml-auto text-sm mt-5 w-fit text-blue-400">
+						See project &rArr;
+					</a>
+				</div>
+				<!-- <ProjectCard {project} /> -->
 			{/each}
 		</section>
 	</article>

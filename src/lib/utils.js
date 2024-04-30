@@ -7,14 +7,14 @@ export const experiences = [
 			"Contribute to building a fuel management system to track fuel usage by vehicles.",
 			"Lead a team to build a B2B platform for customers to track issues and reports"
 		],
-		stack: ["React", "Express", "Prisma", "MySQL", "TailwindCSS"],
+		stack: ["React", "Express", "Prisma", "MySQL", "TailwindCSS", "Nodejs"],
 	},
 	{
 		title: "Web Developer",
 		company: "CJ BEm",
 		duration: "August 2023 ── March 2024",
 		tasks: ["Built the company's website, improving the awareness of the company"],
-		stack: ["Vue", "React", "Express", "TailwindCSS"],
+		stack: ["Vue", "React", "Express", "TailwindCSS", "Nodejs"],
 	},
 	{
 		title: "Software Developer",
@@ -68,7 +68,7 @@ export const projects = [
 		title: "Eatery",
 		description: "A small and simple restaurant website, with a form to book a reservation table.",
 		image: "/eatery.png",
-		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
+		stack: ["JavaScript", "SvelteKit", "Tailwind"],
 		links: {
 			demo: "http://eateryfoods.netlify.app/",
 			code: "https://github.com/sparrowsl/eatery",
@@ -79,10 +79,54 @@ export const projects = [
 		description: `A web app that displays movies and summary about each movie. Sort movies by Popular,
 		Top Rated and Upcoming. Search for any movie.`,
 		image: "/theater.png",
-		stack: ["JavaScript", "SvelteKit", "TailwindCSS", "TMDB API"],
+		stack: ["JavaScript", "SvelteKit", "Tailwind", "TMDB API"],
 		links: {
 			demo: "https://theaterscreen.netlify.app/",
 			code: "https://github.com/sparrowsl/theater-screen",
 		},
 	},
+
+
+
+	{
+		title: "Eatery",
+		description: "A small and simple restaurant website, with a form to book a reservation table.",
+		image: "/eatery.png",
+		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
+		links: {
+			demo: "http://eateryfoods.netlify.app/",
+			code: "https://github.com/sparrowsl/eatery",
+		},
+	},
+	{
+		title: "Eatery",
+		description: "A small and simple restaurant website, with a form to book a reservation table.",
+		image: "/eatery.png",
+		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
+		links: {
+			demo: "http://eateryfoods.netlify.app/",
+			code: "https://github.com/sparrowsl/eatery",
+		},
+	},
+	{
+		title: "Eatery",
+		description: "A small and simple restaurant website, with a form to book a reservation table.",
+		image: "/eatery.png",
+		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
+		links: {
+			demo: "http://eateryfoods.netlify.app/",
+			code: "https://github.com/sparrowsl/eatery",
+		},
+	},
+	{
+		title: "Eatery",
+		description: "A small and simple restaurant website, with a form to book a reservation table.",
+		image: "/eatery.png",
+		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
+		links: {
+			demo: "http://eateryfoods.netlify.app/",
+			code: "https://github.com/sparrowsl/eatery",
+		},
+	},
+
 ];
