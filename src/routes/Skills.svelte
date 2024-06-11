@@ -1,6 +1,6 @@
 <script>
-// biome-ignore lint/correctness/noUnusedImports: <explanation>
-import { tech } from "$lib/utils.js"
+	// biome-ignore lint/correctness/noUnusedImports: <explanation>
+	import { tech } from "$lib/utils.js";
 </script>
 
 <div class="py-10 text-gray-800 skills md:py-5 min-h-60dvh">
@@ -13,7 +13,7 @@ import { tech } from "$lib/utils.js"
 		</div>
 
 		<section class="flex flex-wrap mt-10 max-w-3xl gap-8 font-firasans">
-			{#each tech as skill (tech.name)}
+			{#each tech as skill (skill.name)}
 				<figure class="text-center transition-transform hover:-translate-y-1.5">
 					<i class="i-{skill.icon} text-{skill.color} mx-auto text-5xl" />
 
