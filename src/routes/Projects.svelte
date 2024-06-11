@@ -1,5 +1,6 @@
 <script>
-	import { projects } from "$lib/utils.js";
+// biome-ignore lint/correctness/noUnusedImports: <explanation>
+import { projects } from "$lib/utils.js"
 </script>
 
 <div class="text-gray-800">
@@ -24,16 +25,22 @@
 
 					<!-- Tech Stack -->
 					<ul
-						class="flex text-xs gap-x-3 gap-y-2 flex-wrap-reverse items-center justify-end self-end">
+						class="flex text-xs gap-x-3 gap-y-2 flex-wrap-reverse items-center justify-end self-end"
+					>
 						{#each project.stack as stack (stack)}
-							<li class="whitespace-nowrap border-gray text-xs border rounded-full px-3 py-1">
+							<li
+								class="whitespace-nowrap border-gray text-xs border rounded-full px-3 py-1"
+							>
 								{stack}
 							</li>
 						{/each}
 					</ul>
 
 					<!-- See project link -->
-					<a href={project.links?.code} class="block ml-auto text-sm mt-5 w-fit text-blue-400">
+					<a
+						href={project.links?.code}
+						class="block ml-auto text-sm mt-5 w-fit text-blue-400"
+					>
 						See project &rArr;
 					</a>
 				</div>

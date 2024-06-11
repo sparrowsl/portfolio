@@ -1,5 +1,6 @@
 <script>
-	import { tech } from "$lib/utils.js";
+// biome-ignore lint/correctness/noUnusedImports: <explanation>
+import { tech } from "$lib/utils.js"
 </script>
 
 <div class="py-10 text-gray-800 skills md:py-5 min-h-60dvh">
@@ -16,7 +17,9 @@
 				<figure class="text-center transition-transform hover:-translate-y-1.5">
 					<i class="i-{skill.icon} text-{skill.color} mx-auto text-5xl" />
 
-					<figcaption class="mt-2 text-1.15rem text-sm tracking-wider capitalize">
+					<figcaption
+						class="mt-2 text-1.15rem text-sm tracking-wider capitalize"
+					>
 						{skill.name}
 					</figcaption>
 				</figure>
