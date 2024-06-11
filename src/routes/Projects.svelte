@@ -13,12 +13,12 @@
 
 		<section class="mt-10 grid gap-5 grid-cols-3">
 			{#each projects as project (project.title)}
-				<div class="rounded-md p-5 shadow-lg min-h-56 grid">
+				<div class="rounded-md p-5 shadow-lg min-h-56 grid bg-white">
 					<h3 class="font-bold text-(center 2xl light_navy) font-opensans">
 						{project.title}
 					</h3>
 
-					<p class="text-gray-700 text-sm my-3 line-clamp-3 leading-6">
+					<p class="text-gray-700 text-sm my-3 line-clamp-2 leading-6">
 						{project.description}
 					</p>
 

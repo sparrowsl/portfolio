@@ -79,7 +79,7 @@ export const projects = [
 		description: `A web app that displays movies and summary about each movie. Sort movies by Popular,
 		Top Rated and Upcoming. Search for any movie.`,
 		image: "/theater.png",
-		stack: ["JavaScript", "SvelteKit", "Tailwind", "TMDB API"],
+		stack: ["JavaScript", "SvelteKit", "Tailwind"],
 		links: {
 			demo: "https://theaterscreen.netlify.app/",
 			code: "https://github.com/sparrowsl/theater-screen",
