@@ -1,8 +1,15 @@
 export const experiences = [
   {
     title: "Software Developer",
+    company: "Orange SL",
+    duration: "May 2024 ── Present",
+    tasks: [],
+    stack: ["React", "Express", "Prisma", "MySQL", "TailwindCSS", "Nodejs"],
+  },
+  {
+    title: "Software Developer",
     company: "Orange Foundation SL",
-    duration: "May 2023 ── Present",
+    duration: "May 2023 ── May 2024",
     tasks: [
       "Contribute to building a fuel management system to track fuel usage by vehicles.",
       "Lead a team to build a B2B platform for customers to track issues and reports",
@@ -54,7 +61,7 @@ export const tech = [
   { name: "DrizzleORM", icon: "simple-icons:drizzle", color: "#C5F74F" },
   // { name: "PlayWright", icon: "simple-icons:playwright", color:"#2EAD33" },
   // { name: "Vitest", icon: "simple-icons:vitest", color:"#6E9F18" },
-  { name: "Docker", icon: "simple-icons:docker", color: "#2496ED" },
+  // { name: "Docker", icon: "simple-icons:docker", color: "#2496ED" },
   // { name: "SQLite", icon: "simple-icons:sqlite", color: "#003B57" },
   { name: "MySQL", icon: "simple-icons:mysql", color: "#4479A1" },
   { name: "PostgreSQL", icon: "simple-icons:postgresql", color: "#4169E1" },
@@ -65,9 +72,18 @@ export const tech = [
 
 export const projects = [
   {
+    title: "Crash Course",
+    description:
+      "A platform for bringing you up to speed in multiple tools/languages so you can build programs and tools that solve problems!",
+    stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
+    links: {
+      demo: "https://crash-course-lang.vercel.app",
+      code: "https://github.com/sparrowsl/crash-course",
+    },
+  },
+  {
     title: "Eatery",
-    description: "A small and simple restaurant website, with a form to book a reservation table.",
-    image: "/eatery.png",
+    description: "A simple restaurant website, with a form to book a reservation table.",
     stack: ["JavaScript", "SvelteKit", "Tailwind"],
     links: {
       demo: "http://eateryfoods.netlify.app/",
@@ -78,52 +94,10 @@ export const projects = [
     title: "Theater Screen",
     description: `A web app that displays movies and summary about each movie. Sort movies by Popular,
 		Top Rated and Upcoming. Search for any movie.`,
-    image: "/theater.png",
     stack: ["JavaScript", "SvelteKit", "Tailwind"],
     links: {
       demo: "https://theaterscreen.netlify.app/",
       code: "https://github.com/sparrowsl/theater-screen",
-    },
-  },
-
-  {
-    title: "Eatery",
-    description: "A small and simple restaurant website, with a form to book a reservation table.",
-    image: "/eatery.png",
-    stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
-    links: {
-      demo: "http://eateryfoods.netlify.app/",
-      code: "https://github.com/sparrowsl/eatery",
-    },
-  },
-  {
-    title: "Eatery",
-    description: "A small and simple restaurant website, with a form to book a reservation table.",
-    image: "/eatery.png",
-    stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
-    links: {
-      demo: "http://eateryfoods.netlify.app/",
-      code: "https://github.com/sparrowsl/eatery",
-    },
-  },
-  {
-    title: "Eatery",
-    description: "A small and simple restaurant website, with a form to book a reservation table.",
-    image: "/eatery.png",
-    stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
-    links: {
-      demo: "http://eateryfoods.netlify.app/",
-      code: "https://github.com/sparrowsl/eatery",
-    },
-  },
-  {
-    title: "Eatery",
-    description: "A small and simple restaurant website, with a form to book a reservation table.",
-    image: "/eatery.png",
-    stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
-    links: {
-      demo: "http://eateryfoods.netlify.app/",
-      code: "https://github.com/sparrowsl/eatery",
     },
   },
 ]

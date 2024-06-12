@@ -6,7 +6,9 @@ import { tech } from "$lib/utils.js"
 <div class="py-10 text-gray-800 skills md:py-5 min-h-60dvh">
 	<article class="container justify-center">
 		<div>
-			<h2 class="font-bold tracking-wide text-4xl uppercase">Skills</h2>
+			<h2 class="font-bold tracking-wide text-4xl uppercase font-rajdhani">
+				Skills
+			</h2>
 			<p class="mb-3 text-sm text-black tracking-wider">
 				Languages, Frameworks, Tools &amp; Platforms
 			</p>
