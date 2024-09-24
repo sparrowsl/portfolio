@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
+  "$schema": "https://biomejs.dev/schemas/1.9.2/schema.json",
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
@@ -23,11 +23,15 @@
       "**/yarn.lock"
     ]
   },
-  "organizeImports": { "enabled": true },
+  "organizeImports": {
+    "enabled": true
+  },
   "linter": {
     "rules": {
       "recommended": true,
-      "a11y": { "recommended": true },
+      "a11y": {
+        "recommended": true
+      },
       "complexity": {
         "recommended": true,
         "noUselessTernary": "error",
@@ -45,15 +49,22 @@
       "nursery": {
         "recommended": true,
         "noDuplicateElseIf": "warn",
-        "noDuplicateJsonKeys": "error",
         "useImportRestrictions": "warn",
         "useSortedClasses": {
           "level": "warn",
-          "options": { "attributes": ["class"] }
+          "options": {
+            "attributes": [
+              "class"
+            ]
+          }
         }
       },
-      "performance": { "recommended": true },
-      "security": { "recommended": true },
+      "performance": {
+        "recommended": true
+      },
+      "security": {
+        "recommended": true
+      },
       "style": {
         "recommended": true,
         "noImplicitBoolean": "error",
@@ -75,7 +86,11 @@
         "useAwait": "warn"
       }
     },
-    "ignore": ["node_modules", ".svelte-kit", ".husky"]
+    "ignore": [
+      "node_modules",
+      ".svelte-kit",
+      ".husky"
+    ]
   },
   "javascript": {
     "formatter": {
@@ -90,5 +105,11 @@
       "attributePosition": "auto"
     }
   },
-  "overrides": [{ "include": ["*.svelte"] }]
+  "overrides": [
+    {
+      "include": [
+        "*.svelte"
+      ]
+    }
+  ]
 }

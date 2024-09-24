@@ -1,8 +1,8 @@
 <script>
 // biome-ignore lint/correctness/noUnusedImports: <explanation>
-import experiences from "$lib/stores/experiences.js"
-// biome-ignore lint/correctness/noUnusedImports: <explanation>
 import Header from "$lib/components/Header.svelte"
+// biome-ignore lint/correctness/noUnusedImports: <explanation>
+import experiences from "$lib/stores/experiences.js"
 </script>
 
 <section class="experience bg-navy -mt-10 py-20 md:p-0">
