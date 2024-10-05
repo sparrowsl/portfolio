@@ -1,6 +1,6 @@
 <script>
-// biome-ignore lint/correctness/noUnusedImports: <explanation>
-import { projects } from "$lib/utils.js"
+	// biome-ignore lint/correctness/noUnusedImports: <explanation>
+	import { projects } from "./utils.js";
 </script>
 
 <div class="text-gray-800">
