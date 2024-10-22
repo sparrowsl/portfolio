@@ -6,7 +6,6 @@ import {
 	transformerVariantGroup,
 } from "unocss";
 import extractorSvelte from "@unocss/extractor-svelte";
-// biome-ignore lint/nursery/useImportRestrictions: <explanation>
 import { tech } from "./src/routes/utils.js";
 
 export default defineConfig({

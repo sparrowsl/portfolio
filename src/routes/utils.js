@@ -86,7 +86,7 @@ export const projects = [
 	{
 		title: "Crash Course",
 		description:
-			"A platform for bringing you up to speed in multiple tools/languages so you can build programs and tools that solve problems!",
+			"A platform for bringing you up to speed in multiple tools/languages so you can build solutions that solve problems!",
 		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
 		links: {
 			demo: "https://crash-course-lang.vercel.app",

@@ -1,5 +1,4 @@
 <script>
-	// biome-ignore lint/correctness/noUnusedImports: <explanation>
 	import { projects } from "./utils.js";
 </script>
 
@@ -26,7 +25,11 @@
 							{#if project.links?.demo}
 								<a href={project.links?.demo}>&#128279;</a>
 							{/if}
-							<a href={project.links?.code} class="hover:text-teal">
+							<a
+								href={project.links?.code}
+								class="hover:text-teal"
+								aria-label="github"
+							>
 								<i class="i-simple-icons:github"></i>
 							</a>
 						</div>

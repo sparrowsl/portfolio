@@ -1,12 +1,9 @@
 <script>
 	import "@unocss/reset/tailwind.css";
 	import "uno.css";
-	// biome-ignore lint/correctness/noUnusedImports: <explanation>
-	import { tech } from "./utils.js";
-	// biome-ignore lint/correctness/noUnusedImports: <explanation>
 	import Footer from "./Footer.svelte";
-	// biome-ignore lint/correctness/noUnusedImports: <explanation>
 	import Projects from "./Projects.svelte";
+	import { tech } from "./utils.js";
 </script>
 
 <main class="bg-[#fafafb] font-opensans min-h-screen">
@@ -65,7 +62,7 @@
 					<figure
 						class="text-center transition-transform hover:-translate-y-1.5"
 					>
-						<i class="i-{skill.icon} text-{skill.color} mx-auto text-5xl" />
+						<i class="i-{skill.icon} text-{skill.color} mx-auto text-5xl"></i>
 
 						<figcaption
 							class="mt-2 text-1.15rem text-sm tracking-wider capitalize"

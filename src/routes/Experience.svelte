@@ -1,8 +1,6 @@
 <script>
-// biome-ignore lint/correctness/noUnusedImports: <explanation>
-import Header from "$lib/components/Header.svelte"
-// biome-ignore lint/correctness/noUnusedImports: <explanation>
-import experiences from "$lib/stores/experiences.js"
+	import Header from "$lib/components/Header.svelte";
+	import experiences from "$lib/stores/experiences.js";
 </script>
 
 <section class="experience bg-navy -mt-10 py-20 md:p-0">
@@ -25,19 +23,19 @@ import experiences from "$lib/stores/experiences.js"
 						<h2 class="flex text-light_slate text-sm mb-5 gap-3 items-center">
 							<i
 								class="text-lg animate-spin text-teal animate-duration-5000 i-ri:hourglass-line"
-							/>
+							></i>
 							{experience?.duration}
 						</h2>
 
 						<ul class="flex flex-col text-light_slate gap-4 font-rajdhani">
 							{#each experience?.tasks as task (task)}
 								<li class="flex gap-5 items-center text-lg">
-									<i class="mt-1 text-teal i-ri:checkbox-multiple-fill" />
+									<i class="mt-1 text-teal i-ri:checkbox-multiple-fill"></i>
 									<span>{task}</span>
 								</li>
 							{:else}
 								<li class="flex gap-5 items-center">
-									<i class="mt-1 text-teal i-mdi:checkbox-blank-outline" />
+									<i class="mt-1 text-teal i-mdi:checkbox-blank-outline"></i>
 									<span>Working on tasks...</span>
 								</li>
 							{/each}
