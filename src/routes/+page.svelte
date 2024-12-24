@@ -15,9 +15,8 @@
 			>
 				Hello there, I am
 			</p>
-			<h1 class="font-bold mb-3 text-5xl uppercase md:text-7xl font-rajdhani">
-				Benjamin
-
+			<h1 class="font-bold mb-3 text-5xl md:text-7xl font-rajdhani">
+				Sparrow
 				<i
 					class="i-simple-icons:pluscodes inline-block ml-5 animate-spin animate-duration-2000 text-teal/50"
 				></i>
@@ -26,13 +25,26 @@
 				I build stuff for fun.
 			</h2>
 
+			<!--
 			<p class="my-5 max-w-2xl leading-6.5">
-				I am a Software Engineer focusing on building simple, clean, fast, and
+				I am a Software Engineer focusing on building simple, fast, and
 				functional apps that works smoothly providing slick digital experiences.
 				Currently building accessible, smooth and user-friendly softwares at
-				<span class="text-light_navy font-bold">Orange SL</span>
+				<a
+					href="https://christex.foundation"
+					target="_blank"
+					class="text-light_navy font-bold">Christex Foundation</a
+				>
 			</p>
-
+-->
+			<p class="my-5 max-w-2xl leading-6">
+				I’m a developer focused on building simple, and impactful digital
+				experiences. I enjoy solving complex problems and building solutions
+				that work seamlessly behind the scenes. My passion lies in learning how
+				the tools I use work <span class="italic text-gray-600 text-sm">
+					(especially low level tools)
+				</span>.
+			</p>
 			<!--
 			<p class="italic font-opensans text-lg">
 				Hardcore fan of

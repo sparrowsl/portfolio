@@ -1,8 +1,15 @@
 export const experiences = [
 	{
+		title: "Software Engineer",
+		company: "Christex Foundation",
+		duration: "November 2024 ── Present",
+		tasks: [],
+		stack: ["SvelteKit", "PostgreSQL", "TailwindCSS", "Nodejs"],
+	},
+	{
 		title: "Software Developer",
 		company: "Orange SL",
-		duration: "May 2024 ── Present",
+		duration: "May 2024 ── January 2025",
 		tasks: [],
 		stack: ["React", "Express", "Prisma", "MySQL", "TailwindCSS", "Nodejs"],
 	},
@@ -38,7 +45,7 @@ export const experiences = [
 	{
 		title: "Fullstack Web Developer",
 		company: "SoftMagazin",
-		duration: "June 2022 ── Present",
+		duration: "June 2022 ── June 2023",
 		tasks: ["Building an internal web app portal to display information."],
 		stack: ["SvelteKit", "UnoCSS", "Prisma", "MySQL"],
 	},
@@ -87,20 +94,20 @@ export const projects = [
 		title: "Crash Course",
 		description:
 			"A platform for bringing you up to speed in multiple tools/languages so you can build solutions that solve problems!",
-		stack: ["JavaScript", "SvelteKit", "TailwindCSS"],
+		stack: ["SvelteKit", "TailwindCSS", "Markdown"],
 		links: {
 			demo: "https://crash-course-lang.vercel.app",
 			code: "https://github.com/sparrowsl/crash-course",
 		},
 	},
 	{
-		title: "Eatery",
+		title: "Spotfinder",
 		description:
-			"A simple restaurant website, with a form to book a reservation table.",
-		stack: ["JavaScript", "SvelteKit", "Tailwind"],
+			"An API to display locations/spots of different institutions, places in Sierra Leone",
+		stack: ["Go", "SQLite"],
 		links: {
-			demo: "http://eateryfoods.netlify.app/",
-			code: "https://github.com/sparrowsl/eatery",
+			demo: "",
+			code: "https://github.com/sparrowsl/spotfinder",
 		},
 	},
 	{
