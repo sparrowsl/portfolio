@@ -40,7 +40,7 @@
 			<li
 				class="transition-transform text-white hover:(text-teal -translate-y-1)"
 			>
-				<a href="https://linkedin.com/in/benjithorpe" aria-label="linkedin">
+				<a href="https://linkedin.com/in/sparrowsl" aria-label="linkedin">
 					<i class="text-2xl i-simple-icons:linkedin"></i>
 				</a>
 			</li>

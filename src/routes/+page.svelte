@@ -38,22 +38,20 @@
 			</p>
 -->
 			<p class="my-5 max-w-2xl leading-6">
-				I’m a developer focused on building simple, and impactful digital
-				experiences. I enjoy solving complex problems and building solutions
-				that work seamlessly behind the scenes. My passion lies in learning how
-				the tools I use work <span class="italic text-gray-600 text-sm">
-					(especially low level tools)
-				</span>.
+				I’m a Software Engineer focused on building simple, crazy, usable, and
+				impactful digital experiences. I curiously enjoy solving complex
+				problems and building solutions that work seamlessly behind the scenes.
+				My passion lies in learning how the tools I use work.
 			</p>
-			<!--
-			<p class="italic font-opensans text-lg">
-				Hardcore fan of
+			<p class="italic font-opensans">
+				Unofficial ambassador for
 				<a href="https://svelte.dev" class="text-light_navy font-bold">
 					Svelte
 				</a>
+				<!--
 				and <a href="https://go.dev" class="text-light_navy font-bold">Go</a>
-			</p>
 			-->
+			</p>
 		</article>
 	</section>
 

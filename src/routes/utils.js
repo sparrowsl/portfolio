@@ -83,7 +83,7 @@ export const projects = [
 	{
 		title: "pynput",
 		description:
-			"Simple, small, zero dependency input function similar to the one in Python.",
+			"Simple, small, zero dependency input function inspired by the one in Python.",
 		stack: ["JavaScript"],
 		links: {
 			demo: "https://www.npmjs.com/package/pynput",
@@ -96,7 +96,7 @@ export const projects = [
 			"A platform for bringing you up to speed in multiple tools/languages so you can build solutions that solve problems!",
 		stack: ["SvelteKit", "TailwindCSS", "Markdown"],
 		links: {
-			demo: "https://crash-course-lang.vercel.app",
+			demo: "https://cclang.vercel.app",
 			code: "https://github.com/sparrowsl/crash-course",
 		},
 	},
