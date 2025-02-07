@@ -9,15 +9,15 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@iconify-json/simple-icons": "^1.2.17",
+    "@iconify-json/simple-icons": "^1.2.23",
     "@sveltejs/adapter-static": "^3.0.8",
-    "@sveltejs/kit": "^2.15.0",
+    "@sveltejs/kit": "^2.17.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
-    "@unocss/extractor-svelte": "^0.65.2",
-    "svelte": "^5.16.0",
-    "svelte-check": "^4.1.1",
-    "unocss": "^0.65.2",
-    "vite": "^6.0.5"
+    "@unocss/extractor-svelte": "^65.4.3",
+    "svelte": "^5.19.9",
+    "svelte-check": "^4.1.4",
+    "unocss": "^65.4.3",
+    "vite": "^6.1.0"
   },
   "type": "module"
 }
